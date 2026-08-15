@@ -1,1 +1,102 @@
+/*
+===============================================================================
+DDL Script: Create BEGINNER Tables
+===============================================================================
+Script Purpose:
+    This script creates tables in the 'BEGGINER' schema, dropping existing tables 
+    if they already exist.
+	  Run this script to re-define the DDL structure of 'BEGINNER' Tables
+===============================================================================
+*/
+
+IF OBJECT_ID('BEGINNER.CRM_CUSTOMERS', 'U') IS NOT NULL
+    DROP TABLE BEGINNER.CRM_CUSTOMERS;
+GO
+
+CREATE TABLE BEGINNER.CRM_CUSTOMERS (
+    cst_id              INT,
+    cst_firstname       NVARCHAR(50),
+    cst_lastname        NVARCHAR(50),
+    GENDER              NVARCHAR(50), 
+    COUNTRY             NVARCHAR(50), 
+    CITY                NVARCHAR(50), 
+    SINGIN_DATE         DATE ,
+    CST_SEGMENT         NVARCHAR(50), 
+    EMAIL               NVARCHAR(50)
+);
+GO
+
+IF OBJECT_ID('BEGINNER.ERP_INVENTORY', 'U') IS NOT NULL
+    DROP TABLE BEGINNER.ERP_INVENTORY;
+GO
+
+CREATE TABLE BEGINNER.ERP_INVENTORY (
+   inventory_id          INT,
+   product_id              INT,
+   warehouse                NVARCHAR(50),
+   stock_on_hand              INT,
+   reorder_level                INT, 
+   snapshot_date                  DATE 
+);
+GO
+
+IF OBJECT_ID('BEGINNER.ERP_PRODUCTS', 'U') IS NOT NULL
+    DROP TABLE BEGINNER.ERP_PRODUCTS;
+GO
+
+CREATE TABLE BEGINNER.ERP_PRODUCTS (
+ product_id       INT,
+ product_name NVARCHAR(50),
+ category NVARCHAR(50),
+ brand  INT,
+ unit_cost INT,
+ unit_price INT, 
+ supplier_id INT,
+ active_flag INT 
+);
+GO
+
+IF OBJECT_ID('BEGINNER.SAL_ORDER_DETIAL', 'U') IS NOT NULL
+    DROP TABLE BEGINNER.SAL_ORDER_DETIAL;
+GO
+
+CREATE TABLE BEGINNER.SAL_ORDER_DETIAL (
+
+order_detail_id INT ,
+order_id INT, 
+product_id INT, 
+quantity INT,
+unit_price INT, 
+discount_pct INT,
+line_total INT
+);
+GO 
+
+IF OBJECT_ID('BEGINNER.SAL_ORDER', 'U') IS NOT NULL
+    DROP TABLE BEGINNER.SAL_ORDER;
+GO  
+
+CREATE TABLE BEGINNER.SAL_ORDER  (
+order_id INT ,
+customer_id INT ,
+order_date INT ,
+order_status NVARCHAR(50),
+sales_channel NVARCHAR(50), 
+shipping_country  NVARCHAR(50)
+) ;
+GO 
+
+IF OBJECT_ID('BEGINNER.SAL_PAYMNET', 'U') IS NOT NULL
+    DROP TABLE BEGINNER.SAL_PAYMENT;
+GO  
+
+CREATE TABLE BEGINNER.SAL_PAYMENT (
+payment_id INT ,
+order_id INT ,
+payment_date DATE ,
+payment_method NVARCHAR (50),
+payment_status NVARCHAR (50)
+)
+;
+GO 
 
