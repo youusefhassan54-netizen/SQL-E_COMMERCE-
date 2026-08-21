@@ -1,13 +1,3 @@
-/*
-===============================================================================
-DDL Script: Create BEGINNER Tables
-===============================================================================
-Script Purpose:
-    This script creates tables in the 'BEGGINER' schema, dropping existing tables 
-    if they already exist.
-	  Run this script to re-define the DDL structure of 'BEGINNER' Tables
-===============================================================================
-*/
 
 IF OBJECT_ID('BEGINNER.CRM_CUSTOMERS', 'U') IS NOT NULL
     DROP TABLE BEGINNER.CRM_CUSTOMERS;
