@@ -1,1 +1,712 @@
+USE E_Commerce;
+GO
 
+/* =====================================================
+   INTERMEDIATE LAYER - DATA QUALITY CHECK
+   ===================================================== */
+
+IF OBJECT_ID('tempdb..#QualityCheck') IS NOT NULL
+    DROP TABLE #QualityCheck;
+
+CREATE TABLE #QualityCheck
+(
+    Table_Name NVARCHAR(100),
+    PK_Column NVARCHAR(100),
+    Total_Rows BIGINT,
+    NULL_Rows BIGINT,
+    Blank_Rows BIGINT,
+    Duplicate_Groups BIGINT,
+    Duplicate_Rows BIGINT,
+    Quality_Status NVARCHAR(50)
+);
+
+
+/* =====================================================
+   1. CRM_CUSTOMER
+   ===================================================== */
+
+INSERT INTO #QualityCheck
+SELECT
+    'CRM_CUSTOMER',
+    'CUSTOMER_ID',
+    COUNT(*),
+    SUM(CASE WHEN CUSTOMER_ID IS NULL THEN 1 ELSE 0 END),
+    SUM(CASE
+            WHEN CUSTOMER_ID IS NOT NULL
+             AND LTRIM(RTRIM(CAST(CUSTOMER_ID AS VARCHAR(100)))) = ''
+            THEN 1 ELSE 0
+        END),
+    COUNT(*) - COUNT(DISTINCT CUSTOMER_ID),
+    COUNT(*) - COUNT(DISTINCT CUSTOMER_ID),
+    CASE
+        WHEN SUM(CASE WHEN CUSTOMER_ID IS NULL THEN 1 ELSE 0 END) = 0
+         AND COUNT(*) = COUNT(DISTINCT CUSTOMER_ID)
+        THEN 'GOOD'
+        ELSE 'ISSUES FOUND'
+    END
+FROM intermediate.CRM_CUSTOMER;
+
+
+/* =====================================================
+   2. ERP_INVENTORY
+   ===================================================== */
+
+INSERT INTO #QualityCheck
+SELECT
+    'ERP_INVENTORY',
+    'PRODUCT_ID',
+    COUNT(*),
+    SUM(CASE WHEN PRODUCT_ID IS NULL THEN 1 ELSE 0 END),
+    SUM(CASE
+            WHEN PRODUCT_ID IS NOT NULL
+             AND LTRIM(RTRIM(CAST(PRODUCT_ID AS VARCHAR(100)))) = ''
+            THEN 1 ELSE 0
+        END),
+    COUNT(*) - COUNT(DISTINCT PRODUCT_ID),
+    COUNT(*) - COUNT(DISTINCT PRODUCT_ID),
+    CASE
+        WHEN SUM(CASE WHEN PRODUCT_ID IS NULL THEN 1 ELSE 0 END) = 0
+         AND COUNT(*) = COUNT(DISTINCT PRODUCT_ID)
+        THEN 'GOOD'
+        ELSE 'ISSUES FOUND'
+    END
+FROM intermediate.ERP_INVENTORY;
+
+
+/* =====================================================
+   3. ERP_PRODUCT
+   ===================================================== */
+
+INSERT INTO #QualityCheck
+SELECT
+    'ERP_PRODUCT',
+    'SUPPLIER_ID',
+    COUNT(*),
+    SUM(CASE WHEN SUPPLIER_ID IS NULL THEN 1 ELSE 0 END),
+    SUM(CASE
+            WHEN SUPPLIER_ID IS NOT NULL
+             AND LTRIM(RTRIM(CAST(SUPPLIER_ID AS VARCHAR(100)))) = ''
+            THEN 1 ELSE 0
+        END),
+    COUNT(*) - COUNT(DISTINCT SUPPLIER_ID),
+    COUNT(*) - COUNT(DISTINCT SUPPLIER_ID),
+    CASE
+        WHEN SUM(CASE WHEN SUPPLIER_ID IS NULL THEN 1 ELSE 0 END) = 0
+         AND COUNT(*) = COUNT(DISTINCT SUPPLIER_ID)
+        THEN 'GOOD'
+        ELSE 'ISSUES FOUND'
+    END
+FROM intermediate.ERP_PRODUCT;
+
+
+/* =====================================================
+   4. SAL_ORDER
+   ===================================================== */
+
+INSERT INTO #QualityCheck
+SELECT
+    'SAL_ORDER',
+    'CUSTOMER_ID',
+    COUNT(*),
+    SUM(CASE WHEN CUSTOMER_ID IS NULL THEN 1 ELSE 0 END),
+    SUM(CASE
+            WHEN CUSTOMER_ID IS NOT NULL
+             AND LTRIM(RTRIM(CAST(CUSTOMER_ID AS VARCHAR(100)))) = ''
+            THEN 1 ELSE 0
+        END),
+    COUNT(*) - COUNT(DISTINCT CUSTOMER_ID),
+    COUNT(*) - COUNT(DISTINCT CUSTOMER_ID),
+    CASE
+        WHEN SUM(CASE WHEN CUSTOMER_ID IS NULL THEN 1 ELSE 0 END) = 0
+         AND COUNT(*) = COUNT(DISTINCT CUSTOMER_ID)
+        THEN 'GOOD'
+        ELSE 'ISSUES FOUND'
+    END
+FROM intermediate.SAL_ORDER;
+
+
+/* =====================================================
+   5. SAL_ORDER_DETAILS - ORDER_ID
+   ===================================================== */
+
+INSERT INTO #QualityCheck
+SELECT
+    'SAL_ORDER_DETAILS',
+    'ORDER_ID',
+    COUNT(*),
+    SUM(CASE WHEN ORDER_ID IS NULL THEN 1 ELSE 0 END),
+    SUM(CASE
+            WHEN ORDER_ID IS NOT NULL
+             AND LTRIM(RTRIM(CAST(ORDER_ID AS VARCHAR(100)))) = ''
+            THEN 1 ELSE 0
+        END),
+    COUNT(*) - COUNT(DISTINCT ORDER_ID),
+    COUNT(*) - COUNT(DISTINCT ORDER_ID),
+    CASE
+        WHEN SUM(CASE WHEN ORDER_ID IS NULL THEN 1 ELSE 0 END) = 0
+         AND COUNT(*) = COUNT(DISTINCT ORDER_ID)
+        THEN 'GOOD'
+        ELSE 'ISSUES FOUND'
+    END
+FROM intermediate.SAL_ORDER_DETAILS;
+
+
+/* =====================================================
+   6. SAL_ORDER_DETAILS - PRODUCT_ID
+   ===================================================== */
+
+INSERT INTO #QualityCheck
+SELECT
+    'SAL_ORDER_DETAILS',
+    'PRODUCT_ID',
+    COUNT(*),
+    SUM(CASE WHEN PRODUCT_ID IS NULL THEN 1 ELSE 0 END),
+    SUM(CASE
+            WHEN PRODUCT_ID IS NOT NULL
+             AND LTRIM(RTRIM(CAST(PRODUCT_ID AS VARCHAR(100)))) = ''
+            THEN 1 ELSE 0
+        END),
+    COUNT(*) - COUNT(DISTINCT PRODUCT_ID),
+    COUNT(*) - COUNT(DISTINCT PRODUCT_ID),
+    CASE
+        WHEN SUM(CASE WHEN PRODUCT_ID IS NULL THEN 1 ELSE 0 END) = 0
+         AND COUNT(*) = COUNT(DISTINCT PRODUCT_ID)
+        THEN 'GOOD'
+        ELSE 'ISSUES FOUND'
+    END
+FROM intermediate.SAL_ORDER_DETAILS;
+
+
+/* =====================================================
+   FINAL RESULT
+   ===================================================== */
+
+SELECT *
+FROM #QualityCheck
+ORDER BY Table_Name, PK_Column;
+
+
+
+USE E_Commerce;
+GO
+
+SELECT
+    s.name AS Schema_Name,
+    t.name AS Table_Name,
+    c.name AS Column_Name,
+    ic.key_ordinal
+FROM sys.tables t
+JOIN sys.schemas s
+    ON t.schema_id = s.schema_id
+JOIN sys.indexes i
+    ON t.object_id = i.object_id
+   AND i.is_primary_key = 1
+JOIN sys.index_columns ic
+    ON i.object_id = ic.object_id
+   AND i.index_id = ic.index_id
+JOIN sys.columns c
+    ON ic.object_id = c.object_id
+   AND ic.column_id = c.column_id
+WHERE s.name = 'intermediate'
+  AND t.name IN
+  (
+      'CRM_CUSTOMER',
+      'ERP_INVENTORY',
+      'ERP_PRODUCT',
+      'SAL_ORDER'
+  )
+ORDER BY t.name, ic.key_ordinal;
+
+
+
+USE E_Commerce;
+GO
+
+/* =========================================================
+   INTERMEDIATE LAYER - BUSINESS KEY QUALITY CHECK
+   ========================================================= */
+
+SELECT
+    'CRM_CUSTOMER' AS Table_Name,
+    'CUSTOMER_ID' AS Business_Key,
+    COUNT(*) AS Total_Rows,
+    COUNT(CASE WHEN CUSTOMER_ID IS NULL THEN 1 END) AS NULL_Keys,
+    COUNT(CASE WHEN CUSTOMER_ID IS NOT NULL
+                    AND LTRIM(RTRIM(CAST(CUSTOMER_ID AS VARCHAR(100)))) = ''
+               THEN 1 END) AS Blank_Keys,
+    COUNT(*) - COUNT(DISTINCT CUSTOMER_ID) AS Duplicate_Rows,
+    CASE
+        WHEN COUNT(CASE WHEN CUSTOMER_ID IS NULL THEN 1 END) > 0
+          OR COUNT(*) - COUNT(DISTINCT CUSTOMER_ID) > 0
+        THEN 'ISSUES FOUND'
+        ELSE 'PASS'
+    END AS Quality_Status
+FROM [intermediate].[CRM_CUSTOMER]
+
+UNION ALL
+
+SELECT
+    'ERP_INVENTORY',
+    'PRODUCT_ID',
+    COUNT(*),
+    COUNT(CASE WHEN PRODUCT_ID IS NULL THEN 1 END),
+    COUNT(CASE WHEN PRODUCT_ID IS NOT NULL
+                    AND LTRIM(RTRIM(CAST(PRODUCT_ID AS VARCHAR(100)))) = ''
+               THEN 1 END),
+    COUNT(*) - COUNT(DISTINCT PRODUCT_ID),
+    CASE
+        WHEN COUNT(CASE WHEN PRODUCT_ID IS NULL THEN 1 END) > 0
+          OR COUNT(*) - COUNT(DISTINCT PRODUCT_ID) > 0
+        THEN 'ISSUES FOUND'
+        ELSE 'PASS'
+    END
+FROM [intermediate].[ERP_INVENTORY]
+
+UNION ALL
+
+SELECT
+    'ERP_PRODUCT',
+    'PRODUCT_ID',
+    COUNT(*),
+    COUNT(CASE WHEN PRODUCT_ID IS NULL THEN 1 END),
+    COUNT(CASE WHEN PRODUCT_ID IS NOT NULL
+                    AND LTRIM(RTRIM(CAST(PRODUCT_ID AS VARCHAR(100)))) = ''
+               THEN 1 END),
+    COUNT(*) - COUNT(DISTINCT PRODUCT_ID),
+    CASE
+        WHEN COUNT(CASE WHEN PRODUCT_ID IS NULL THEN 1 END) > 0
+          OR COUNT(*) - COUNT(DISTINCT PRODUCT_ID) > 0
+        THEN 'ISSUES FOUND'
+        ELSE 'PASS'
+    END
+FROM [intermediate].[ERP_PRODUCT]
+
+UNION ALL
+
+SELECT
+    'SAL_ORDER',
+    'ORDER_ID',
+    COUNT(*),
+    COUNT(CASE WHEN ORDER_ID IS NULL THEN 1 END),
+    COUNT(CASE WHEN ORDER_ID IS NOT NULL
+                    AND LTRIM(RTRIM(CAST(ORDER_ID AS VARCHAR(100)))) = ''
+               THEN 1 END),
+    COUNT(*) - COUNT(DISTINCT ORDER_ID),
+    CASE
+        WHEN COUNT(CASE WHEN ORDER_ID IS NULL THEN 1 END) > 0
+          OR COUNT(*) - COUNT(DISTINCT ORDER_ID) > 0
+        THEN 'ISSUES FOUND'
+        ELSE 'PASS'
+    END
+FROM [intermediate].[SAL_ORDER];
+
+
+
+USE E_Commerce;
+GO
+
+BEGIN TRANSACTION;
+
+--------------------------------------------------
+-- 1. CLEAN CRM_CUSTOMER
+--------------------------------------------------
+
+;WITH Duplicates AS
+(
+    SELECT *,
+           ROW_NUMBER() OVER
+           (
+               PARTITION BY CUSTOMER_ID
+               ORDER BY CUSTOMER_KEY
+           ) AS rn
+    FROM [intermediate].[CRM_CUSTOMER]
+)
+DELETE FROM Duplicates
+WHERE rn > 1;
+
+
+--------------------------------------------------
+-- 2. CLEAN ERP_INVENTORY
+--------------------------------------------------
+
+;WITH Duplicates AS
+(
+    SELECT *,
+           ROW_NUMBER() OVER
+           (
+               PARTITION BY PRODUCT_ID
+               ORDER BY (SELECT NULL)
+           ) AS rn
+    FROM [intermediate].[ERP_INVENTORY]
+)
+DELETE FROM Duplicates
+WHERE rn > 1;
+
+
+--------------------------------------------------
+-- 3. FINAL QUALITY CHECK
+--------------------------------------------------
+
+SELECT
+    'CRM_CUSTOMER' AS Table_Name,
+    COUNT(*) AS Total_Rows,
+    COUNT(DISTINCT CUSTOMER_ID) AS Unique_Keys,
+    COUNT(*) - COUNT(DISTINCT CUSTOMER_ID) AS Duplicate_Rows
+FROM [intermediate].[CRM_CUSTOMER]
+
+UNION ALL
+
+SELECT
+    'ERP_INVENTORY',
+    COUNT(*),
+    COUNT(DISTINCT PRODUCT_ID),
+    COUNT(*) - COUNT(DISTINCT PRODUCT_ID)
+FROM [intermediate].[ERP_INVENTORY];
+
+--------------------------------------------------
+-- IF RESULTS ARE CORRECT
+--------------------------------------------------
+
+COMMIT TRANSACTION;
+
+
+
+USE E_Commerce;
+GO
+
+SET NOCOUNT ON;
+
+BEGIN TRY
+
+    BEGIN TRANSACTION;
+
+    ---------------------------------------------------------
+    -- TABLE 1 : CRM_CUSTOMER
+    ---------------------------------------------------------
+
+    DECLARE @TableName SYSNAME;
+    DECLARE @BusinessKey SYSNAME;
+    DECLARE @SQL NVARCHAR(MAX);
+
+    DECLARE TableCursor CURSOR FOR
+
+    SELECT *
+    FROM
+    (
+        VALUES
+        ('CRM_CUSTOMER',  'CUSTOMER_ID'),
+        ('ERP_INVENTORY', 'PRODUCT_ID'),
+        ('ERP_PRODUCT',   'PRODUCT_ID'),
+        ('SAL_ORDER',     'ORDER_ID')
+    ) AS T(TableName, BusinessKey);
+
+    OPEN TableCursor;
+
+    FETCH NEXT FROM TableCursor
+    INTO @TableName, @BusinessKey;
+
+
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+
+        -----------------------------------------------------
+        -- 1. TRIM ALL TEXT COLUMNS
+        -----------------------------------------------------
+
+        SET @SQL = N'';
+
+        SELECT @SQL = @SQL +
+            N'UPDATE [intermediate].[' + @TableName + N']
+              SET [' + c.name + N'] =
+                  NULLIF(LTRIM(RTRIM([' + c.name + N'])), '''');'
+        FROM sys.columns c
+        JOIN sys.tables t
+            ON c.object_id = t.object_id
+        JOIN sys.schemas s
+            ON t.schema_id = s.schema_id
+        WHERE s.name = 'intermediate'
+          AND t.name = @TableName
+          AND c.system_type_id IN
+              (
+                  SELECT system_type_id
+                  FROM sys.types
+                  WHERE name IN
+                  (
+                      'varchar',
+                      'nvarchar',
+                      'char',
+                      'nchar'
+                  )
+              );
+
+        IF @SQL <> N''
+            EXEC sp_executesql @SQL;
+
+
+        -----------------------------------------------------
+        -- 2. REMOVE DUPLICATES AUTOMATICALLY
+        -----------------------------------------------------
+
+        SET @SQL = N'
+        ;WITH Duplicates AS
+        (
+            SELECT *,
+                   ROW_NUMBER() OVER
+                   (
+                       PARTITION BY [' + @BusinessKey + N']
+                       ORDER BY (SELECT NULL)
+                   ) AS rn
+            FROM [intermediate].[' + @TableName + N']
+            WHERE [' + @BusinessKey + N'] IS NOT NULL
+        )
+        DELETE FROM Duplicates
+        WHERE rn > 1;';
+
+        EXEC sp_executesql @SQL;
+
+
+        -----------------------------------------------------
+        -- NEXT TABLE
+        -----------------------------------------------------
+
+        FETCH NEXT FROM TableCursor
+        INTO @TableName, @BusinessKey;
+
+    END;
+
+
+    CLOSE TableCursor;
+    DEALLOCATE TableCursor;
+
+
+    ---------------------------------------------------------
+    -- 3. FINAL QUALITY REPORT
+    ---------------------------------------------------------
+
+    IF OBJECT_ID('tempdb..#QualityReport') IS NOT NULL
+        DROP TABLE #QualityReport;
+
+    CREATE TABLE #QualityReport
+    (
+        Table_Name NVARCHAR(100),
+        Business_Key NVARCHAR(100),
+        Total_Rows INT,
+        NULL_Keys INT,
+        Blank_Keys INT,
+        Duplicate_Rows INT,
+        Quality_Status NVARCHAR(50)
+    );
+
+
+    ---------------------------------------------------------
+    -- CRM_CUSTOMER
+    ---------------------------------------------------------
+
+    INSERT INTO #QualityReport
+
+    SELECT
+        'CRM_CUSTOMER',
+        'CUSTOMER_ID',
+        COUNT(*),
+
+        SUM
+        (
+            CASE
+                WHEN CUSTOMER_ID IS NULL THEN 1
+                ELSE 0
+            END
+        ),
+
+        SUM
+        (
+            CASE
+                WHEN CUSTOMER_ID IS NOT NULL
+                 AND LTRIM(RTRIM(CAST(CUSTOMER_ID AS VARCHAR(100)))) = ''
+                THEN 1
+                ELSE 0
+            END
+        ),
+
+        COUNT(*) - COUNT(DISTINCT CUSTOMER_ID),
+
+        CASE
+            WHEN
+                SUM(CASE WHEN CUSTOMER_ID IS NULL THEN 1 ELSE 0 END) > 0
+                OR
+                COUNT(*) - COUNT(DISTINCT CUSTOMER_ID) > 0
+            THEN 'ISSUES FOUND'
+            ELSE 'PASS'
+        END
+
+    FROM [intermediate].[CRM_CUSTOMER];
+
+
+    ---------------------------------------------------------
+    -- ERP_INVENTORY
+    ---------------------------------------------------------
+
+    INSERT INTO #QualityReport
+
+    SELECT
+        'ERP_INVENTORY',
+        'PRODUCT_ID',
+        COUNT(*),
+
+        SUM
+        (
+            CASE
+                WHEN PRODUCT_ID IS NULL THEN 1
+                ELSE 0
+            END
+        ),
+
+        SUM
+        (
+            CASE
+                WHEN PRODUCT_ID IS NOT NULL
+                 AND LTRIM(RTRIM(CAST(PRODUCT_ID AS VARCHAR(100)))) = ''
+                THEN 1
+                ELSE 0
+            END
+        ),
+
+        COUNT(*) - COUNT(DISTINCT PRODUCT_ID),
+
+        CASE
+            WHEN
+                SUM(CASE WHEN PRODUCT_ID IS NULL THEN 1 ELSE 0 END) > 0
+                OR
+                COUNT(*) - COUNT(DISTINCT PRODUCT_ID) > 0
+            THEN 'ISSUES FOUND'
+            ELSE 'PASS'
+        END
+
+    FROM [intermediate].[ERP_INVENTORY];
+
+
+    ---------------------------------------------------------
+    -- ERP_PRODUCT
+    ---------------------------------------------------------
+
+    INSERT INTO #QualityReport
+
+    SELECT
+        'ERP_PRODUCT',
+        'PRODUCT_ID',
+        COUNT(*),
+
+        SUM
+        (
+            CASE
+                WHEN PRODUCT_ID IS NULL THEN 1
+                ELSE 0
+            END
+        ),
+
+        SUM
+        (
+            CASE
+                WHEN PRODUCT_ID IS NOT NULL
+                 AND LTRIM(RTRIM(CAST(PRODUCT_ID AS VARCHAR(100)))) = ''
+                THEN 1
+                ELSE 0
+            END
+        ),
+
+        COUNT(*) - COUNT(DISTINCT PRODUCT_ID),
+
+        CASE
+            WHEN
+                SUM(CASE WHEN PRODUCT_ID IS NULL THEN 1 ELSE 0 END) > 0
+                OR
+                COUNT(*) - COUNT(DISTINCT PRODUCT_ID) > 0
+            THEN 'ISSUES FOUND'
+            ELSE 'PASS'
+        END
+
+    FROM [intermediate].[ERP_PRODUCT];
+
+
+    ---------------------------------------------------------
+    -- SAL_ORDER
+    ---------------------------------------------------------
+
+    INSERT INTO #QualityReport
+
+    SELECT
+        'SAL_ORDER',
+        'ORDER_ID',
+        COUNT(*),
+
+        SUM
+        (
+            CASE
+                WHEN ORDER_ID IS NULL THEN 1
+                ELSE 0
+            END
+        ),
+
+        SUM
+        (
+            CASE
+                WHEN ORDER_ID IS NOT NULL
+                 AND LTRIM(RTRIM(CAST(ORDER_ID AS VARCHAR(100)))) = ''
+                THEN 1
+                ELSE 0
+            END
+        ),
+
+        COUNT(*) - COUNT(DISTINCT ORDER_ID),
+
+        CASE
+            WHEN
+                SUM(CASE WHEN ORDER_ID IS NULL THEN 1 ELSE 0 END) > 0
+                OR
+                COUNT(*) - COUNT(DISTINCT ORDER_ID) > 0
+            THEN 'ISSUES FOUND'
+            ELSE 'PASS'
+        END
+
+    FROM [intermediate].[SAL_ORDER];
+
+
+    ---------------------------------------------------------
+    -- 4. SHOW FINAL RESULT
+    ---------------------------------------------------------
+
+    SELECT *
+    FROM #QualityReport
+    ORDER BY Table_Name;
+
+
+    ---------------------------------------------------------
+    -- 5. COMMIT
+    ---------------------------------------------------------
+
+    COMMIT TRANSACTION;
+
+    PRINT '============================================';
+    PRINT 'INTERMEDIATE DATA CLEANING COMPLETED';
+    PRINT '============================================';
+
+
+END TRY
+
+BEGIN CATCH
+
+    IF @@TRANCOUNT > 0
+        ROLLBACK TRANSACTION;
+
+    IF CURSOR_STATUS('global','TableCursor') >= -1
+    BEGIN
+        CLOSE TableCursor;
+        DEALLOCATE TableCursor;
+    END;
+
+    PRINT '============================================';
+    PRINT 'ERROR - ALL CHANGES WERE ROLLED BACK';
+    PRINT '============================================';
+
+    THROW;
+
+END CATCH;
