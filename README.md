@@ -1,81 +1,139 @@
-# SQL-E_COMMERCE-
-Read-only preview of README.md
-README
-Data Warehouse and Analytics Project
-Welcome to the Data Warehouse and Analytics Project repository! ​
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
- Data Architecture
-The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
-Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
- Project Overview
-This project involves:
-Data Architecture: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
-ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
-Data Modeling: Developing fact and dimension tables optimized for analytical queries.
-Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
- This repository is an excellent resource for professionals and students looking to showcase expertise in:
-SQL Development
-Data Architect
-Data Engineering
-ETL Pipeline Developer
-Data Modeling
-Data Analytics
- Important Links & Tools:
-Everything is for Free!
-Datasets: Access to the project dataset (csv files).
-SQL Server Express: Lightweight server for hosting your SQL database.
-SQL Server Management Studio (SSMS): GUI for managing and interacting with databases.
-Git Repository: Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
-DrawIO: Design data architecture, models, flows, and diagrams.
-Notion: All-in-one tool for project management and organization.
-Notion Project Steps: Access to All Project Phases and Tasks.
- Project Requirements
-Building the Data Warehouse (Data Engineering)
-Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
-Specifications
-Data Sources: Import data from two source systems (ERP and CRM) provided as CSV files.
-Data Quality: Cleanse and resolve data quality issues prior to analysis.
-Integration: Combine both sources into a single, user-friendly data model designed for analytical queries.
-Scope: Focus on the latest dataset only; historization of data is not required.
-Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
-BI: Analytics & Reporting (Data Analysis)
-Objective
-Develop SQL-based analytics to deliver detailed insights into:
-Customer Behavior
-Product Performance
-Sales Trends
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
-For more details, refer to docs/requirements.md.
- Repository Structure
-data-warehouse-project/
-│
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
-│
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
-│
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
-│
-├── tests/                              # Test scripts and quality files
-│
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
-​
- License
-This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
- About Me
-Hi there! I'm Baraa Khatib Salkini, also known as Data With Baraa. I’m an IT professional and passionate YouTuber on a mission to share knowledge and make working with data enjoyable and engaging!
-Let's stay in touch! Feel free to connect with me on the following platforms:
+Data Warehouse & Power BI Analytics Project
+
+📌 Project Overview
+
+This project is an end-to-end Data Analytics & Data Warehouse project built using SQL Server and Power BI.
+
+The project focuses on transforming raw business data into a structured Star Schema, cleaning and preparing the data, and building an interactive Power BI dashboard for business analysis.
+
+🏗️ Project Architecture
+
+The project follows a Star Schema design consisting of:
+
+- Fact Tables — transactional/business measures
+- Dimension Tables — descriptive attributes used for analysis
+
+Main Components
+
+- Customer Dimension
+- Professional Dimension
+- Product / Item Dimensions
+- Other supporting Dimensions
+- Central Fact Table
+
+🛠️ Tools & Technologies
+
+- SQL Server
+- SQL Server Management Studio (SSMS)
+- Power BI
+- DAX
+- Power Query
+- GitHub
+
+🔄 Data Workflow
+
+Raw Data
+   ↓
+SQL Server
+   ↓
+Data Cleaning & Transformation
+   ↓
+Dimension & Fact Tables
+   ↓
+Star Schema
+   ↓
+Power BI
+   ↓
+DAX Measures
+   ↓
+Interactive Dashboard
+
+🧹 Data Preparation
+
+The data preparation process includes:
+
+- Removing duplicate records
+- Handling NULL values
+- Standardizing data
+- Correcting data types
+- Creating surrogate/business keys
+- Preparing Dimension tables
+- Preparing Fact tables
+- Establishing relationships between tables
+
+⭐ Data Warehouse Model
+
+The final model follows the Star Schema approach:
+
+             DIM_CUSTOMER
+                   |
+                   |
+DIM_PROFESSIONAL — FACT_TABLE — DIM_PRODUCT
+                   |
+                   |
+              DIM_DATE
+
+This structure makes the model easier to analyze and improves the performance and maintainability of the Power BI report.
+
+📊 Power BI Dashboard
+
+The Power BI layer is used to create:
+
+- KPIs
+- Business Performance Analysis
+- Customer Analysis
+- Professional Analysis
+- Product Analysis
+- Trend Analysis
+- Interactive Filters & Slicers
+
+📈 Key Metrics
+
+Examples of analytical measures include:
+
+- Total Sales
+- Total Customers
+- Total Transactions
+- Average Value
+- Profit / Revenue Metrics
+- Performance Analysis
+- Top & Bottom Performers
+
+🧠 SQL Skills Demonstrated
+
+- SELECT / JOIN
+- GROUP BY
+- CASE
+- CTEs
+- Subqueries
+- Window Functions
+- Data Cleaning
+- Aggregations
+- Views
+- Primary & Foreign Keys
+- Star Schema Design
+- Query Optimization
+
+📊 Power BI Skills Demonstrated
+
+- Power Query
+- Data Modeling
+- Relationships
+- DAX Measures
+- Calculated Columns
+- KPI Cards
+- Charts
+- Slicers
+- Interactive Dashboard Design
+
+🎯 Project Goal
+
+The main goal of this project is to demonstrate a complete Data Analytics pipeline, starting from raw data and ending with a professional business intelligence dashboard.
+
+«Raw Data → SQL Data Warehouse → Star Schema → Power BI → Business Insights»
+
+👨‍💻 Author
+
+Yossef Abd alrahem
+
+Data Analytics | SQL | Power BI
