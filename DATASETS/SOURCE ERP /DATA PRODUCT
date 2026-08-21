@@ -1,0 +1,2001 @@
+product_id,product_name,category,brand,unit_cost,unit_price,supplier_id,active_flag
+200001,Urban Product 1,Electronics,,303.58,429.42,5165,1
+200002,Prime Product 2,Fashion,TechPro,277.78,503.0,5117,1
+200003,HomeX Product 3,Fashion,Daily,330.13,532.21,5143,1
+200004,Urban Product 4,Home & Kitchen,Active,172.32,349.93,5112,1
+200005,Active Product 5,Beauty,Prime,294.76,435.0,5133,1
+200006,Active Product 6,Electronics,SmartBuy,191.78,232.1,5124,1
+200007,TechPro Product 7,Sports,Nova,196.27,383.11,5033,1
+200008,TechPro Product 8,Beauty,TechPro,355.99,694.37,5158,1
+200009,Nova Product 9,Home & Kitchen,Nova,357.03,533.8,5054,1
+200010,Active Product 10,Beauty,SmartBuy,183.2,222.93,5036,1
+200011,Daily Product 11,Beauty,SmartBuy,422.03,838.5,5110,1
+200012,Daily Product 12,Books,Daily,245.99,501.05,5128,1
+200013,Active Product 13,Sports,Nova,221.79,465.16,5076,1
+200014,Active Product 14,Home & Kitchen,SmartBuy,228.19,347.19,5013,1
+200015,Daily Product 15,Books,Active,351.82,447.08,5200,1
+200016,Prime Product 16,Fashion,SmartBuy,435.56,657.22,5163,1
+200017,SmartBuy Product 17,Home & Kitchen,TechPro,312.08,532.5,5100,1
+200018,Nova Product 18,Books,Active,156.87,186.85,5070,1
+200019,SmartBuy Product 19,Books,TechPro,234.98,331.44,5177,1
+200020,Prime Product 20,Electronics,Active,141.71,289.78,5071,1
+200021,HomeX Product 21,Toys,Active,295.89,352.69,5041,1
+200022,Nova Product 22,Sports,Urban,449.65,581.58,5051,1
+200023,Nova Product 23,Fashion,Urban,389.9,663.6,5112,1
+200024,Active Product 24,Books,Daily,215.37,443.63,5150,1
+200025,Daily Product 25,Beauty,SmartBuy,157.27,321.35,5065,1
+200026,Nova Product 26,Toys,Nova,206.47,287.95,5039,1
+200027,SmartBuy Product 27,Electronics,Nova,145.73,252.56,5187,1
+200028,SmartBuy Product 28,Beauty,SmartBuy,446.28,922.35,5020,1
+200029,Active Product 29,Sports,Active,94.85,165.82,5111,1
+200030,Urban Product 30,Electronics,Prime,365.34,497.04,5036,1
+200031,Daily Product 31,Toys,Daily,189.38,342.58,5131,1
+200032,HomeX Product 32,Fashion,Nova,295.0,482.52,5076,1
+200033,Prime Product 33,Electronics,Prime,415.66,672.99,5016,1
+200034,Daily Product 34,Fashion,HomeX,268.48,433.32,5034,1
+200035,Urban Product 35,Books,HomeX,279.49,351.29,5098,1
+200036,TechPro Product 36,Toys,Prime,21.02,39.94,5029,1
+200037,Prime Product 37,Home & Kitchen,Active,62.33,92.22,5116,1
+200038,TechPro Product 38,Fashion,SmartBuy,245.53,325.45,5161,1
+200039,Active Product 39,Books,Prime,169.94,266.6,5059,1
+200040,Daily Product 40,Electronics,SmartBuy,276.07,486.13,5188,1
+200041,TechPro Product 41,Beauty,HomeX,175.99,294.92,5148,1
+200042,HomeX Product 42,Beauty,Daily,82.86,159.77,5018,1
+200043,Nova Product 43,Fashion,Urban,359.56,701.55,5094,1
+200044,Prime Product 44,Fashion,Active,381.09,662.93,5111,0
+200045,HomeX Product 45,Toys,SmartBuy,435.77,729.53,5113,1
+200046,Nova Product 46,Fashion,Urban,94.32,159.25,5093,1
+200047,Urban Product 47,Sports,HomeX,143.6,218.77,5073,1
+200048,Nova Product 48,Books,Active,129.95,207.38,5114,1
+200049,TechPro Product 49,Electronics,TechPro,418.9,691.34,5136,1
+200050,Urban Product 50,Books,,270.85,517.55,5170,1
+200051,Urban Product 51,Books,Active,415.48,772.2,5021,1
+200052,TechPro Product 52,Home & Kitchen,Prime,401.2,535.92,5028,1
+200053,Prime Product 53,Home & Kitchen,Active,114.15,237.31,5102,0
+200054,SmartBuy Product 54,Beauty,HomeX,195.38,403.87,5085,1
+200055,TechPro Product 55,Toys,Prime,189.06,267.57,5180,1
+200056,Daily Product 56,Toys,SmartBuy,221.67,465.27,5115,0
+200057,Prime Product 57,Home & Kitchen,Nova,448.98,740.3,5048,1
+200058,Nova Product 58,Sports,HomeX,82.33,112.41,5171,1
+200059,TechPro Product 59,Beauty,,348.73,639.74,5174,1
+200060,Nova Product 60,Sports,Active,106.29,127.08,5009,1
+200061,TechPro Product 61,Beauty,Daily,334.03,602.34,5178,1
+200062,SmartBuy Product 62,Sports,Active,95.21,185.02,5073,0
+200063,Daily Product 63,Beauty,TechPro,239.55,355.26,5047,1
+200064,TechPro Product 64,Electronics,Active,302.16,443.54,5024,1
+200065,Prime Product 65,Beauty,Prime,197.19,277.8,5017,1
+200066,TechPro Product 66,Home & Kitchen,Nova,434.94,668.55,5012,1
+200067,Urban Product 67,Beauty,Urban,318.97,540.58,5153,1
+200068,Nova Product 68,Beauty,HomeX,75.01,140.57,5181,1
+200069,SmartBuy Product 69,Sports,TechPro,170.6,339.88,5192,0
+200070,Active Product 70,Books,Nova,144.72,241.85,5103,1
+200071,Urban Product 71,Home & Kitchen,TechPro,136.5,218.57,5052,1
+200072,TechPro Product 72,Sports,SmartBuy,99.23,149.44,5178,1
+200073,TechPro Product 73,Books,TechPro,87.64,150.35,5183,1
+200074,TechPro Product 74,Fashion,TechPro,392.22,505.03,5081,1
+200075,SmartBuy Product 75,Electronics,Urban,445.25,709.55,5042,1
+200076,Active Product 76,Toys,TechPro,76.21,124.48,5168,1
+200077,Nova Product 77,Books,Urban,357.11,624.17,5072,1
+200078,Prime Product 78,Sports,Daily,106.26,129.12,5108,1
+200079,Daily Product 79,Books,SmartBuy,237.14,369.51,5178,1
+200080,TechPro Product 80,Fashion,Active,92.73,173.75,5034,1
+200081,TechPro Product 81,Books,Active,125.64,238.07,5061,1
+200082,SmartBuy Product 82,Toys,Urban,187.76,312.82,5043,1
+200083,SmartBuy Product 83,Fashion,Active,318.74,630.56,5152,0
+200084,HomeX Product 84,Beauty,Daily,215.94,403.17,5024,1
+200085,Daily Product 85,Books,Prime,365.47,697.11,5030,1
+200086,HomeX Product 86,Home & Kitchen,SmartBuy,47.98,91.32,5067,1
+200087,Daily Product 87,Sports,Daily,259.47,477.99,5076,1
+200088,TechPro Product 88,Electronics,Nova,52.48,103.04,5150,1
+200089,Prime Product 89,Toys,Nova,57.42,71.32,5189,1
+200090,Nova Product 90,Electronics,TechPro,142.46,232.01,5119,0
+200091,HomeX Product 91,Electronics,Active,51.71,100.02,5046,1
+200092,Daily Product 92,Fashion,HomeX,350.08,438.94,5133,1
+200093,TechPro Product 93,Books,Active,230.79,299.44,5141,1
+200094,Active Product 94,Home & Kitchen,SmartBuy,291.83,446.95,5017,1
+200095,HomeX Product 95,Sports,Urban,30.04,50.64,5184,1
+200096,SmartBuy Product 96,Fashion,HomeX,105.04,193.03,5103,1
+200097,SmartBuy Product 97,Toys,Nova,237.86,400.27,5157,1
+200098,Active Product 98,Beauty,Nova,41.49,56.25,5011,1
+200099,Urban Product 99,Beauty,Active,76.46,149.52,5190,0
+200100,TechPro Product 100,Electronics,Daily,14.74,20.66,5195,1
+200101,TechPro Product 101,Home & Kitchen,HomeX,410.61,806.9,5189,1
+200102,SmartBuy Product 102,Electronics,Active,196.9,319.04,5106,1
+200103,HomeX Product 103,Toys,Daily,25.03,29.75,5023,1
+200104,Prime Product 104,Beauty,Nova,209.92,337.04,5091,1
+200105,Urban Product 105,Fashion,Active,399.96,708.47,5121,1
+200106,Urban Product 106,Home & Kitchen,HomeX,89.53,177.8,5090,1
+200107,HomeX Product 107,Sports,,110.85,188.78,5086,1
+200108,SmartBuy Product 108,Sports,Urban,442.09,924.79,5070,1
+200109,Prime Product 109,Fashion,Active,384.99,581.99,5137,1
+200110,Active Product 110,Home & Kitchen,SmartBuy,249.09,344.6,5115,1
+200111,HomeX Product 111,Toys,TechPro,87.78,137.92,5149,1
+200112,Prime Product 112,Electronics,Urban,102.69,182.33,5017,1
+200113,Prime Product 113,Beauty,Daily,388.35,481.64,5050,0
+200114,Prime Product 114,Toys,Prime,305.61,377.58,5176,1
+200115,SmartBuy Product 115,Fashion,SmartBuy,161.17,280.93,5160,1
+200116,Prime Product 116,Electronics,SmartBuy,16.56,25.08,5135,1
+200117,Prime Product 117,Books,Nova,65.53,124.12,5082,1
+200118,TechPro Product 118,Toys,Urban,329.51,461.48,5086,1
+200119,Active Product 119,Electronics,HomeX,293.69,458.68,5132,1
+200120,TechPro Product 120,Fashion,Nova,164.66,269.92,5155,1
+200121,HomeX Product 121,Electronics,Prime,268.42,548.98,5086,1
+200122,Urban Product 122,Toys,Urban,341.03,394.56,5180,1
+200123,TechPro Product 123,Books,Daily,291.5,395.32,5070,1
+200124,HomeX Product 124,Books,TechPro,111.58,138.07,5065,1
+200125,Active Product 125,Fashion,Active,428.42,896.15,5139,1
+200126,Active Product 126,Books,HomeX,15.51,19.78,5159,1
+200127,SmartBuy Product 127,Home & Kitchen,TechPro,252.54,487.92,5109,1
+200128,Urban Product 128,Home & Kitchen,Nova,104.37,171.59,5191,1
+200129,Nova Product 129,Sports,Daily,319.85,605.58,5171,1
+200130,Nova Product 130,Toys,HomeX,255.0,366.34,5042,1
+200131,Active Product 131,Home & Kitchen,Urban,92.09,147.5,5158,1
+200132,TechPro Product 132,Beauty,TechPro,230.12,478.42,5163,1
+200133,TechPro Product 133,Toys,TechPro,236.28,293.09,5174,1
+200134,Active Product 134,Fashion,Daily,192.03,334.06,5106,1
+200135,Active Product 135,Books,TechPro,23.77,48.98,5154,1
+200136,Daily Product 136,Sports,Daily,97.02,123.25,5145,1
+200137,Daily Product 137,Toys,Prime,436.12,849.58,5184,1
+200138,Active Product 138,Fashion,Prime,88.88,125.53,5060,1
+200139,Active Product 139,Books,Prime,209.15,280.39,5032,1
+200140,Daily Product 140,Books,Daily,135.85,177.71,5154,1
+200141,Prime Product 141,Toys,HomeX,341.8,631.94,5129,1
+200142,Daily Product 142,Toys,TechPro,262.25,310.51,5196,1
+200143,TechPro Product 143,Fashion,Nova,323.36,501.04,5017,1
+200144,Prime Product 144,Books,Prime,288.45,522.7,5007,1
+200145,HomeX Product 145,Sports,Daily,229.15,293.92,5100,1
+200146,Daily Product 146,Electronics,Daily,432.48,589.42,5122,1
+200147,Prime Product 147,Toys,Urban,317.92,411.66,5173,1
+200148,Prime Product 148,Books,Active,311.53,365.99,5134,1
+200149,Active Product 149,Sports,Urban,312.26,494.52,5146,1
+200150,Active Product 150,Electronics,Daily,212.72,345.01,5078,1
+200151,Active Product 151,Toys,Prime,291.0,596.09,5117,1
+200152,Daily Product 152,Toys,Nova,274.0,504.62,5029,1
+200153,SmartBuy Product 153,Toys,Urban,400.29,829.26,5139,1
+200154,SmartBuy Product 154,Fashion,Prime,440.59,823.49,5029,1
+200155,Nova Product 155,Electronics,Active,219.95,457.46,5035,1
+200156,Urban Product 156,Books,Daily,272.37,377.45,5034,1
+200157,Active Product 157,Beauty,Daily,134.17,175.66,5187,1
+200158,SmartBuy Product 158,Home & Kitchen,Daily,381.22,580.12,5035,1
+200159,Urban Product 159,Home & Kitchen,Prime,321.25,519.52,5043,1
+200160,HomeX Product 160,Sports,Nova,416.17,804.63,5200,1
+200161,Prime Product 161,Toys,Prime,274.23,456.42,5034,1
+200162,SmartBuy Product 162,Sports,SmartBuy,320.35,658.27,5109,1
+200163,HomeX Product 163,Toys,Prime,47.34,67.42,5029,1
+200164,Nova Product 164,Beauty,Active,274.99,467.47,5090,1
+200165,HomeX Product 165,Beauty,HomeX,172.67,305.47,5188,1
+200166,Urban Product 166,Fashion,SmartBuy,231.1,299.98,5066,1
+200167,TechPro Product 167,Electronics,Nova,150.32,285.04,5093,1
+200168,Urban Product 168,Home & Kitchen,TechPro,132.83,233.44,5176,1
+200169,SmartBuy Product 169,Fashion,Nova,370.22,493.25,5107,1
+200170,SmartBuy Product 170,Sports,Nova,253.14,390.55,5190,0
+200171,Prime Product 171,Home & Kitchen,Active,117.68,206.97,5076,1
+200172,Urban Product 172,Beauty,HomeX,346.19,639.32,5047,1
+200173,TechPro Product 173,Beauty,SmartBuy,38.29,59.22,5006,1
+200174,SmartBuy Product 174,Beauty,Nova,135.45,248.74,5080,1
+200175,Urban Product 175,Toys,Urban,154.66,216.16,5014,1
+200176,Active Product 176,Home & Kitchen,Prime,84.03,120.98,5116,1
+200177,Nova Product 177,Fashion,HomeX,380.0,441.25,5004,1
+200178,Daily Product 178,Fashion,,304.88,491.83,5021,0
+200179,Urban Product 179,Books,Active,303.29,403.05,5108,1
+200180,Urban Product 180,Sports,Nova,268.75,462.77,5122,1
+200181,Active Product 181,Books,Nova,173.34,358.36,5039,1
+200182,HomeX Product 182,Beauty,SmartBuy,298.26,626.25,5149,1
+200183,HomeX Product 183,Books,Active,332.65,500.87,5081,0
+200184,Daily Product 184,Electronics,Nova,244.62,451.8,5038,0
+200185,TechPro Product 185,Home & Kitchen,Urban,214.47,442.38,5093,1
+200186,HomeX Product 186,Sports,TechPro,104.47,172.09,5185,1
+200187,TechPro Product 187,Home & Kitchen,TechPro,42.38,62.18,5107,0
+200188,Prime Product 188,Fashion,Active,23.38,30.35,5171,1
+200189,Urban Product 189,Home & Kitchen,Urban,322.84,425.26,5179,0
+200190,HomeX Product 190,Electronics,HomeX,160.15,314.12,5046,1
+200191,Nova Product 191,Fashion,Active,320.24,447.07,5009,1
+200192,Active Product 192,Toys,Nova,231.02,325.08,5135,1
+200193,HomeX Product 193,Electronics,TechPro,203.86,379.04,5099,1
+200194,Active Product 194,Toys,Urban,284.87,554.06,5072,1
+200195,SmartBuy Product 195,Beauty,SmartBuy,86.55,116.67,5027,1
+200196,TechPro Product 196,Books,Prime,440.95,795.56,5030,1
+200197,SmartBuy Product 197,Books,Urban,151.95,239.21,5186,1
+200198,Active Product 198,Electronics,HomeX,347.29,490.69,5029,1
+200199,Prime Product 199,Home & Kitchen,HomeX,115.3,189.58,5184,1
+200200,Urban Product 200,Toys,Nova,213.23,402.71,5054,1
+200201,TechPro Product 201,Sports,Daily,227.19,282.74,5028,1
+200202,Nova Product 202,Fashion,Nova,141.46,172.24,5104,1
+200203,HomeX Product 203,Beauty,TechPro,160.14,322.87,5024,1
+200204,Daily Product 204,Beauty,Nova,198.7,410.36,5055,1
+200205,SmartBuy Product 205,Electronics,HomeX,377.11,623.04,5022,1
+200206,Active Product 206,Toys,Urban,227.52,292.69,5004,1
+200207,Prime Product 207,Home & Kitchen,Active,44.42,54.4,5020,1
+200208,SmartBuy Product 208,Toys,Active,101.42,131.66,5194,1
+200209,Prime Product 209,Home & Kitchen,Daily,443.78,629.5,5032,1
+200210,TechPro Product 210,Sports,Nova,44.99,80.97,5045,1
+200211,Daily Product 211,Beauty,Active,293.24,367.94,5032,1
+200212,SmartBuy Product 212,Toys,Urban,98.96,126.68,5016,1
+200213,Prime Product 213,Sports,HomeX,197.21,360.38,5033,1
+200214,HomeX Product 214,Sports,Daily,163.87,228.52,5021,1
+200215,Daily Product 215,Fashion,SmartBuy,439.84,596.09,5030,1
+200216,TechPro Product 216,Toys,Daily,250.32,426.42,5092,1
+200217,HomeX Product 217,Electronics,Daily,116.21,142.34,5076,1
+200218,TechPro Product 218,Beauty,SmartBuy,273.59,478.14,5036,1
+200219,TechPro Product 219,Home & Kitchen,Daily,36.77,42.96,5051,1
+200220,HomeX Product 220,Beauty,Active,417.36,572.36,5094,1
+200221,Prime Product 221,Electronics,Nova,158.19,249.62,5084,1
+200222,Daily Product 222,Sports,Daily,398.1,696.43,5025,1
+200223,SmartBuy Product 223,Books,,365.1,490.57,5179,1
+200224,Nova Product 224,Sports,SmartBuy,88.12,174.94,5078,1
+200225,Prime Product 225,Sports,Urban,433.22,876.44,5071,1
+200226,Active Product 226,Electronics,HomeX,446.3,717.06,5115,1
+200227,TechPro Product 227,Sports,TechPro,363.35,511.88,5058,1
+200228,Active Product 228,Fashion,Nova,205.91,258.41,5125,1
+200229,Nova Product 229,Sports,Active,304.28,621.27,5183,1
+200230,SmartBuy Product 230,Sports,Urban,40.89,52.21,5169,1
+200231,Nova Product 231,Fashion,Prime,414.9,594.87,5065,1
+200232,Prime Product 232,Electronics,Prime,103.68,151.63,5019,1
+200233,Active Product 233,Electronics,Active,323.94,455.12,5025,1
+200234,Urban Product 234,Beauty,,361.68,416.64,5043,1
+200235,Prime Product 235,Sports,Urban,436.46,587.8,5124,0
+200236,Daily Product 236,Electronics,Urban,371.59,691.56,5099,1
+200237,HomeX Product 237,Books,SmartBuy,369.03,496.39,5057,0
+200238,Urban Product 238,Home & Kitchen,TechPro,318.9,598.22,5040,1
+200239,Active Product 239,Books,Urban,261.61,404.21,5104,1
+200240,Prime Product 240,Sports,SmartBuy,23.64,29.01,5193,1
+200241,TechPro Product 241,Books,Nova,437.85,847.52,5154,1
+200242,Prime Product 242,Home & Kitchen,Active,204.79,359.08,5052,0
+200243,Active Product 243,Sports,HomeX,359.57,622.6,5114,1
+200244,Urban Product 244,Sports,TechPro,172.89,223.5,5102,1
+200245,Prime Product 245,Books,Active,207.95,362.29,5162,1
+200246,Urban Product 246,Beauty,Urban,210.75,401.84,5069,1
+200247,SmartBuy Product 247,Books, HomeX,445.55,934.12,5069,1
+200248,SmartBuy Product 248,Beauty,Urban,99.05,177.03,5090,1
+200249,Prime Product 249,Toys,SmartBuy,228.29,356.26,5034,1
+200250,Prime Product 250,Sports,TechPro,73.84,142.36,5174,1
+200251,HomeX Product 251,Electronics,SmartBuy,224.88,269.38,5079,1
+200252,Active Product 252,Books,HomeX,247.95,383.91,5173,1
+200253,SmartBuy Product 253,Home & Kitchen,,65.81,121.46,5083,1
+200254,SmartBuy Product 254,Electronics,HomeX,315.72,470.89,5136,1
+200255,SmartBuy Product 255,Sports,Nova,373.45,450.37,5144,1
+200256,Nova Product 256,Beauty,Active,368.13,462.15,5159,1
+200257,Nova Product 257,Fashion,Prime,329.5,431.26,5138,1
+200258,Prime Product 258,Fashion,Daily,67.69,131.3,5138,1
+200259,Urban Product 259,Fashion,Prime,281.55,516.59,5062,1
+200260,Active Product 260,Toys,TechPro,315.77,592.28,5013,1
+200261,SmartBuy Product 261,Books,HomeX,342.91,690.57,5186,1
+200262,Active Product 262,Books,Prime,320.68,460.97,5169,0
+200263,SmartBuy Product 263,Beauty,Prime,284.82,528.6,5056,1
+200264,Urban Product 264,Books,Daily,328.85,492.07,5005,1
+200265,Active Product 265,Beauty,Urban,384.28,728.75,5200,1
+200266,Prime Product 266,Toys,SmartBuy,258.35,467.9,5017,1
+200267,Nova Product 267,Electronics,TechPro,69.66,145.61,5007,1
+200268,SmartBuy Product 268,Books,Prime,368.1,688.06,5198,1
+200269,TechPro Product 269,Beauty,HomeX,299.15,345.7,5135,1
+200270,Active Product 270,Fashion,Prime,310.54,563.57,5121,0
+200271,Daily Product 271,Sports,Daily,135.92,169.43,5125,1
+200272,HomeX Product 272,Toys,Active,71.6,119.49,5149,1
+200273,Nova Product 273,Home & Kitchen,Active,352.42,457.95,5117,1
+200274,Active Product 274,Beauty,Nova,26.99,43.72,5150,1
+200275,SmartBuy Product 275,Home & Kitchen,Urban,184.04,350.23,5156,1
+200276,Urban Product 276,Books,TechPro,231.44,329.72,5043,1
+200277,TechPro Product 277,Beauty,Urban,12.76,16.52,5119,1
+200278,Active Product 278,Fashion,Nova,270.67,392.14,5067,1
+200279,Active Product 279,Toys,Nova,58.23,76.57,5122,1
+200280,Prime Product 280,Home & Kitchen,HomeX,112.44,148.91,5035,0
+200281,Nova Product 281,Electronics,TechPro,447.14,810.38,5176,1
+200282,Active Product 282,Home & Kitchen,Prime,254.32,462.64,5054,1
+200283,Nova Product 283,Fashion,HomeX,435.88,720.37,5038,1
+200284,TechPro Product 284,Home & Kitchen,Daily,224.22,311.58,5025,1
+200285,Urban Product 285,Electronics,Daily,362.52,599.31,5107,1
+200286,TechPro Product 286,Toys,Daily,21.91,44.94,5072,1
+200287,SmartBuy Product 287,Fashion,Urban,134.61,203.87,5143,1
+200288,Daily Product 288,Toys,Prime,131.03,203.41,5084,1
+200289,Active Product 289,Sports,Prime,36.06,58.4,5062,1
+200290,Urban Product 290,Books,Urban,428.69,565.65,5063,1
+200291,HomeX Product 291,Fashion,Nova,229.58,317.39,5044,1
+200292,Prime Product 292,Sports,Urban,268.87,485.69,5140,1
+200293,Daily Product 293,Fashion,HomeX,236.61,308.42,5026,1
+200294,SmartBuy Product 294,Fashion,Prime,115.61,199.34,5183,1
+200295,Urban Product 295,Toys,Daily,416.31,631.37,5053,1
+200296,Nova Product 296,Toys,SmartBuy,302.7,436.18,5002,1
+200297,SmartBuy Product 297,Fashion,Urban,60.0,100.34,5134,1
+200298,Nova Product 298,Electronics,TechPro,210.5,287.21,5143,1
+200299,Nova Product 299,Beauty,TechPro,5.66,8.17,5123,1
+200300,Nova Product 300,Toys,Urban,305.26,503.16,5073,1
+200301,Prime Product 301,Toys,Nova,237.99,422.3,5035,1
+200302,Daily Product 302,Beauty,TechPro,407.37,792.14,5175,1
+200303,TechPro Product 303,Beauty,HomeX,426.56,824.72,5099,1
+200304,Prime Product 304,Toys,Urban,48.69,79.02,5096,1
+200305,Daily Product 305,Home & Kitchen,Prime,44.83,54.72,5043,1
+200306,TechPro Product 306,Home & Kitchen,HomeX,405.1,538.24,5157,1
+200307,Active Product 307,Home & Kitchen,Nova,232.89,267.93,5188,1
+200308,HomeX Product 308,Sports,Active,214.01,283.85,5130,1
+200309,Nova Product 309,Toys,Active,259.0,305.41,5145,1
+200310,Active Product 310,Fashion,Daily,212.55,388.75,5142,1
+200311,Daily Product 311,Toys,Prime,278.35,464.52,5035,1
+200312,Daily Product 312,Beauty,SmartBuy,427.34,505.95,5093,0
+200313,SmartBuy Product 313,Home & Kitchen,Nova,274.66,477.02,5058,1
+200314,Active Product 314,Toys,SmartBuy,147.73,284.15,5081,1
+200315,Active Product 315,Sports,Prime,99.96,117.66,5171,1
+200316,Daily Product 316,Beauty,SmartBuy,434.92,552.65,5167,1
+200317,HomeX Product 317,Home & Kitchen,Prime,262.83,419.91,5112,1
+200318,Daily Product 318,Beauty,SmartBuy,257.17,306.08,5024,1
+200319,TechPro Product 319,Home & Kitchen,HomeX,19.83,23.21,5072,1
+200320,Urban Product 320,Fashion,Nova,413.68,704.62,5145,1
+200321,Nova Product 321,Toys,Urban,213.97,360.42,5120,0
+200322,TechPro Product 322,Toys,TechPro,449.89,862.13,5112,1
+200323,HomeX Product 323,Fashion,Active,79.7,97.55,5078,1
+200324,TechPro Product 324,Fashion,,150.16,300.67,5194,1
+200325,Prime Product 325,Home & Kitchen,HomeX,98.48,115.0,5183,1
+200326,TechPro Product 326,Home & Kitchen,Active,173.62,249.37,5129,1
+200327,HomeX Product 327,Beauty,Urban,439.6,525.87,5175,1
+200328,Nova Product 328,Toys,Urban,189.58,262.01,5036,1
+200329,HomeX Product 329,Books,Prime,373.06,717.92,5033,1
+200330,TechPro Product 330,Fashion,Active,341.09,432.8,5143,1
+200331,HomeX Product 331,Books,,137.59,184.62,5136,1
+200332,Nova Product 332,Beauty,Daily,263.06,455.3,5049,1
+200333,SmartBuy Product 333,Sports,HomeX,384.01,449.51,5168,1
+200334,TechPro Product 334,Home & Kitchen,HomeX,277.04,477.15,5150,1
+200335,TechPro Product 335,Books,Active,122.89,245.74,5043,1
+200336,Nova Product 336,Beauty,SmartBuy,389.11,473.19,5123,1
+200337,TechPro Product 337,Books,HomeX,252.49,291.78,5175,1
+200338,TechPro Product 338,Home & Kitchen,Active,441.1,677.38,5154,1
+200339,Nova Product 339,Toys,SmartBuy,296.75,580.62,5084,1
+200340,HomeX Product 340,Fashion, HomeX,204.74,417.35,5164,1
+200341,Urban Product 341,Sports,HomeX,198.98,380.27,5062,1
+200342,Urban Product 342,Beauty,Active,396.65,700.83,5195,1
+200343,Nova Product 343,Sports,SmartBuy,441.36,686.42,5197,0
+200344,Active Product 344,Home & Kitchen,HomeX,187.61,356.37,5061,1
+200345,Prime Product 345,Toys,HomeX,77.54,144.91,5138,1
+200346,HomeX Product 346,Home & Kitchen,Prime,22.7,30.06,5193,1
+200347,TechPro Product 347,Fashion,Daily,148.46,271.68,5059,1
+200348,Active Product 348,Beauty,Nova,157.18,299.11,5144,1
+200349,TechPro Product 349,Beauty,SmartBuy,194.51,390.15,5106,1
+200350,Active Product 350,Home & Kitchen,TechPro,69.54,128.17,5089,1
+200351,Daily Product 351,Toys,Urban,224.23,413.88,5129,1
+200352,Urban Product 352,Sports,Prime,424.8,852.38,5096,1
+200353,Nova Product 353,Toys,Active,108.46,144.75,5143,1
+200354,HomeX Product 354,Fashion,Urban,309.72,518.02,5192,1
+200355,Prime Product 355,Fashion,Prime,21.9,43.77,5042,0
+200356,Prime Product 356,Beauty,TechPro,291.5,510.14,5036,1
+200357,SmartBuy Product 357,Sports,Daily,422.2,859.08,5124,1
+200358,Active Product 358,Home & Kitchen,SmartBuy,130.64,156.49,5193,1
+200359,Nova Product 359,Books,Urban,368.22,498.3,5170,1
+200360,HomeX Product 360,Toys,Active,41.69,56.71,5081,1
+200361,Active Product 361,Beauty,TechPro,164.41,201.34,5161,1
+200362,Urban Product 362,Fashion,TechPro,7.98,13.9,5183,1
+200363,Active Product 363,Fashion,Nova,163.02,249.65,5059,1
+200364,Active Product 364,Electronics,Prime,142.88,197.22,5021,1
+200365,Active Product 365,Electronics,SmartBuy,313.28,576.86,5195,1
+200366,Urban Product 366,Fashion,Daily,136.06,243.87,5032,1
+200367,Urban Product 367,Home & Kitchen,Daily,371.28,440.8,5003,1
+200368,HomeX Product 368,Fashion,Daily,134.7,211.15,5064,1
+200369,Nova Product 369,Fashion,TechPro,104.38,191.45,5156,1
+200370,TechPro Product 370,Home & Kitchen,Nova,225.06,280.92,5150,1
+200371,Daily Product 371,Fashion,Prime,297.12,566.07,5064,0
+200372,Active Product 372,Electronics,SmartBuy,400.48,694.93,5138,1
+200373,SmartBuy Product 373,Books,Active,367.01,672.44,5189,1
+200374,Urban Product 374,Sports,Daily,238.4,330.87,5002,1
+200375,Active Product 375,Home & Kitchen,Urban,440.34,819.17,5173,1
+200376,Active Product 376,Home & Kitchen,TechPro,136.95,180.09,5121,1
+200377,Prime Product 377,Electronics,Daily,449.76,884.82,5177,1
+200378,Prime Product 378,Home & Kitchen,Daily,176.41,237.39,5010,1
+200379,TechPro Product 379,Sports,Urban,121.77,171.06,5051,1
+200380,Active Product 380,Electronics,Daily,175.34,313.39,5077,1
+200381,Active Product 381,Electronics,HomeX,265.69,389.73,5160,1
+200382,Daily Product 382,Beauty,Daily,215.9,311.67,5136,1
+200383,Nova Product 383,Toys,Nova,27.33,33.05,5067,1
+200384,Active Product 384,Beauty,HomeX,163.42,315.25,5049,0
+200385,Daily Product 385,Home & Kitchen,Daily,223.86,355.13,5090,1
+200386,Prime Product 386,Books,Daily,300.17,457.28,5034,1
+200387,Daily Product 387,Books,HomeX,429.11,593.57,5181,1
+200388,SmartBuy Product 388,Books,Nova,430.38,721.95,5167,0
+200389,Prime Product 389,Fashion,Daily,233.74,393.06,5145,1
+200390,Prime Product 390,Electronics,Prime,258.25,297.56,5096,1
+200391,Prime Product 391,Toys,Urban,315.62,388.63,5129,1
+200392,Nova Product 392,Toys,Daily,376.72,652.58,5051,1
+200393,Urban Product 393,Beauty,HomeX,336.63,477.94,5026,1
+200394,TechPro Product 394,Books,Urban,325.63,678.81,5047,1
+200395,TechPro Product 395,Toys,Nova,204.04,282.83,5108,1
+200396,SmartBuy Product 396,Electronics,Prime,391.68,507.01,5192,1
+200397,TechPro Product 397,Beauty,SmartBuy,299.83,357.52,5025,1
+200398,Prime Product 398,Toys,,75.84,136.68,5061,1
+200399,Active Product 399,Sports,Prime,271.28,386.87,5016,1
+200400,Active Product 400,Electronics,Daily,143.2,201.95,5089,1
+200401,TechPro Product 401,Electronics,TechPro,95.36,119.67,5190,1
+200402,Active Product 402,Fashion,Active,293.74,352.44,5011,1
+200403,Prime Product 403,Beauty,,290.8,398.06,5119,1
+200404,SmartBuy Product 404,Electronics,Nova,429.85,656.29,5031,1
+200405,Urban Product 405,Home & Kitchen,Nova,439.42,781.71,5002,1
+200406,Nova Product 406,Beauty,HomeX,186.91,232.92,5108,1
+200407,TechPro Product 407,Books,SmartBuy,84.44,126.48,5094,1
+200408,Prime Product 408,Beauty,Daily,67.5,141.26,5181,1
+200409,HomeX Product 409,Beauty,SmartBuy,438.54,788.09,5058,1
+200410,TechPro Product 410,Books,HomeX,181.17,380.32,5127,1
+200411,Daily Product 411,Sports,,157.54,193.06,5031,1
+200412,TechPro Product 412,Home & Kitchen,TechPro,281.41,431.86,5116,1
+200413,Nova Product 413,Home & Kitchen,HomeX,30.5,41.75,5164,1
+200414,HomeX Product 414,Electronics,,292.81,598.65,5078,1
+200415,SmartBuy Product 415,Electronics,Nova,394.71,793.38,5031,1
+200416,Urban Product 416,Books,TechPro,327.3,553.32,5102,1
+200417,Urban Product 417,Sports,TechPro,190.77,275.05,5034,1
+200418,Prime Product 418,Sports,Urban,56.68,94.52,5130,1
+200419,Active Product 419,Beauty,SmartBuy,112.35,222.18,5047,1
+200420,Prime Product 420,Electronics,HomeX,123.11,208.69,5133,1
+200421,Urban Product 421,Fashion,Nova,176.29,330.9,5143,1
+200422,Nova Product 422,Home & Kitchen,Active,64.34,116.03,5200,1
+200423,TechPro Product 423,Toys,Daily,261.17,324.54,5039,1
+200424,SmartBuy Product 424,Fashion,Prime,168.01,314.17,5187,0
+200425,TechPro Product 425,Electronics,TechPro,225.89,304.54,5065,1
+200426,Nova Product 426,Home & Kitchen,Prime,131.89,260.75,5031,1
+200427,SmartBuy Product 427,Sports,Nova,206.97,298.9,5181,1
+200428,Urban Product 428,Beauty,TechPro,322.13,543.13,5115,1
+200429,Prime Product 429,Electronics,Urban,44.26,62.91,5114,1
+200430,Nova Product 430,Fashion,Daily,231.99,268.67,5061,1
+200431,Urban Product 431,Sports,HomeX,280.16,529.82,5035,1
+200432,Prime Product 432,Beauty,Active,302.12,552.61,5013,1
+200433,HomeX Product 433,Beauty,Daily,415.64,842.7,5172,1
+200434,TechPro Product 434,Sports,HomeX,352.6,597.26,5005,1
+200435,Active Product 435,Books,Active,333.85,443.6,5103,1
+200436,Urban Product 436,Fashion,,391.26,513.45,5054,1
+200437,Nova Product 437,Books,HomeX,411.92,626.05,5167,1
+200438,Nova Product 438,Toys,Prime,378.51,554.19,5141,1
+200439,Nova Product 439,Electronics,Daily,278.23,427.81,5016,1
+200440,Urban Product 440,Books,Urban,380.18,518.46,5026,1
+200441,Active Product 441,Home & Kitchen,Urban,150.25,313.9,5033,1
+200442,HomeX Product 442,Electronics,Urban,428.63,527.82,5143,1
+200443,Urban Product 443,Home & Kitchen,TechPro,82.19,152.23,5019,1
+200444,Prime Product 444,Toys,Urban,107.0,180.75,5047,1
+200445,Prime Product 445,Sports,SmartBuy,75.54,126.74,5097,1
+200446,Prime Product 446,Beauty,Active,350.77,607.77,5038,1
+200447,Urban Product 447,Home & Kitchen,HomeX,198.35,398.45,5078,1
+200448,TechPro Product 448,Beauty,Urban,333.42,597.29,5061,1
+200449,HomeX Product 449,Beauty,Prime,231.98,326.47,5084,1
+200450,Daily Product 450,Fashion,Active,184.46,259.31,5006,0
+200451,Daily Product 451,Beauty,SmartBuy,403.89,782.22,5074,1
+200452,Urban Product 452,Books,TechPro,197.3,316.5,5108,1
+200453,Active Product 453,Sports,Urban,280.19,509.84,5085,1
+200454,Prime Product 454,Electronics,TechPro,387.08,583.38,5189,1
+200455,SmartBuy Product 455,Fashion,HomeX,99.61,184.41,5077,1
+200456,Daily Product 456,Electronics,Nova,184.21,286.06,5061,1
+200457,HomeX Product 457,Toys,SmartBuy,69.48,112.45,5032,1
+200458,HomeX Product 458,Fashion,Active,246.5,500.89,5123,1
+200459,Urban Product 459,Toys,Urban,356.36,577.35,5114,1
+200460,Daily Product 460,Home & Kitchen,SmartBuy,29.49,40.21,5011,1
+200461,Daily Product 461,Fashion,SmartBuy,31.85,52.71,5174,1
+200462,Active Product 462,Fashion,HomeX,334.83,387.77,5196,1
+200463,Nova Product 463,Toys,SmartBuy,320.77,453.89,5199,1
+200464,Daily Product 464,Electronics,Prime,183.98,317.17,5156,1
+200465,SmartBuy Product 465,Books,Urban,165.51,201.49,5024,1
+200466,Urban Product 466,Sports,Daily,130.5,206.53,5180,1
+200467,Urban Product 467,Home & Kitchen,Prime,32.48,55.83,5083,1
+200468,SmartBuy Product 468,Books,SmartBuy,233.53,318.81,5173,0
+200469,HomeX Product 469,Beauty,SmartBuy,279.15,378.79,5049,1
+200470,SmartBuy Product 470,Beauty,TechPro,390.09,696.45,5138,0
+200471,Daily Product 471,Fashion,TechPro,246.13,510.84,5114,1
+200472,Urban Product 472,Fashion,Daily,72.62,104.72,5092,1
+200473,SmartBuy Product 473,Books,Urban,142.14,191.51,5073,1
+200474,TechPro Product 474,Toys,Urban,354.34,738.73,5011,1
+200475,SmartBuy Product 475,Toys,Nova,280.09,544.19,5176,1
+200476,Prime Product 476,Fashion,Urban,348.14,709.92,5145,1
+200477,SmartBuy Product 477,Sports,Prime,189.0,225.63,5188,1
+200478,Active Product 478,Toys,Prime,35.05,71.39,5104,1
+200479,TechPro Product 479,Sports,HomeX,402.0,782.46,5066,1
+200480,Daily Product 480,Electronics,SmartBuy,160.4,230.13,5124,1
+200481,TechPro Product 481,Books,SmartBuy,42.11,73.4,5072,1
+200482,Active Product 482,Beauty,Urban,266.17,349.63,5188,1
+200483,HomeX Product 483,Beauty,HomeX,336.06,519.83,5107,1
+200484,Prime Product 484,Electronics,Nova,217.71,374.97,5136,1
+200485,Urban Product 485,Beauty,Urban,278.17,349.05,5128,1
+200486,SmartBuy Product 486,Books,Urban,190.68,394.36,5078,1
+200487,TechPro Product 487,Beauty,Daily,367.09,746.18,5151,1
+200488,SmartBuy Product 488,Home & Kitchen,SmartBuy,353.75,698.3,5099,1
+200489,Prime Product 489,Books,Urban,325.39,413.94,5021,1
+200490,SmartBuy Product 490,Beauty,Prime,13.85,24.73,5082,1
+200491,Daily Product 491,Sports,Prime,234.78,468.6,5011,1
+200492,Daily Product 492,Electronics,HomeX,354.48,454.0,5148,1
+200493,Active Product 493,Home & Kitchen,Daily,113.97,201.15,5136,1
+200494,TechPro Product 494,Home & Kitchen,HomeX,120.34,161.73,5180,1
+200495,Nova Product 495,Electronics,TechPro,407.39,735.48,5096,1
+200496,Prime Product 496,Fashion,SmartBuy,379.56,669.98,5199,1
+200497,Active Product 497,Fashion,TechPro,444.72,879.67,5135,1
+200498,Daily Product 498,Electronics,Prime,226.35,364.75,5078,1
+200499,SmartBuy Product 499,Sports,SmartBuy,60.29,112.8,5061,1
+200500,HomeX Product 500,Beauty,Daily,8.67,11.55,5190,1
+200501,SmartBuy Product 501,Fashion,Urban,319.23,562.0,5035,1
+200502,Urban Product 502,Home & Kitchen,Daily,368.42,730.58,5004,1
+200503,Urban Product 503,Fashion,HomeX,195.59,359.27,5023,1
+200504,Nova Product 504,Home & Kitchen,Prime,194.48,385.98,5138,1
+200505,Active Product 505,Toys,SmartBuy,378.92,662.46,5158,1
+200506,Prime Product 506,Beauty,Prime,87.79,146.95,5102,1
+200507,Urban Product 507,Toys,Urban,33.23,67.1,5081,1
+200508,Nova Product 508,Books,Urban,434.73,633.5,5037,1
+200509,SmartBuy Product 509,Beauty,Daily,246.37,458.48,5017,1
+200510,Prime Product 510,Fashion,Daily,348.71,630.61,5150,1
+200511,Daily Product 511,Books,Prime,429.86,826.85,5050,1
+200512,Prime Product 512,Fashion,Nova,365.64,593.34,5197,1
+200513,Nova Product 513,Beauty,SmartBuy,213.09,344.98,5173,1
+200514,Daily Product 514,Fashion,HomeX,293.41,346.95,5155,1
+200515,Urban Product 515,Sports,TechPro,286.35,582.67,5097,1
+200516,Active Product 516,Electronics,Nova,416.86,632.77,5072,1
+200517,Nova Product 517,Home & Kitchen,HomeX,67.78,113.49,5171,1
+200518,Prime Product 518,Sports,Prime,314.59,421.02,5010,1
+200519,TechPro Product 519,Beauty,HomeX,388.96,675.0,5190,1
+200520,SmartBuy Product 520,Sports,Prime,164.79,243.69,5165,1
+200521,Nova Product 521,Sports,Prime,320.19,546.18,5014,1
+200522,Active Product 522,Fashion,Prime,116.18,214.77,5044,1
+200523,SmartBuy Product 523,Beauty,Prime,44.17,76.39,5189,1
+200524,Nova Product 524,Electronics,Active,16.31,19.23,5133,1
+200525,TechPro Product 525,Books,Active,240.82,461.36,5075,1
+200526,Daily Product 526,Beauty,TechPro,27.99,47.1,5167,1
+200527,HomeX Product 527,Home & Kitchen,SmartBuy,268.63,369.76,5140,1
+200528,SmartBuy Product 528,Beauty,Daily,172.11,250.85,5185,1
+200529,Active Product 529,Electronics,Prime,8.06,15.48,5081,1
+200530,TechPro Product 530,Fashion,Prime,105.78,215.74,5118,1
+200531,Active Product 531,Toys,SmartBuy,333.59,641.42,5123,1
+200532,Daily Product 532,Fashion,HomeX,173.56,345.72,5009,1
+200533,Urban Product 533,Fashion,Urban,327.87,529.64,5134,1
+200534,Nova Product 534,Beauty,HomeX,367.66,568.37,5144,1
+200535,SmartBuy Product 535,Home & Kitchen,HomeX,359.64,693.35,5027,1
+200536,Urban Product 536,Home & Kitchen,HomeX,303.42,462.67,5163,0
+200537,Active Product 537,Beauty,HomeX,337.23,613.95,5087,1
+200538,Prime Product 538,Sports,Nova,258.56,447.93,5086,1
+200539,Prime Product 539,Home & Kitchen,,211.82,274.36,5042,1
+200540,SmartBuy Product 540,Home & Kitchen,Prime,32.46,46.85,5171,1
+200541,Nova Product 541,Books,HomeX,438.92,593.35,5024,1
+200542,TechPro Product 542,Beauty,HomeX,378.91,480.91,5196,1
+200543,SmartBuy Product 543,Fashion,Nova,304.01,470.96,5119,1
+200544,TechPro Product 544,Books,Urban,291.62,390.33,5048,1
+200545,Prime Product 545,Toys,Urban,261.68,318.7,5137,1
+200546,Active Product 546,Books,Prime,47.02,63.32,5144,1
+200547,Nova Product 547,Home & Kitchen,TechPro,147.13,255.7,5052,1
+200548,HomeX Product 548,Toys,Urban,156.13,299.46,5176,1
+200549,TechPro Product 549,Fashion,HomeX,358.2,569.46,5002,1
+200550,HomeX Product 550,Electronics,Nova,274.21,474.07,5026,1
+200551,Daily Product 551,Beauty,Prime,182.18,322.08,5195,1
+200552,Daily Product 552,Toys,HomeX,151.0,267.1,5153,1
+200553,Active Product 553,Electronics,Urban,384.98,803.65,5095,1
+200554,TechPro Product 554,Electronics,TechPro,354.61,612.95,5064,1
+200555,SmartBuy Product 555,Electronics,Nova,366.83,612.21,5131,1
+200556,Nova Product 556,Books,Urban,180.96,357.11,5139,1
+200557,Urban Product 557,Home & Kitchen,Urban,218.26,379.75,5016,1
+200558,TechPro Product 558,Beauty,Nova,260.11,412.33,5087,1
+200559,SmartBuy Product 559,Electronics,HomeX,90.36,167.64,5125,1
+200560,TechPro Product 560,Toys,Nova,166.21,226.55,5118,1
+200561,TechPro Product 561,Books,Daily,223.55,399.91,5153,1
+200562,Daily Product 562,Beauty,Nova,303.32,569.9,5183,1
+200563,Daily Product 563,Toys,Prime,205.03,360.16,5010,1
+200564,Nova Product 564,Home & Kitchen,HomeX,73.8,98.03,5107,1
+200565,HomeX Product 565,Fashion,Nova,194.17,318.29,5105,1
+200566,Active Product 566,Toys,HomeX,241.46,463.47,5042,1
+200567,HomeX Product 567,Beauty,TechPro,294.59,451.49,5029,0
+200568,Daily Product 568,Fashion,Nova,384.94,781.96,5181,0
+200569,Daily Product 569,Sports,HomeX,108.46,129.69,5030,1
+200570,Urban Product 570,Toys,Nova,254.08,452.72,5089,1
+200571,Daily Product 571,Electronics,,190.73,261.53,5123,1
+200572,TechPro Product 572,Toys,Active,310.69,548.77,5096,1
+200573,Nova Product 573,Beauty,Urban,394.05,808.54,5124,1
+200574,Urban Product 574,Electronics,HomeX,217.31,368.61,5006,1
+200575,Prime Product 575,Toys,Nova,380.66,595.76,5111,1
+200576,Daily Product 576,Beauty,SmartBuy,5.9,11.6,5162,1
+200577,HomeX Product 577,Home & Kitchen,Daily,410.94,653.57,5103,0
+200578,Urban Product 578,Home & Kitchen,Prime,355.88,600.03,5199,1
+200579,Nova Product 579,Electronics,HomeX,64.56,93.08,5094,1
+200580,Urban Product 580,Beauty,TechPro,305.51,510.77,5062,1
+200581,Urban Product 581,Home & Kitchen,SmartBuy,233.83,427.91,5097,1
+200582,TechPro Product 582,Fashion,Prime,436.96,713.92,5061,1
+200583,Prime Product 583,Beauty,TechPro,140.43,189.62,5067,0
+200584,HomeX Product 584,Toys,Urban,276.01,322.56,5091,1
+200585,HomeX Product 585,Toys,,237.67,322.54,5052,1
+200586,Active Product 586,Electronics,HomeX,103.4,202.43,5007,1
+200587,HomeX Product 587,Fashion,SmartBuy,367.08,756.65,5054,1
+200588,Active Product 588,Home & Kitchen,Nova,335.64,565.32,5007,1
+200589,Prime Product 589,Fashion,Nova,247.14,478.86,5182,1
+200590,Prime Product 590,Toys,Daily,425.1,507.84,5174,1
+200591,HomeX Product 591,Fashion,Nova,417.37,818.43,5054,1
+200592,Daily Product 592,Sports,Active,369.01,525.04,5180,1
+200593,TechPro Product 593,Books,Prime,72.81,95.87,5075,1
+200594,Active Product 594,Home & Kitchen,HomeX,402.9,569.39,5075,1
+200595,Daily Product 595,Beauty,SmartBuy,141.09,229.01,5101,1
+200596,Nova Product 596,Books,TechPro,258.68,441.87,5183,0
+200597,Nova Product 597,Fashion,Urban,438.76,507.48,5149,1
+200598,Active Product 598,Sports,Prime,107.78,159.07,5128,1
+200599,SmartBuy Product 599,Home & Kitchen,TechPro,93.89,170.81,5156,1
+200600,Active Product 600,Toys,Daily,384.11,715.52,5176,0
+200601,Daily Product 601,Electronics,HomeX,10.81,14.84,5145,1
+200602,Nova Product 602,Sports,TechPro,82.53,114.23,5094,1
+200603,HomeX Product 603,Toys,,150.66,270.54,5061,1
+200604,Active Product 604,Electronics,HomeX,333.54,576.72,5094,1
+200605,Active Product 605,Beauty,TechPro,218.81,354.98,5033,1
+200606,Nova Product 606,Toys,Prime,180.03,300.51,5122,1
+200607,Prime Product 607,Electronics,TechPro,413.84,672.28,5164,1
+200608,Daily Product 608,Fashion,Urban,341.38,524.65,5006,1
+200609,Urban Product 609,Toys,Urban,286.61,544.12,5175,1
+200610,Prime Product 610,Electronics,Urban,156.31,311.71,5128,1
+200611,Prime Product 611,Toys,Nova,387.2,680.64,5183,1
+200612,Prime Product 612,Books,HomeX,117.63,165.42,5142,1
+200613,HomeX Product 613,Home & Kitchen,Prime,425.93,884.11,5172,1
+200614,HomeX Product 614,Home & Kitchen,TechPro,120.91,149.18,5151,1
+200615,Daily Product 615,Fashion,Daily,369.94,760.03,5073,1
+200616,TechPro Product 616,Beauty,SmartBuy,411.82,691.11,5108,1
+200617,Nova Product 617,Toys,Daily,105.8,193.05,5031,1
+200618,HomeX Product 618,Books,Prime,107.1,166.26,5168,1
+200619,TechPro Product 619,Electronics,SmartBuy,39.98,59.54,5135,1
+200620,Urban Product 620,Sports,SmartBuy,156.89,213.71,5117,1
+200621,Active Product 621,Fashion,Urban,227.61,286.02,5130,1
+200622,Daily Product 622,Beauty,Urban,43.25,62.59,5140,1
+200623,TechPro Product 623,Beauty,Prime,70.12,97.59,5050,1
+200624,Active Product 624,Sports,Daily,192.86,319.57,5123,1
+200625,HomeX Product 625,Books,HomeX,85.16,167.29,5125,1
+200626,Active Product 626,Home & Kitchen,Urban,349.2,429.31,5138,1
+200627,TechPro Product 627,Fashion,Nova,148.49,276.14,5200,1
+200628,Urban Product 628,Electronics,HomeX,25.62,35.97,5068,0
+200629,HomeX Product 629,Fashion,Daily,73.76,129.75,5034,1
+200630,TechPro Product 630,Toys,TechPro,141.72,247.43,5199,1
+200631,Nova Product 631,Books,SmartBuy,69.88,129.32,5076,1
+200632,Active Product 632,Sports,Urban,100.92,117.52,5057,0
+200633,HomeX Product 633,Books,Daily,96.93,111.6,5079,1
+200634,HomeX Product 634,Beauty,Active,191.31,250.67,5158,1
+200635,HomeX Product 635,Electronics,SmartBuy,238.22,495.82,5043,1
+200636,Daily Product 636,Sports,HomeX,282.05,415.91,5005,1
+200637,Prime Product 637,Electronics,TechPro,409.68,714.48,5158,1
+200638,Nova Product 638,Home & Kitchen,Nova,311.19,448.92,5103,1
+200639,HomeX Product 639,Sports,Urban,93.37,150.65,5142,1
+200640,SmartBuy Product 640,Toys,Prime,204.89,320.86,5054,1
+200641,TechPro Product 641,Fashion,SmartBuy,329.63,437.96,5044,1
+200642,TechPro Product 642,Fashion,HomeX,252.03,375.6,5093,1
+200643,HomeX Product 643,Sports,HomeX,80.36,106.97,5172,1
+200644,Urban Product 644,Fashion,Daily,355.44,503.19,5148,1
+200645,HomeX Product 645,Home & Kitchen,Daily,92.51,143.06,5086,0
+200646,Daily Product 646,Home & Kitchen,Active,158.22,301.53,5033,1
+200647,TechPro Product 647,Books,,331.48,443.06,5111,1
+200648,TechPro Product 648,Sports,Nova,436.36,582.96,5012,1
+200649,SmartBuy Product 649,Fashion,HomeX,401.22,555.69,5137,1
+200650,Active Product 650,Toys,Daily,436.57,829.43,5087,1
+200651,Urban Product 651,Fashion,TechPro,181.55,251.44,5175,1
+200652,HomeX Product 652,Sports,Daily,198.95,383.67,5194,1
+200653,TechPro Product 653,Home & Kitchen,Prime,77.48,112.85,5046,1
+200654,TechPro Product 654,Toys,Nova,215.32,309.58,5024,1
+200655,TechPro Product 655,Home & Kitchen,HomeX,352.29,531.73,5119,0
+200656,Nova Product 656,Beauty,Urban,35.67,56.21,5010,1
+200657,TechPro Product 657,Sports,Nova,146.96,227.61,5135,1
+200658,Urban Product 658,Beauty,Daily,416.88,635.6,5176,1
+200659,SmartBuy Product 659,Sports,Urban,86.24,180.92,5178,1
+200660,Active Product 660,Books,Urban,137.22,248.16,5154,1
+200661,Active Product 661,Books,HomeX,421.1,836.95,5155,1
+200662,Urban Product 662,Fashion,SmartBuy,158.43,316.69,5051,1
+200663,Nova Product 663,Sports,Prime,374.76,582.97,5183,1
+200664,TechPro Product 664,Beauty,Urban,132.76,250.44,5151,1
+200665,TechPro Product 665,Fashion,SmartBuy,119.37,190.66,5016,1
+200666,TechPro Product 666,Beauty,Active,88.26,151.36,5119,1
+200667,Nova Product 667,Books,Prime,32.89,60.77,5086,1
+200668,Prime Product 668,Sports,Nova,189.84,323.24,5032,1
+200669,Active Product 669,Electronics,Active,322.47,526.23,5062,1
+200670,Daily Product 670,Electronics,Prime,229.88,266.95,5188,1
+200671,Daily Product 671,Sports,Nova,186.26,385.8,5100,1
+200672,HomeX Product 672,Beauty,Daily,95.97,113.83,5031,1
+200673,HomeX Product 673,Beauty,Active,309.16,390.87,5163,1
+200674,HomeX Product 674,Books,TechPro,117.52,139.89,5049,1
+200675,TechPro Product 675,Home & Kitchen,TechPro,19.28,33.64,5099,1
+200676,Urban Product 676,Home & Kitchen,SmartBuy,434.22,624.19,5026,1
+200677,Nova Product 677,Sports,SmartBuy,424.41,848.43,5008,1
+200678,Nova Product 678,Books,HomeX,100.43,172.04,5197,1
+200679,Urban Product 679,Toys,HomeX,111.17,210.38,5135,1
+200680,Urban Product 680,Toys,HomeX,263.15,338.93,5121,1
+200681,HomeX Product 681,Fashion,TechPro,195.2,300.63,5003,1
+200682,Daily Product 682,Home & Kitchen,HomeX,400.07,697.41,5122,1
+200683,Daily Product 683,Sports,Active,194.97,259.0,5020,1
+200684,Prime Product 684,Home & Kitchen,Active,65.44,99.0,5031,1
+200685,HomeX Product 685,Beauty,TechPro,248.26,463.44,5146,0
+200686,HomeX Product 686,Fashion,SmartBuy,55.4,99.61,5103,1
+200687,Daily Product 687,Fashion,Urban,204.01,409.41,5167,1
+200688,TechPro Product 688,Toys,Active,261.89,440.05,5072,0
+200689,Urban Product 689,Fashion,TechPro,425.68,573.18,5064,1
+200690,SmartBuy Product 690,Books,Daily,135.54,269.02,5166,1
+200691,Nova Product 691,Home & Kitchen,Active,293.99,606.77,5114,0
+200692,Nova Product 692,Fashion,Active,5.08,8.19,5183,1
+200693,Active Product 693,Home & Kitchen,HomeX,392.79,483.23,5110,1
+200694,Urban Product 694,Books,Prime,146.11,203.13,5038,1
+200695,Prime Product 695,Books,Daily,112.17,209.15,5012,1
+200696,SmartBuy Product 696,Electronics,Active,50.61,58.21,5044,1
+200697,Prime Product 697,Fashion,Nova,354.44,506.86,5109,1
+200698,Nova Product 698,Toys,Urban,30.17,45.27,5132,1
+200699,Nova Product 699,Beauty,Prime,279.95,531.62,5003,1
+200700,Daily Product 700,Home & Kitchen,Prime,145.41,227.59,5054,1
+200701,HomeX Product 701,Home & Kitchen,TechPro,321.46,530.18,5164,1
+200702,Nova Product 702,Beauty,SmartBuy,434.78,777.39,5080,1
+200703,Prime Product 703,Home & Kitchen,Active,127.32,241.36,5150,1
+200704,Urban Product 704,Beauty,Daily,280.77,413.07,5075,1
+200705,Daily Product 705,Sports,Nova,169.89,223.11,5057,1
+200706,HomeX Product 706,Beauty,Active,231.7,306.51,5139,1
+200707,SmartBuy Product 707,Sports,Urban,42.06,54.77,5053,0
+200708,TechPro Product 708,Electronics,Nova,95.94,120.76,5133,1
+200709,Active Product 709,Beauty,Daily,358.43,562.32,5039,1
+200710,Nova Product 710,Electronics,Prime,158.5,209.85,5151,1
+200711,Urban Product 711,Sports,Urban,5.45,10.32,5191,1
+200712,TechPro Product 712,Beauty,HomeX,147.78,169.96,5182,1
+200713,Nova Product 713,Sports,TechPro,303.01,622.94,5170,1
+200714,Urban Product 714,Fashion,Prime,437.36,508.46,5002,1
+200715,Active Product 715,Home & Kitchen,Prime,385.08,561.86,5168,1
+200716,Active Product 716,Sports,Active,341.81,637.94,5125,1
+200717,Nova Product 717,Electronics,Nova,418.55,828.08,5094,1
+200718,Urban Product 718,Beauty,Nova,298.45,367.95,5162,1
+200719,TechPro Product 719,Home & Kitchen,Urban,236.03,451.06,5163,1
+200720,Urban Product 720,Fashion,Daily,245.12,456.89,5187,1
+200721,Nova Product 721,Beauty,Prime,425.18,674.71,5119,1
+200722,Nova Product 722,Beauty,Active,5.95,10.39,5141,1
+200723,HomeX Product 723,Home & Kitchen,TechPro,234.47,351.42,5060,1
+200724,Urban Product 724,Electronics,HomeX,347.24,502.19,5135,1
+200725,HomeX Product 725,Beauty,Prime,21.96,25.94,5087,1
+200726,Active Product 726,Home & Kitchen,Daily,371.32,429.43,5129,0
+200727,HomeX Product 727,Electronics,TechPro,380.57,627.88,5082,1
+200728,HomeX Product 728,Books,Nova,238.0,276.32,5036,1
+200729,Active Product 729,Beauty,Urban,373.81,473.51,5071,1
+200730,Prime Product 730,Electronics,Urban,68.47,85.02,5068,1
+200731,Prime Product 731,Fashion,Daily,424.66,743.76,5049,1
+200732,Active Product 732,Electronics,Nova,26.74,47.74,5021,1
+200733,Prime Product 733,Toys,Urban,21.58,40.28,5080,1
+200734,SmartBuy Product 734,Beauty,Prime,238.19,494.13,5101,1
+200735,TechPro Product 735,Toys,Prime,332.18,691.23,5120,1
+200736,Nova Product 736,Fashion,Daily,316.52,426.42,5124,1
+200737,Active Product 737,Toys,SmartBuy,249.84,370.8,5040,1
+200738,TechPro Product 738,Toys,Daily,353.71,595.45,5030,1
+200739,Nova Product 739,Sports,SmartBuy,275.43,328.31,5029,1
+200740,Prime Product 740,Fashion,SmartBuy,383.34,510.92,5137,1
+200741,Daily Product 741,Toys,HomeX,56.53,110.85,5139,1
+200742,TechPro Product 742,Sports,HomeX,441.73,679.27,5103,1
+200743,Urban Product 743,Home & Kitchen,Urban,396.92,639.2,5106,1
+200744,HomeX Product 744,Electronics,Nova,403.4,746.17,5128,1
+200745,Prime Product 745,Beauty,SmartBuy,166.81,319.99,5071,1
+200746,TechPro Product 746,Home & Kitchen,TechPro,426.36,840.64,5150,1
+200747,HomeX Product 747,Books,Active,67.97,135.95,5182,1
+200748,Daily Product 748,Beauty,Daily,39.66,56.71,5048,1
+200749,Urban Product 749,Beauty,TechPro,182.43,322.28,5093,1
+200750,SmartBuy Product 750,Home & Kitchen,Prime,420.22,527.66,5064,1
+200751,TechPro Product 751,Home & Kitchen,TechPro,435.7,902.09,5067,1
+200752,Daily Product 752,Home & Kitchen,Daily,224.62,315.42,5078,0
+200753,Nova Product 753,Sports,Nova,339.6,516.48,5044,1
+200754,Prime Product 754,Books,Urban,244.52,497.39,5070,1
+200755,TechPro Product 755,Toys,Nova,55.49,97.03,5065,1
+200756,SmartBuy Product 756,Sports,SmartBuy,295.65,420.97,5163,1
+200757,Urban Product 757,Beauty,Prime,70.36,86.68,5055,1
+200758,Nova Product 758,Sports,Urban,297.01,479.45,5020,1
+200759,Prime Product 759,Home & Kitchen,Prime,112.0,191.65,5174,1
+200760,Urban Product 760,Toys,Nova,122.18,218.09,5181,1
+200761,TechPro Product 761,Electronics,,305.34,398.91,5179,1
+200762,HomeX Product 762,Toys,TechPro,211.9,385.79,5037,1
+200763,SmartBuy Product 763,Electronics,SmartBuy,374.46,559.61,5083,1
+200764,Prime Product 764,Toys,HomeX,307.72,629.84,5059,1
+200765,SmartBuy Product 765,Books,Nova,136.27,241.3,5053,1
+200766,Daily Product 766,Fashion,Prime,350.82,709.42,5184,1
+200767,Urban Product 767,Beauty,Nova,33.78,39.81,5027,1
+200768,Prime Product 768,Fashion,Prime,332.0,666.72,5121,1
+200769,Daily Product 769,Home & Kitchen,HomeX,176.5,350.17,5144,1
+200770,Daily Product 770,Fashion,,139.44,228.02,5014,1
+200771,Prime Product 771,Toys,TechPro,237.58,493.59,5176,1
+200772,SmartBuy Product 772,Home & Kitchen,Nova,408.67,760.85,5046,1
+200773,SmartBuy Product 773,Beauty,SmartBuy,119.25,249.87,5083,1
+200774,Urban Product 774,Sports,Urban,449.73,840.33,5109,1
+200775,Daily Product 775,Books,Daily,267.05,539.29,5175,1
+200776,Prime Product 776,Fashion,Urban,117.19,156.72,5198,1
+200777,HomeX Product 777,Books,TechPro,312.54,417.91,5050,1
+200778,Active Product 778,Home & Kitchen,TechPro,332.25,542.35,5082,1
+200779,Nova Product 779,Books,Prime,241.53,445.09,5122,1
+200780,Daily Product 780,Electronics,Active,63.11,88.46,5083,1
+200781,Daily Product 781,Toys,Daily,367.72,568.53,5017,1
+200782,TechPro Product 782,Electronics,SmartBuy,365.56,480.27,5157,1
+200783,TechPro Product 783,Toys,TechPro,345.53,701.17,5113,1
+200784,Urban Product 784,Books,SmartBuy,341.29,633.84,5026,1
+200785,Prime Product 785,Electronics,TechPro,174.69,207.26,5128,1
+200786,Daily Product 786,Books,Prime,224.26,262.69,5182,1
+200787,Daily Product 787,Fashion,,299.35,626.87,5129,1
+200788,HomeX Product 788,Toys,TechPro,78.73,120.16,5096,1
+200789,TechPro Product 789,Toys,Urban,273.88,471.67,5156,1
+200790,Active Product 790,Toys,Nova,54.04,110.81,5055,1
+200791,TechPro Product 791,Sports,Prime,382.28,786.74,5019,1
+200792,SmartBuy Product 792,Toys,TechPro,58.32,72.38,5099,1
+200793,HomeX Product 793,Beauty,Active,348.72,611.54,5056,1
+200794,Prime Product 794,Electronics,TechPro,103.79,217.25,5099,0
+200795,Daily Product 795,Toys,Prime,418.12,552.2,5139,1
+200796,TechPro Product 796,Electronics,TechPro,297.79,529.97,5170,1
+200797,HomeX Product 797,Sports,Nova,196.86,371.14,5119,1
+200798,Active Product 798,Beauty,TechPro,24.42,29.84,5122,1
+200799,Daily Product 799,Fashion,TechPro,275.19,417.65,5190,1
+200800,TechPro Product 800,Books,Active,173.23,233.0,5182,1
+200801,Prime Product 801,Home & Kitchen,Nova,360.24,433.71,5157,1
+200802,Nova Product 802,Toys,Active,357.76,445.17,5182,1
+200803,HomeX Product 803,Books,SmartBuy,310.73,458.23,5095,1
+200804,TechPro Product 804,Toys,SmartBuy,124.18,211.13,5154,1
+200805,HomeX Product 805,Books,Daily,81.97,168.53,5107,0
+200806,SmartBuy Product 806,Books,Active,226.19,461.18,5124,1
+200807,Urban Product 807,Toys,Daily,206.3,408.22,5132,1
+200808,Active Product 808,Toys,Urban,304.46,573.26,5016,1
+200809,Prime Product 809,Books,Prime,242.1,287.77,5003,1
+200810,Active Product 810,Books,Nova,225.25,345.84,5191,0
+200811,Nova Product 811,Home & Kitchen,Daily,218.95,413.9,5073,1
+200812,Prime Product 812,Home & Kitchen,Nova,229.39,474.63,5011,1
+200813,Urban Product 813,Fashion,Nova,393.11,624.7,5025,1
+200814,Prime Product 814,Fashion,Active,81.04,147.19,5008,1
+200815,Active Product 815,Fashion,Urban,13.35,27.98,5048,1
+200816,TechPro Product 816,Fashion,HomeX,103.72,180.67,5146,1
+200817,Urban Product 817,Home & Kitchen,Nova,143.08,270.4,5166,1
+200818,Urban Product 818,Beauty,TechPro,277.53,573.93,5013,1
+200819,Active Product 819,Books,SmartBuy,379.97,693.29,5110,0
+200820,HomeX Product 820,Books,HomeX,322.31,411.04,5133,1
+200821,Daily Product 821,Electronics,Prime,449.24,934.49,5173,1
+200822,HomeX Product 822,Beauty,Prime,5.32,10.18,5182,1
+200823,Active Product 823,Beauty,Active,89.6,125.56,5178,1
+200824,Daily Product 824,Books,Active,43.76,91.37,5144,1
+200825,SmartBuy Product 825,Toys,SmartBuy,300.3,368.07,5162,1
+200826,SmartBuy Product 826,Fashion,Nova,195.0,398.36,5149,1
+200827,HomeX Product 827,Books,TechPro,143.53,279.75,5153,1
+200828,SmartBuy Product 828,Sports,Nova,144.13,203.4,5181,1
+200829,Daily Product 829,Home & Kitchen,SmartBuy,402.37,791.62,5034,1
+200830,Nova Product 830,Beauty,Urban,38.6,46.61,5018,1
+200831,SmartBuy Product 831,Electronics,Urban,144.46,296.81,5054,0
+200832,Nova Product 832,Electronics,HomeX,227.45,392.26,5191,1
+200833,Urban Product 833,Fashion,Prime,188.16,309.53,5141,0
+200834,SmartBuy Product 834,Toys,SmartBuy,310.95,650.35,5095,1
+200835,Active Product 835,Sports,TechPro,275.33,323.52,5061,1
+200836,HomeX Product 836,Sports,HomeX,361.21,591.23,5040,1
+200837,Active Product 837,Books,Active,380.65,703.62,5076,1
+200838,Prime Product 838,Beauty,Active,182.97,229.93,5191,1
+200839,SmartBuy Product 839,Beauty,Nova,390.4,454.51,5188,1
+200840,Nova Product 840,Home & Kitchen,Nova,286.31,496.59,5195,1
+200841,Urban Product 841,Home & Kitchen,SmartBuy,387.87,570.6,5142,1
+200842,Nova Product 842,Toys,Daily,212.09,340.98,5118,1
+200843,HomeX Product 843,Sports,Urban,16.38,28.52,5022,0
+200844,SmartBuy Product 844,Electronics,Nova,297.8,451.72,5119,1
+200845,Daily Product 845,Fashion,Active,434.87,588.74,5145,1
+200846,Nova Product 846,Books,Daily,418.98,576.79,5085,1
+200847,Daily Product 847,Books,Nova,72.66,96.49,5159,1
+200848,Prime Product 848,Sports,Nova,222.85,407.86,5118,1
+200849,Urban Product 849,Electronics,TechPro,393.4,502.6,5183,1
+200850,Urban Product 850,Fashion,HomeX,190.36,394.73,5022,1
+200851,TechPro Product 851,Fashion,TechPro,235.58,271.99,5138,1
+200852,Nova Product 852,Home & Kitchen,TechPro,448.93,645.75,5069,1
+200853,Urban Product 853,Fashion,TechPro,219.78,420.34,5020,1
+200854,Urban Product 854,Fashion,Daily,89.56,110.66,5061,1
+200855,Active Product 855,Sports,Urban,22.21,37.95,5154,1
+200856,SmartBuy Product 856,Fashion,Nova,210.31,299.92,5038,1
+200857,Nova Product 857,Fashion,HomeX,234.0,483.71,5132,1
+200858,TechPro Product 858,Toys,TechPro,414.37,562.73,5041,1
+200859,Daily Product 859,Fashion,Urban,357.43,435.14,5092,1
+200860,Daily Product 860,Home & Kitchen,Daily,32.98,57.16,5030,1
+200861,HomeX Product 861,Books,Prime,368.48,555.39,5153,1
+200862,SmartBuy Product 862,Home & Kitchen,Prime,35.94,72.19,5175,1
+200863,Urban Product 863,Home & Kitchen,Prime,11.25,22.72,5106,1
+200864,SmartBuy Product 864,Books,Daily,248.4,473.28,5079,1
+200865,Nova Product 865,Home & Kitchen,Daily,240.76,306.3,5187,1
+200866,HomeX Product 866,Electronics,Daily,145.82,258.85,5190,1
+200867,HomeX Product 867,Electronics,Prime,209.95,259.83,5187,1
+200868,Prime Product 868,Books,Nova,414.57,486.7,5157,1
+200869,HomeX Product 869,Home & Kitchen,TechPro,305.99,409.21,5046,1
+200870,Daily Product 870,Fashion,TechPro,157.37,254.9,5033,1
+200871,Active Product 871,Beauty,Urban,420.61,663.95,5089,1
+200872,Prime Product 872,Home & Kitchen,HomeX,77.52,146.3,5114,1
+200873,HomeX Product 873,Home & Kitchen,HomeX,82.96,136.65,5040,1
+200874,Active Product 874,Electronics,Active,108.69,152.28,5030,1
+200875,HomeX Product 875,Electronics,Urban,108.46,139.12,5067,1
+200876,Prime Product 876,Toys,Nova,36.59,61.88,5071,1
+200877,Urban Product 877,Toys,Urban,142.8,255.77,5045,1
+200878,TechPro Product 878,Sports,Prime,249.15,336.92,5093,1
+200879,Prime Product 879,Beauty,Daily,104.14,182.27,5103,1
+200880,TechPro Product 880,Books,SmartBuy,52.54,103.36,5020,1
+200881,Urban Product 881,Books,Daily,294.46,406.38,5001,1
+200882,Prime Product 882,Beauty,SmartBuy,191.89,370.05,5008,1
+200883,Urban Product 883,Books,Prime,295.74,607.11,5159,1
+200884,Nova Product 884,Electronics,TechPro,115.38,235.34,5162,1
+200885,SmartBuy Product 885,Home & Kitchen,Active,341.46,438.48,5032,1
+200886,Nova Product 886,Books,Nova,437.88,523.92,5189,1
+200887,Nova Product 887,Beauty,Daily,121.25,223.13,5055,1
+200888,Urban Product 888,Books,SmartBuy,289.52,438.03,5180,1
+200889,Active Product 889,Beauty,Daily,345.45,455.6,5035,1
+200890,TechPro Product 890,Electronics,Urban,246.76,388.58,5164,1
+200891,Nova Product 891,Home & Kitchen,Urban,134.56,224.12,5071,1
+200892,Urban Product 892,Beauty,Active,100.42,130.92,5157,1
+200893,Nova Product 893,Electronics,SmartBuy,292.73,347.17,5016,1
+200894,TechPro Product 894,Books,Urban,218.55,413.65,5115,1
+200895,Urban Product 895,Home & Kitchen,Urban,377.59,597.84,5172,1
+200896,Daily Product 896,Sports,Urban,44.76,61.87,5026,1
+200897,Urban Product 897,Home & Kitchen,HomeX,19.56,40.24,5083,0
+200898,HomeX Product 898,Books,Nova,170.03,318.14,5179,0
+200899,Prime Product 899,Home & Kitchen,HomeX,216.09,331.16,5185,1
+200900,TechPro Product 900,Beauty,Prime,289.61,408.12,5101,1
+200901,Daily Product 901,Home & Kitchen,Active,55.75,102.73,5010,1
+200902,Nova Product 902,Toys,Active,266.35,489.59,5189,0
+200903,Urban Product 903,Beauty,Daily,366.8,729.86,5035,1
+200904,Urban Product 904,Beauty,Urban,409.75,476.32,5083,1
+200905,TechPro Product 905,Fashion,Nova,405.39,708.68,5168,1
+200906,TechPro Product 906,Home & Kitchen,Prime,235.72,334.17,5023,1
+200907,Daily Product 907,Books,Prime,405.16,841.07,5093,1
+200908,Prime Product 908,Electronics,Nova,244.24,286.64,5125,1
+200909,Urban Product 909,Electronics,HomeX,37.64,60.72,5012,1
+200910,TechPro Product 910,Sports,Active,438.28,799.98,5097,1
+200911,HomeX Product 911,Sports,Urban,6.16,11.48,5010,1
+200912,Nova Product 912,Fashion,Urban,132.18,231.5,5130,1
+200913,Active Product 913,Books,HomeX,25.64,40.99,5179,1
+200914,HomeX Product 914,Electronics,Prime,246.93,497.31,5041,1
+200915,Urban Product 915,Beauty,SmartBuy,257.51,437.23,5053,1
+200916,TechPro Product 916,Toys,Prime,288.88,475.25,5026,1
+200917,Nova Product 917,Fashion,Active,67.46,132.51,5083,1
+200918,Active Product 918,Books,Active,12.75,20.03,5001,1
+200919,SmartBuy Product 919,Fashion,SmartBuy,123.23,212.88,5180,1
+200920,Daily Product 920,Home & Kitchen,HomeX,27.92,40.83,5020,1
+200921,Urban Product 921,Fashion,Prime,20.7,27.98,5134,1
+200922,Urban Product 922,Fashion,Nova,122.46,194.38,5065,1
+200923,Urban Product 923,Electronics,Nova,449.48,660.39,5155,1
+200924,Prime Product 924,Toys,Prime,362.51,429.88,5011,1
+200925,TechPro Product 925,Sports,SmartBuy,165.98,267.62,5095,1
+200926,Nova Product 926,Toys,Nova,172.36,305.67,5019,1
+200927,Nova Product 927,Sports,TechPro,418.78,502.29,5140,1
+200928,Urban Product 928,Toys,TechPro,299.58,505.98,5039,1
+200929,SmartBuy Product 929,Fashion,Active,377.45,545.24,5117,1
+200930,Daily Product 930,Home & Kitchen,,389.68,463.23,5082,1
+200931,SmartBuy Product 931,Toys,Nova,80.33,99.77,5035,1
+200932,Daily Product 932,Books,SmartBuy,12.17,22.28,5039,1
+200933,SmartBuy Product 933,Toys,Active,124.37,206.73,5115,1
+200934,Active Product 934,Toys,HomeX,269.51,554.68,5044,1
+200935,Prime Product 935,Fashion,Nova,409.3,735.72,5186,1
+200936,SmartBuy Product 936,Beauty,Active,142.33,293.83,5153,1
+200937,Daily Product 937,Books,SmartBuy,383.31,544.63,5070,1
+200938,TechPro Product 938,Toys,SmartBuy,299.67,510.45,5079,1
+200939,Active Product 939,Electronics,Nova,296.26,497.93,5099,1
+200940,TechPro Product 940,Toys,HomeX,323.75,533.36,5161,1
+200941,HomeX Product 941,Books,Nova,232.63,465.85,5084,1
+200942,Nova Product 942,Beauty,Urban,304.75,503.24,5083,1
+200943,Active Product 943,Books,Urban,358.01,501.38,5138,1
+200944,HomeX Product 944,Home & Kitchen,Prime,267.28,485.61,5052,1
+200945,SmartBuy Product 945,Fashion,Prime,22.45,31.47,5126,1
+200946,Urban Product 946,Home & Kitchen,Daily,232.22,285.44,5077,1
+200947,TechPro Product 947,Fashion,Daily,270.65,462.6,5096,0
+200948,Prime Product 948,Fashion,HomeX,394.53,505.24,5155,1
+200949,HomeX Product 949,Sports,TechPro,7.33,13.4,5010,1
+200950,Daily Product 950,Beauty,Daily,26.61,41.68,5131,1
+200951,HomeX Product 951,Home & Kitchen,TechPro,168.73,332.89,5053,0
+200952,Daily Product 952,Fashion,TechPro,362.32,555.98,5002,1
+200953,Nova Product 953,Sports,Nova,220.52,336.6,5063,1
+200954,Active Product 954,Books,Prime,140.84,219.35,5156,1
+200955,Nova Product 955,Toys,TechPro,313.5,573.09,5147,1
+200956,TechPro Product 956,Home & Kitchen,Urban,229.44,297.68,5052,1
+200957,TechPro Product 957,Beauty,Nova,260.3,383.74,5080,1
+200958,TechPro Product 958,Sports,Active,195.61,274.73,5174,1
+200959,HomeX Product 959,Home & Kitchen,Active,327.65,497.56,5076,1
+200960,SmartBuy Product 960,Books,Nova,11.94,24.07,5051,1
+200961,Active Product 961,Beauty,Daily,5.75,10.06,5090,1
+200962,Nova Product 962,Electronics,Urban,308.86,502.86,5157,1
+200963,SmartBuy Product 963,Sports,Urban,16.86,21.46,5087,1
+200964,TechPro Product 964,Home & Kitchen,Prime,155.05,263.19,5103,1
+200965,HomeX Product 965,Beauty,SmartBuy,168.02,320.72,5144,1
+200966,Daily Product 966,Fashion,Daily,278.15,415.25,5173,1
+200967,Urban Product 967,Electronics,Daily,348.73,700.16,5135,1
+200968,HomeX Product 968,Sports,Nova,370.71,550.09,5082,1
+200969,HomeX Product 969,Sports,Daily,129.67,168.89,5153,1
+200970,HomeX Product 970,Home & Kitchen,Nova,77.23,149.54,5156,1
+200971,Urban Product 971,Electronics,Active,441.46,744.88,5042,1
+200972,Active Product 972,Toys,Active,24.47,40.15,5140,1
+200973,SmartBuy Product 973,Fashion,SmartBuy,367.15,745.1,5149,1
+200974,Daily Product 974,Books,HomeX,13.96,26.99,5061,1
+200975,TechPro Product 975,Fashion,Urban,220.88,462.32,5060,1
+200976,Prime Product 976,Books,Active,290.46,524.88,5135,1
+200977,Daily Product 977,Books,HomeX,217.58,370.02,5001,1
+200978,HomeX Product 978,Sports,Prime,256.29,425.93,5059,1
+200979,Prime Product 979,Toys,Active,16.29,24.24,5128,1
+200980,SmartBuy Product 980,Electronics,Active,73.63,97.33,5091,1
+200981,Active Product 981,Books,Prime,251.22,485.83,5003,1
+200982,SmartBuy Product 982,Books,Active,373.33,431.68,5026,1
+200983,TechPro Product 983,Books,Urban,249.05,496.47,5020,1
+200984,TechPro Product 984,Sports,HomeX,227.27,318.03,5107,1
+200985,Prime Product 985,Home & Kitchen,Urban,444.74,612.6,5009,0
+200986,TechPro Product 986,Sports,Active,178.47,206.44,5153,1
+200987,HomeX Product 987,Books,Nova,176.54,263.4,5122,1
+200988,SmartBuy Product 988,Toys,Prime,37.94,46.83,5101,1
+200989,Prime Product 989,Books,TechPro,353.52,468.53,5042,1
+200990,Nova Product 990,Books,Active,35.14,63.39,5038,1
+200991,Urban Product 991,Books,SmartBuy,65.59,101.31,5162,1
+200992,Prime Product 992,Electronics,Prime,30.26,35.11,5124,1
+200993,TechPro Product 993,Books,Active,90.61,131.48,5072,1
+200994,Active Product 994,Sports,Daily,200.31,231.52,5042,1
+200995,Urban Product 995,Home & Kitchen,Active,23.69,47.84,5068,1
+200996,Urban Product 996,Home & Kitchen,Nova,188.09,370.06,5061,1
+200997,TechPro Product 997,Home & Kitchen,HomeX,219.07,325.45,5103,1
+200998,Daily Product 998,Sports,TechPro,54.31,74.86,5053,1
+200999,TechPro Product 999,Books,Nova,29.54,36.97,5156,1
+201000,Active Product 1000,Toys,TechPro,144.91,263.73,5012,1
+201001,Nova Product 1001,Home & Kitchen,Nova,294.49,372.36,5140,1
+201002,Nova Product 1002,Toys,Nova,275.18,491.49,5002,1
+201003,Urban Product 1003,Electronics,Prime,61.34,85.6,5042,1
+201004,HomeX Product 1004,Sports,Prime,45.9,84.59,5188,1
+201005,TechPro Product 1005,Toys,Daily,88.17,134.33,5153,1
+201006,Urban Product 1006,Fashion,Prime,394.09,504.43,5197,1
+201007,HomeX Product 1007,Toys,SmartBuy,419.59,593.1,5102,1
+201008,Urban Product 1008,Sports,Prime,237.12,428.13,5028,1
+201009,TechPro Product 1009,Fashion,HomeX,406.51,732.06,5198,1
+201010,Nova Product 1010,Toys,Urban,63.47,109.0,5153,1
+201011,Prime Product 1011,Electronics,TechPro,297.47,433.44,5104,1
+201012,Daily Product 1012,Books,HomeX,293.7,515.0,5154,1
+201013,HomeX Product 1013,Fashion,Daily,204.95,243.91,5058,1
+201014,Urban Product 1014,Books,Active,333.32,574.66,5158,1
+201015,Nova Product 1015,Electronics,Nova,216.37,409.42,5153,1
+201016,SmartBuy Product 1016,Toys,Daily,386.13,494.75,5028,1
+201017,Urban Product 1017,Home & Kitchen,Nova,65.45,126.03,5006,1
+201018,TechPro Product 1018,Sports,TechPro,12.71,25.54,5170,1
+201019,HomeX Product 1019,Home & Kitchen,HomeX,173.26,357.1,5145,1
+201020,Nova Product 1020,Toys,HomeX,62.23,73.34,5059,1
+201021,HomeX Product 1021,Books,HomeX,84.71,169.49,5109,1
+201022,Daily Product 1022,Books,Active,26.25,31.77,5006,1
+201023,Prime Product 1023,Fashion,Daily,196.62,296.99,5036,1
+201024,Daily Product 1024,Home & Kitchen,Prime,333.07,556.55,5018,1
+201025,Urban Product 1025,Electronics,SmartBuy,252.72,343.86,5005,1
+201026,Nova Product 1026,Home & Kitchen,Nova,163.72,241.87,5028,1
+201027,TechPro Product 1027,Sports,Daily,10.21,20.55,5010,1
+201028,Prime Product 1028,Fashion,TechPro,231.53,304.77,5189,1
+201029,TechPro Product 1029,Electronics,Active,150.83,250.66,5017,1
+201030,Prime Product 1030,Toys,Urban,111.3,215.44,5027,1
+201031,Active Product 1031,Toys,Daily,205.94,284.0,5098,1
+201032,Urban Product 1032,Beauty,HomeX,80.68,164.45,5121,1
+201033,Active Product 1033,Home & Kitchen,Active,148.12,308.25,5142,1
+201034,Prime Product 1034,Beauty,Prime,417.15,585.17,5020,1
+201035,Nova Product 1035,Home & Kitchen,HomeX,276.83,442.75,5027,1
+201036,Urban Product 1036,Electronics,SmartBuy,445.44,517.01,5004,1
+201037,Active Product 1037,Fashion,HomeX,284.41,586.66,5032,1
+201038,Daily Product 1038,Home & Kitchen,Prime,48.15,61.65,5039,1
+201039,Daily Product 1039,Electronics,Daily,301.29,468.93,5163,1
+201040,Nova Product 1040,Toys,Prime,390.31,698.28,5119,1
+201041,Daily Product 1041,Electronics,Nova,411.15,726.92,5046,1
+201042,TechPro Product 1042,Books,Active,251.76,445.6,5024,1
+201043,Nova Product 1043,Toys,HomeX,58.46,68.18,5166,1
+201044,Prime Product 1044,Beauty,TechPro,291.16,537.91,5143,0
+201045,Daily Product 1045,Toys,TechPro,68.62,127.54,5020,1
+201046,HomeX Product 1046,Beauty,Nova,29.94,49.94,5112,1
+201047,Prime Product 1047,Toys,Active,99.22,183.04,5168,1
+201048,SmartBuy Product 1048,Books,Prime,48.18,55.43,5055,1
+201049,Urban Product 1049,Sports,,203.2,265.77,5147,1
+201050,Nova Product 1050,Sports,Daily,425.04,518.77,5078,1
+201051,TechPro Product 1051,Electronics,TechPro,298.88,432.55,5030,1
+201052,SmartBuy Product 1052,Home & Kitchen,HomeX,314.04,421.89,5057,1
+201053,Urban Product 1053,Toys,Active,362.6,481.09,5068,1
+201054,Prime Product 1054,Toys,HomeX,111.46,172.61,5008,1
+201055,Urban Product 1055,Sports,HomeX,259.73,452.57,5067,1
+201056,SmartBuy Product 1056,Beauty,TechPro,322.26,536.96,5194,1
+201057,Prime Product 1057,Fashion,Prime,140.31,272.91,5027,1
+201058,TechPro Product 1058,Fashion,Active,177.47,270.48,5003,1
+201059,Active Product 1059,Books,Active,317.1,487.5,5076,1
+201060,Nova Product 1060,Home & Kitchen,TechPro,364.77,423.2,5193,1
+201061,HomeX Product 1061,Beauty,Nova,165.93,310.65,5136,1
+201062,SmartBuy Product 1062,Sports,Nova,283.43,488.1,5103,1
+201063,HomeX Product 1063,Sports,SmartBuy,300.62,381.64,5147,1
+201064,Prime Product 1064,Home & Kitchen,Nova,418.35,557.27,5002,1
+201065,HomeX Product 1065,Books,Daily,355.42,466.52,5041,1
+201066,Daily Product 1066,Beauty,Nova,91.56,140.74,5169,1
+201067,Prime Product 1067,Toys,Nova,283.41,336.15,5145,1
+201068,Prime Product 1068,Beauty,Prime,431.19,814.83,5093,1
+201069,HomeX Product 1069,Books,Urban,173.33,251.72,5054,1
+201070,TechPro Product 1070,Electronics,Urban,345.55,698.97,5046,1
+201071,Active Product 1071,Toys,Prime,244.95,344.9,5009,1
+201072,HomeX Product 1072,Electronics,Nova,199.83,299.35,5177,1
+201073,Nova Product 1073,Beauty,SmartBuy,258.77,523.99,5039,1
+201074,Active Product 1074,Books,Daily,194.18,254.38,5163,1
+201075,Daily Product 1075,Fashion,Nova,146.52,286.21,5069,0
+201076,Prime Product 1076,Toys,HomeX,343.7,444.71,5182,1
+201077,HomeX Product 1077,Sports,HomeX,242.04,392.27,5008,1
+201078,Urban Product 1078,Toys,Active,421.02,833.74,5104,1
+201079,Active Product 1079,Beauty,TechPro,8.89,11.57,5020,1
+201080,HomeX Product 1080,Sports,Prime,347.36,411.82,5001,1
+201081,HomeX Product 1081,Electronics,SmartBuy,75.02,103.33,5072,1
+201082,Prime Product 1082,Electronics,Active,343.74,480.9,5128,1
+201083,Active Product 1083,Sports,Active,392.25,602.79,5185,0
+201084,Active Product 1084,Fashion,Prime,353.91,657.07,5031,1
+201085,Active Product 1085,Fashion,HomeX,269.26,321.91,5128,1
+201086,Prime Product 1086,Sports,Daily,59.61,100.94,5161,1
+201087,SmartBuy Product 1087,Fashion,HomeX,432.37,795.13,5187,1
+201088,Prime Product 1088,Toys,Daily,150.23,287.96,5056,1
+201089,Prime Product 1089,Books,SmartBuy,17.56,36.32,5008,1
+201090,Urban Product 1090,Sports,TechPro,5.84,11.3,5192,1
+201091,Prime Product 1091,Toys,TechPro,333.69,416.46,5174,1
+201092,Urban Product 1092,Electronics,Urban,375.69,494.78,5051,1
+201093,Prime Product 1093,Home & Kitchen,TechPro,362.35,664.75,5028,1
+201094,Nova Product 1094,Books,Prime,253.77,342.88,5107,1
+201095,Daily Product 1095,Books,Nova,286.19,396.28,5048,1
+201096,Active Product 1096,Sports,Active,408.53,799.38,5113,1
+201097,Urban Product 1097,Home & Kitchen,Urban,300.31,477.05,5021,1
+201098,TechPro Product 1098,Fashion,Daily,161.28,246.28,5186,1
+201099,Urban Product 1099,Sports,Urban,427.93,682.91,5083,1
+201100,Active Product 1100,Electronics,Active,434.68,605.88,5029,1
+201101,Prime Product 1101,Books,HomeX,284.41,350.72,5041,1
+201102,Nova Product 1102,Fashion,Urban,256.91,533.95,5133,1
+201103,TechPro Product 1103,Toys,Active,421.9,602.2,5148,1
+201104,Prime Product 1104,Beauty,TechPro,351.24,574.79,5022,1
+201105,Daily Product 1105,Fashion,Daily,57.83,69.73,5151,1
+201106,Urban Product 1106,Electronics,TechPro,431.39,557.24,5188,1
+201107,Active Product 1107,Books,,327.34,408.21,5059,1
+201108,TechPro Product 1108,Sports,Nova,333.86,400.16,5124,1
+201109,Prime Product 1109,Toys,HomeX,183.42,324.37,5160,1
+201110,Urban Product 1110,Home & Kitchen,HomeX,8.76,10.21,5189,1
+201111,SmartBuy Product 1111,Home & Kitchen,SmartBuy,125.92,199.46,5033,1
+201112,Nova Product 1112,Home & Kitchen,Prime,152.34,271.43,5178,1
+201113,Daily Product 1113,Fashion,Urban,207.87,310.75,5009,1
+201114,Nova Product 1114,Fashion,,317.09,409.9,5111,1
+201115,Active Product 1115,Books,HomeX,205.52,279.96,5034,1
+201116,Active Product 1116,Toys,Urban,170.6,221.09,5023,1
+201117,HomeX Product 1117,Electronics,TechPro,115.41,165.11,5050,0
+201118,Nova Product 1118,Beauty,Daily,346.98,516.46,5032,1
+201119,Active Product 1119,Sports,TechPro,355.44,542.69,5011,1
+201120,Nova Product 1120,Home & Kitchen,Daily,166.63,226.94,5061,1
+201121,Active Product 1121,Fashion,Nova,101.81,139.73,5022,1
+201122,SmartBuy Product 1122,Books,TechPro,102.92,180.87,5077,1
+201123,SmartBuy Product 1123,Beauty,Nova,299.95,351.51,5061,0
+201124,TechPro Product 1124,Electronics,HomeX,348.8,547.4,5105,1
+201125,Active Product 1125,Fashion,Urban,354.32,720.24,5171,1
+201126,Prime Product 1126,Fashion,Prime,392.45,735.2,5029,0
+201127,HomeX Product 1127,Home & Kitchen,Daily,340.74,499.61,5172,1
+201128,Active Product 1128,Electronics,Active,221.24,369.71,5108,1
+201129,Prime Product 1129,Fashion,Prime,123.98,258.23,5199,1
+201130,SmartBuy Product 1130,Toys,Active,171.33,313.62,5082,1
+201131,Urban Product 1131,Toys,Nova,131.26,224.47,5020,1
+201132,Daily Product 1132,Home & Kitchen,HomeX,49.27,82.84,5043,1
+201133,Nova Product 1133,Sports,HomeX,69.04,138.05,5001,1
+201134,Prime Product 1134,Books,Prime,10.65,14.22,5174,1
+201135,Active Product 1135,Beauty,Daily,92.55,157.31,5114,1
+201136,Prime Product 1136,Electronics,Nova,376.67,558.47,5177,1
+201137,Daily Product 1137,Sports,Nova,244.02,389.16,5121,1
+201138,Daily Product 1138,Home & Kitchen,TechPro,178.3,211.81,5187,1
+201139,Nova Product 1139,Home & Kitchen,Active,110.64,210.61,5048,1
+201140,SmartBuy Product 1140,Home & Kitchen,HomeX,267.49,354.44,5067,1
+201141,TechPro Product 1141,Electronics,Nova,438.16,738.11,5160,1
+201142,SmartBuy Product 1142,Toys,Nova,159.85,324.04,5165,1
+201143,Active Product 1143,Beauty,Prime,382.14,532.93,5192,1
+201144,Urban Product 1144,Books,Daily,422.93,618.05,5178,1
+201145,Nova Product 1145,Electronics,Daily,355.18,545.49,5067,1
+201146,Urban Product 1146,Home & Kitchen,Nova,268.19,447.01,5136,1
+201147,TechPro Product 1147,Home & Kitchen,Active,139.41,190.8,5190,1
+201148,HomeX Product 1148,Electronics,SmartBuy,19.86,36.77,5054,1
+201149,SmartBuy Product 1149,Books,HomeX,332.78,581.77,5021,1
+201150,SmartBuy Product 1150,Home & Kitchen,Prime,430.41,533.09,5101,1
+201151,Urban Product 1151,Toys,Prime,311.69,509.34,5096,1
+201152,Prime Product 1152,Books,Active,21.12,31.51,5139,0
+201153,Active Product 1153,Home & Kitchen,HomeX,67.05,99.44,5040,1
+201154,Active Product 1154,Home & Kitchen,Prime,179.87,374.84,5090,1
+201155,HomeX Product 1155,Fashion,Nova,445.23,683.52,5117,1
+201156,HomeX Product 1156,Beauty,TechPro,42.78,50.17,5117,1
+201157,Active Product 1157,Sports,TechPro,146.46,217.81,5015,1
+201158,TechPro Product 1158,Beauty,Daily,250.59,430.91,5021,1
+201159,Prime Product 1159,Books,Active,54.82,90.53,5101,1
+201160,SmartBuy Product 1160,Books,TechPro,57.33,70.13,5075,0
+201161,Prime Product 1161,Home & Kitchen,HomeX,35.57,46.59,5035,1
+201162,Nova Product 1162,Fashion,HomeX,228.74,430.24,5162,1
+201163,Nova Product 1163,Books,,132.5,153.29,5084,1
+201164,TechPro Product 1164,Books,HomeX,22.58,30.91,5116,1
+201165,TechPro Product 1165,Toys,Nova,228.31,475.27,5138,1
+201166,HomeX Product 1166,Electronics,HomeX,330.05,585.13,5145,1
+201167,Prime Product 1167,Electronics,SmartBuy,302.63,418.61,5067,1
+201168,TechPro Product 1168,Beauty,Daily,309.52,413.0,5005,1
+201169,Active Product 1169,Home & Kitchen,Daily,250.03,386.47,5109,1
+201170,Urban Product 1170,Books,Active,352.65,621.82,5048,1
+201171,HomeX Product 1171,Books,Daily,32.76,43.0,5195,1
+201172,Urban Product 1172,Beauty,Nova,89.87,167.21,5179,1
+201173,SmartBuy Product 1173,Electronics,Nova,317.97,378.33,5176,1
+201174,TechPro Product 1174,Fashion,Prime,154.41,206.03,5157,1
+201175,SmartBuy Product 1175,Home & Kitchen,Nova,111.29,190.39,5200,1
+201176,Urban Product 1176,Fashion,Active,17.04,31.03,5192,1
+201177,Urban Product 1177,Books,HomeX,391.47,700.18,5036,1
+201178,SmartBuy Product 1178,Books,HomeX,377.9,528.58,5123,1
+201179,Urban Product 1179,Sports,HomeX,31.91,48.38,5099,1
+201180,Active Product 1180,Electronics,TechPro,140.45,166.54,5007,1
+201181,Nova Product 1181,Sports,SmartBuy,100.48,115.6,5157,1
+201182,SmartBuy Product 1182,Beauty,Prime,97.02,149.96,5022,1
+201183,SmartBuy Product 1183,Sports,Urban,119.85,199.69,5186,1
+201184,HomeX Product 1184,Fashion,Nova,137.18,264.77,5140,1
+201185,TechPro Product 1185,Beauty,HomeX,319.4,659.41,5049,1
+201186,Urban Product 1186,Fashion,,436.58,750.56,5008,1
+201187,Urban Product 1187,Books,Prime,25.22,48.57,5198,1
+201188,Urban Product 1188,Fashion,HomeX,148.69,189.42,5162,1
+201189,Active Product 1189,Toys,Daily,302.0,581.6,5089,1
+201190,Prime Product 1190,Toys,SmartBuy,141.14,196.29,5161,1
+201191,Urban Product 1191,Books,Nova,90.05,138.61,5155,1
+201192,TechPro Product 1192,Beauty,Urban,79.68,93.25,5123,1
+201193,TechPro Product 1193,Beauty,Daily,271.09,432.29,5104,1
+201194,Urban Product 1194,Beauty,Prime,72.22,127.74,5009,1
+201195,TechPro Product 1195,Books,Daily,47.96,66.64,5060,1
+201196,SmartBuy Product 1196,Toys,,338.61,649.53,5063,1
+201197,Urban Product 1197,Books,Nova,157.97,320.66,5022,1
+201198,Prime Product 1198,Books,Daily,403.07,682.05,5142,1
+201199,SmartBuy Product 1199,Beauty,SmartBuy,225.89,312.15,5033,1
+201200,Urban Product 1200,Home & Kitchen,TechPro,63.64,115.83,5052,1
+201201,Active Product 1201,Fashion,Urban,90.78,129.8,5130,1
+201202,Daily Product 1202,Toys,TechPro,397.25,518.27,5104,1
+201203,HomeX Product 1203,Fashion,Prime,60.88,86.51,5111,1
+201204,HomeX Product 1204,Beauty,SmartBuy,145.41,227.87,5171,1
+201205,Active Product 1205,Beauty,TechPro,140.02,191.04,5087,1
+201206,Prime Product 1206,Fashion,TechPro,444.54,653.65,5124,1
+201207,Nova Product 1207,Home & Kitchen,Daily,438.62,669.26,5126,1
+201208,Prime Product 1208,Home & Kitchen,Nova,312.97,584.05,5026,1
+201209,TechPro Product 1209,Home & Kitchen,TechPro,109.8,215.73,5102,1
+201210,SmartBuy Product 1210,Home & Kitchen,HomeX,84.78,163.94,5110,1
+201211,HomeX Product 1211,Electronics,Prime,31.74,42.33,5029,1
+201212,SmartBuy Product 1212,Toys,Prime,32.28,61.95,5026,1
+201213,TechPro Product 1213,Electronics,,423.66,745.01,5053,1
+201214,SmartBuy Product 1214,Electronics,Prime,273.56,376.39,5086,1
+201215,Active Product 1215,Beauty,TechPro,93.25,140.55,5087,1
+201216,Nova Product 1216,Toys,Nova,352.69,521.35,5046,1
+201217,HomeX Product 1217,Sports,Nova,39.01,60.99,5080,1
+201218,Active Product 1218,Electronics,Active,237.46,463.66,5059,1
+201219,TechPro Product 1219,Sports,Prime,92.12,141.96,5181,1
+201220,SmartBuy Product 1220,Sports,Nova,204.64,245.96,5132,1
+201221,TechPro Product 1221,Books,Nova,106.94,197.89,5189,1
+201222,Active Product 1222,Fashion,HomeX,65.74,124.75,5130,1
+201223,Active Product 1223,Fashion,HomeX,417.45,707.02,5107,1
+201224,Prime Product 1224,Toys,HomeX,414.37,663.56,5099,1
+201225,Nova Product 1225,Books,Active,224.51,422.86,5054,1
+201226,Daily Product 1226,Home & Kitchen,Active,354.86,415.53,5036,1
+201227,SmartBuy Product 1227,Books,Active,94.78,161.6,5160,1
+201228,Daily Product 1228,Toys,SmartBuy,181.65,373.17,5078,1
+201229,Nova Product 1229,Sports,Prime,105.37,200.69,5037,1
+201230,Active Product 1230,Sports,Nova,42.28,59.69,5084,1
+201231,Prime Product 1231,Books,SmartBuy,193.62,391.46,5099,1
+201232,TechPro Product 1232,Beauty,Nova,336.48,451.67,5135,1
+201233,SmartBuy Product 1233,Home & Kitchen,TechPro,336.44,561.72,5199,1
+201234,Urban Product 1234,Beauty,HomeX,202.31,352.78,5195,1
+201235,Urban Product 1235,Beauty,Nova,203.61,240.74,5175,1
+201236,TechPro Product 1236,Books,Daily,273.29,347.32,5166,1
+201237,TechPro Product 1237,Books,Daily,420.24,700.59,5186,1
+201238,Nova Product 1238,Electronics,SmartBuy,71.78,94.88,5144,1
+201239,Urban Product 1239,Electronics,Active,185.19,286.71,5020,1
+201240,SmartBuy Product 1240,Home & Kitchen,SmartBuy,408.03,742.82,5048,1
+201241,Nova Product 1241,Home & Kitchen,HomeX,249.17,434.58,5093,1
+201242,Urban Product 1242,Home & Kitchen,SmartBuy,357.84,708.71,5157,1
+201243,HomeX Product 1243,Beauty,Nova,210.87,427.04,5154,1
+201244,TechPro Product 1244,Books,Prime,414.87,842.3,5176,1
+201245,Active Product 1245,Fashion,Nova,401.17,610.89,5032,1
+201246,Urban Product 1246,Beauty,Nova,203.45,257.53,5120,1
+201247,Prime Product 1247,Toys,HomeX,7.23,12.9,5154,1
+201248,Daily Product 1248,Books,SmartBuy,256.94,519.8,5079,1
+201249,SmartBuy Product 1249,Books,Daily,95.74,180.07,5069,1
+201250,Urban Product 1250,Books,Prime,112.05,203.05,5133,1
+201251,Nova Product 1251,Electronics,Active,196.23,375.28,5178,1
+201252,TechPro Product 1252,Books,Active,205.25,315.95,5091,1
+201253,SmartBuy Product 1253,Beauty,Nova,387.99,631.13,5084,1
+201254,HomeX Product 1254,Sports,Urban,18.92,25.35,5016,1
+201255,Active Product 1255,Books,Active,136.31,243.72,5051,1
+201256,HomeX Product 1256,Electronics,Prime,286.38,424.01,5016,1
+201257,Daily Product 1257,Sports,Urban,281.78,395.64,5184,1
+201258,Nova Product 1258,Toys,TechPro,146.41,203.24,5169,1
+201259,SmartBuy Product 1259,Beauty,Nova,84.19,137.67,5143,1
+201260,Daily Product 1260,Sports,Nova,128.27,213.31,5043,1
+201261,SmartBuy Product 1261,Electronics,SmartBuy,402.09,778.02,5093,1
+201262,Urban Product 1262,Books,Nova,121.97,246.44,5003,1
+201263,Daily Product 1263,Toys,HomeX,223.83,323.14,5193,1
+201264,Daily Product 1264,Fashion,TechPro,424.33,621.74,5011,1
+201265,SmartBuy Product 1265,Fashion,Active,57.7,81.77,5121,1
+201266,Urban Product 1266,Beauty,Daily,392.48,563.98,5100,1
+201267,SmartBuy Product 1267,Home & Kitchen,Prime,335.8,618.56,5118,1
+201268,SmartBuy Product 1268,Electronics,Daily,221.01,386.25,5017,1
+201269,Prime Product 1269,Electronics,Nova,427.28,522.97,5073,1
+201270,Urban Product 1270,Home & Kitchen,Daily,38.11,64.55,5166,1
+201271,SmartBuy Product 1271,Books,HomeX,385.29,753.37,5167,1
+201272,SmartBuy Product 1272,Sports,Nova,92.97,112.23,5081,1
+201273,Active Product 1273,Sports,HomeX,162.62,326.9,5118,1
+201274,HomeX Product 1274,Electronics,Daily,59.45,82.87,5161,0
+201275,Daily Product 1275,Home & Kitchen,HomeX,225.4,329.39,5125,1
+201276,Urban Product 1276,Toys,Nova,80.24,122.73,5084,1
+201277,Active Product 1277,Beauty,Active,118.52,152.32,5188,1
+201278,Daily Product 1278,Electronics,SmartBuy,31.53,39.21,5199,1
+201279,Urban Product 1279,Toys,Active,140.77,194.06,5054,0
+201280,Nova Product 1280,Beauty,TechPro,77.92,90.01,5010,1
+201281,Prime Product 1281,Beauty,Active,309.98,526.47,5159,1
+201282,Active Product 1282,Sports,Urban,288.99,369.26,5022,1
+201283,Urban Product 1283,Fashion,Prime,301.13,373.0,5163,1
+201284,Active Product 1284,Sports,SmartBuy,305.83,515.35,5156,1
+201285,TechPro Product 1285,Fashion,TechPro,50.91,87.21,5013,1
+201286,SmartBuy Product 1286,Fashion,SmartBuy,100.15,177.96,5110,1
+201287,Active Product 1287,Home & Kitchen,HomeX,333.18,542.61,5145,1
+201288,HomeX Product 1288,Home & Kitchen,Daily,219.57,436.97,5017,1
+201289,Prime Product 1289,Toys,HomeX,285.39,362.05,5167,1
+201290,Urban Product 1290,Home & Kitchen,Urban,30.19,57.27,5022,1
+201291,Prime Product 1291,Home & Kitchen,Urban,176.91,272.55,5108,1
+201292,Nova Product 1292,Beauty,,199.91,401.48,5005,1
+201293,Urban Product 1293,Electronics,Daily,313.1,429.82,5023,1
+201294,Daily Product 1294,Fashion,Prime,410.87,842.43,5147,1
+201295,SmartBuy Product 1295,Electronics,Prime,260.67,514.51,5016,1
+201296,Prime Product 1296,Home & Kitchen,Urban,343.7,451.8,5180,1
+201297,Urban Product 1297,Home & Kitchen,Daily,291.36,455.45,5005,1
+201298,Active Product 1298,Toys,HomeX,409.91,566.05,5126,1
+201299,Nova Product 1299,Fashion,SmartBuy,365.8,470.03,5074,1
+201300,Active Product 1300,Electronics,HomeX,115.05,174.72,5122,1
+201301,HomeX Product 1301,Toys,HomeX,103.92,172.34,5125,1
+201302,Active Product 1302,Toys,Active,410.79,629.13,5129,1
+201303,Nova Product 1303,Electronics,Prime,270.86,396.84,5115,1
+201304,Daily Product 1304,Electronics,Active,205.08,299.72,5192,1
+201305,Active Product 1305,Home & Kitchen,HomeX,316.56,412.47,5102,1
+201306,Prime Product 1306,Home & Kitchen,SmartBuy,130.36,177.5,5171,1
+201307,SmartBuy Product 1307,Beauty,Nova,364.82,603.03,5084,1
+201308,Nova Product 1308,Books,HomeX,239.85,312.07,5123,1
+201309,Prime Product 1309,Toys,Daily,392.59,760.84,5137,1
+201310,SmartBuy Product 1310,Toys,SmartBuy,291.45,539.0,5078,1
+201311,SmartBuy Product 1311,Toys,Urban,120.8,252.4,5177,1
+201312,Nova Product 1312,Electronics,Active,434.63,630.61,5055,1
+201313,Active Product 1313,Toys,TechPro,184.08,243.59,5166,1
+201314,SmartBuy Product 1314,Sports,SmartBuy,345.84,422.53,5038,1
+201315,Nova Product 1315,Electronics,Active,118.71,175.98,5144,1
+201316,Nova Product 1316,Toys,TechPro,190.6,385.95,5167,1
+201317,Prime Product 1317,Sports,Nova,333.54,570.9,5059,1
+201318,Prime Product 1318,Books,SmartBuy,314.84,648.76,5052,1
+201319,Prime Product 1319,Sports,HomeX,422.85,853.44,5189,1
+201320,SmartBuy Product 1320,Books,HomeX,360.03,543.92,5127,1
+201321,Prime Product 1321,Electronics,Active,149.26,233.74,5173,1
+201322,HomeX Product 1322,Beauty,Daily,389.17,558.22,5190,1
+201323,Urban Product 1323,Sports,Prime,414.88,769.53,5190,1
+201324,Urban Product 1324,Toys,Daily,429.57,726.37,5164,1
+201325,Daily Product 1325,Sports,Prime,405.7,491.0,5124,1
+201326,Urban Product 1326,Home & Kitchen,Active,314.44,636.03,5190,1
+201327,Prime Product 1327,Sports,TechPro,359.14,681.01,5067,1
+201328,Prime Product 1328,Home & Kitchen,SmartBuy,293.29,597.23,5110,1
+201329,Daily Product 1329,Home & Kitchen,HomeX,147.27,204.26,5091,1
+201330,SmartBuy Product 1330,Sports,HomeX,368.16,686.74,5069,1
+201331,HomeX Product 1331,Fashion,TechPro,106.27,186.2,5066,1
+201332,HomeX Product 1332,Fashion,Active,196.93,249.51,5195,1
+201333,HomeX Product 1333,Beauty,Urban,157.86,220.47,5071,1
+201334,HomeX Product 1334,Home & Kitchen,,81.61,108.72,5022,1
+201335,Active Product 1335,Electronics,TechPro,360.51,467.12,5086,1
+201336,Nova Product 1336,Beauty,Prime,215.01,379.9,5075,1
+201337,SmartBuy Product 1337,Home & Kitchen,Urban,239.51,472.49,5188,1
+201338,SmartBuy Product 1338,Books,Nova,228.41,477.03,5156,1
+201339,Daily Product 1339,Sports,Prime,311.77,422.22,5100,1
+201340,TechPro Product 1340,Toys,TechPro,83.27,149.1,5166,1
+201341,Nova Product 1341,Home & Kitchen,TechPro,227.86,278.99,5081,1
+201342,Urban Product 1342,Books,Active,120.81,166.37,5045,1
+201343,TechPro Product 1343,Electronics,TechPro,437.39,855.1,5128,1
+201344,HomeX Product 1344,Sports,HomeX,31.78,64.97,5125,1
+201345,Prime Product 1345,Home & Kitchen,TechPro,418.14,866.44,5058,1
+201346,Nova Product 1346,Books,TechPro,31.66,50.38,5035,1
+201347,Prime Product 1347,Electronics,Nova,53.62,99.14,5002,1
+201348,Active Product 1348,Electronics,SmartBuy,408.29,612.71,5077,1
+201349,Prime Product 1349,Home & Kitchen,Active,293.29,532.6,5146,1
+201350,Active Product 1350,Fashion,Nova,149.36,193.36,5161,1
+201351,Active Product 1351,Books,Nova,266.82,337.8,5067,1
+201352,HomeX Product 1352,Home & Kitchen,Active,78.94,164.56,5133,1
+201353,Nova Product 1353,Books,Prime,33.87,48.97,5048,1
+201354,Nova Product 1354,Beauty,Daily,26.91,53.88,5038,1
+201355,SmartBuy Product 1355,Electronics,SmartBuy,125.16,146.64,5108,1
+201356,HomeX Product 1356,Toys,TechPro,84.83,164.56,5063,1
+201357,SmartBuy Product 1357,Beauty,Daily,184.48,376.31,5033,0
+201358,Daily Product 1358,Books,HomeX,395.12,460.23,5049,1
+201359,TechPro Product 1359,Electronics,Daily,173.46,263.62,5056,1
+201360,Daily Product 1360,Beauty,Nova,182.36,349.74,5063,1
+201361,TechPro Product 1361,Home & Kitchen,HomeX,58.74,67.8,5103,1
+201362,Daily Product 1362,Beauty,,444.97,640.59,5175,1
+201363,Active Product 1363,Books,Urban,69.63,97.16,5195,1
+201364,Prime Product 1364,Books,SmartBuy,155.55,198.64,5115,1
+201365,Nova Product 1365,Toys,SmartBuy,425.86,525.33,5049,1
+201366,Daily Product 1366,Home & Kitchen,SmartBuy,207.44,287.62,5039,1
+201367,TechPro Product 1367,Home & Kitchen,Active,155.46,208.31,5094,1
+201368,SmartBuy Product 1368,Books,Nova,323.25,670.96,5135,1
+201369,Prime Product 1369,Books,Daily,19.7,23.07,5106,1
+201370,TechPro Product 1370,Fashion,Daily,147.93,188.32,5027,0
+201371,Prime Product 1371,Fashion,HomeX,263.2,504.5,5143,1
+201372,Nova Product 1372,Home & Kitchen,TechPro,446.0,835.97,5063,1
+201373,HomeX Product 1373,Books,HomeX,435.56,694.65,5105,1
+201374,TechPro Product 1374,Electronics,Daily,283.65,430.02,5172,1
+201375,Prime Product 1375,Beauty,Nova,156.35,231.25,5147,1
+201376,Urban Product 1376,Fashion,TechPro,249.77,518.22,5106,1
+201377,TechPro Product 1377,Beauty,Prime,420.57,830.06,5173,1
+201378,Prime Product 1378,Toys,SmartBuy,301.89,422.25,5041,1
+201379,Active Product 1379,Books,Active,71.4,113.39,5057,1
+201380,Urban Product 1380,Toys,Daily,437.34,812.86,5054,1
+201381,HomeX Product 1381,Sports,Daily,406.48,785.96,5168,1
+201382,Active Product 1382,Fashion,Nova,101.47,128.45,5168,1
+201383,Urban Product 1383,Toys,TechPro,297.3,611.85,5053,1
+201384,Nova Product 1384,Beauty,Daily,395.81,763.28,5039,1
+201385,Nova Product 1385,Fashion,Nova,103.13,167.93,5162,1
+201386,HomeX Product 1386,Books,SmartBuy,416.02,676.28,5091,1
+201387,Nova Product 1387,Toys,TechPro,85.12,138.89,5128,0
+201388,Nova Product 1388,Beauty,HomeX,163.94,315.58,5040,1
+201389,TechPro Product 1389,Books,Prime,424.69,708.86,5114,1
+201390,Urban Product 1390,Beauty,Urban,426.27,819.26,5137,1
+201391,TechPro Product 1391,Beauty,Daily,15.36,30.26,5093,1
+201392,Active Product 1392,Beauty,Daily,390.55,709.77,5165,1
+201393,SmartBuy Product 1393,Beauty,Prime,313.71,374.74,5110,1
+201394,TechPro Product 1394,Toys,HomeX,392.92,619.03,5108,1
+201395,Nova Product 1395,Toys,Nova,210.55,293.27,5047,1
+201396,Prime Product 1396,Books,Daily,441.77,526.28,5134,1
+201397,SmartBuy Product 1397,Sports,TechPro,337.96,596.89,5100,1
+201398,Nova Product 1398,Electronics,Urban,342.91,561.41,5130,1
+201399,Prime Product 1399,Fashion,HomeX,194.99,235.56,5122,1
+201400,Daily Product 1400,Electronics,Prime,179.58,312.6,5074,1
+201401,Urban Product 1401,Electronics,Active,96.47,128.36,5077,1
+201402,Nova Product 1402,Sports,Urban,30.92,63.09,5063,0
+201403,SmartBuy Product 1403,Fashion,Urban,406.15,736.05,5077,1
+201404,Active Product 1404,Electronics,SmartBuy,267.86,308.99,5170,1
+201405,SmartBuy Product 1405,Home & Kitchen,Daily,253.36,501.1,5070,1
+201406,Active Product 1406,Electronics,Prime,155.42,188.34,5025,1
+201407,HomeX Product 1407,Electronics,HomeX,334.17,387.98,5164,1
+201408,Active Product 1408,Beauty,Urban,186.06,283.83,5044,1
+201409,Nova Product 1409,Sports,Nova,365.15,473.93,5077,1
+201410,Nova Product 1410,Books,Urban,40.52,78.08,5041,1
+201411,HomeX Product 1411,Fashion,Nova,115.11,235.68,5117,1
+201412,TechPro Product 1412,Books,SmartBuy,131.12,248.37,5054,1
+201413,SmartBuy Product 1413,Electronics,TechPro,15.38,23.07,5195,1
+201414,Daily Product 1414,Electronics,HomeX,300.23,428.59,5086,1
+201415,Urban Product 1415,Fashion,TechPro,317.22,468.06,5007,1
+201416,Urban Product 1416,Sports,Urban,188.96,232.85,5111,1
+201417,Prime Product 1417,Electronics,TechPro,358.98,720.98,5044,1
+201418,SmartBuy Product 1418,Electronics,Prime,429.41,593.38,5071,1
+201419,TechPro Product 1419,Sports,Nova,332.83,461.86,5186,1
+201420,Urban Product 1420,Fashion,Prime,304.61,557.46,5036,1
+201421,Active Product 1421,Fashion,Nova,205.08,356.19,5144,1
+201422,TechPro Product 1422,Fashion,HomeX,251.3,517.91,5138,1
+201423,HomeX Product 1423,Toys,Nova,133.21,277.37,5076,1
+201424,SmartBuy Product 1424,Electronics,TechPro,113.63,175.72,5089,1
+201425,Prime Product 1425,Sports,Active,16.66,33.73,5018,0
+201426,Active Product 1426,Books,HomeX,218.99,450.55,5096,1
+201427,SmartBuy Product 1427,Books,HomeX,105.16,206.46,5103,1
+201428,Daily Product 1428,Electronics,Urban,212.98,433.61,5120,1
+201429,SmartBuy Product 1429,Fashion,Prime,366.5,630.38,5157,1
+201430,Prime Product 1430,Toys,Prime,168.37,211.91,5186,1
+201431,Active Product 1431,Books,TechPro,148.24,291.53,5085,1
+201432,HomeX Product 1432,Toys,Daily,203.84,293.97,5177,1
+201433,Nova Product 1433,Books,Daily,225.49,457.49,5169,1
+201434,HomeX Product 1434,Electronics,Prime,126.34,207.61,5062,1
+201435,Prime Product 1435,Toys,Nova,271.96,439.28,5059,1
+201436,HomeX Product 1436,Books,TechPro,17.9,34.72,5108,0
+201437,HomeX Product 1437,Sports,Prime,221.32,336.15,5100,1
+201438,Active Product 1438,Electronics,Prime,293.82,367.54,5075,1
+201439,SmartBuy Product 1439,Toys,TechPro,212.49,402.57,5019,1
+201440,HomeX Product 1440,Toys,Daily,440.33,627.94,5159,1
+201441,TechPro Product 1441,Toys,Prime,73.99,144.55,5106,1
+201442,Daily Product 1442,Fashion,Nova,206.61,417.36,5036,1
+201443,Urban Product 1443,Toys,Prime,134.85,205.28,5173,1
+201444,Urban Product 1444,Electronics,HomeX,406.93,727.14,5186,1
+201445,Daily Product 1445,Sports,Daily,84.92,99.08,5031,1
+201446,Daily Product 1446,Books,Daily,237.03,451.38,5106,1
+201447,TechPro Product 1447,Home & Kitchen,SmartBuy,193.82,307.48,5122,1
+201448,SmartBuy Product 1448,Toys,HomeX,413.17,578.91,5048,1
+201449,Daily Product 1449,Sports,Active,253.13,501.58,5063,1
+201450,SmartBuy Product 1450,Home & Kitchen,Nova,212.22,326.57,5078,1
+201451,HomeX Product 1451,Toys,Daily,266.03,514.03,5071,1
+201452,SmartBuy Product 1452,Electronics,SmartBuy,321.58,498.3,5136,1
+201453,HomeX Product 1453,Toys,Prime,19.23,39.46,5002,1
+201454,Nova Product 1454,Toys,Urban,114.81,205.15,5131,1
+201455,Nova Product 1455,Toys,Daily,109.9,196.04,5107,1
+201456,Daily Product 1456,Fashion,HomeX,189.93,240.75,5152,1
+201457,Urban Product 1457,Beauty,Daily,261.48,486.39,5198,0
+201458,Prime Product 1458,Books,TechPro,412.57,678.36,5087,1
+201459,Daily Product 1459,Books,HomeX,256.77,470.52,5030,1
+201460,Urban Product 1460,Home & Kitchen,Nova,85.75,169.28,5088,1
+201461,Active Product 1461,Beauty,Daily,239.01,434.52,5047,1
+201462,SmartBuy Product 1462,Fashion,SmartBuy,195.72,317.88,5102,1
+201463,TechPro Product 1463,Sports,SmartBuy,292.35,572.85,5046,1
+201464,Active Product 1464,Books,SmartBuy,288.39,533.88,5003,1
+201465,HomeX Product 1465,Beauty,Urban,298.76,560.63,5113,1
+201466,TechPro Product 1466,Toys,Nova,448.79,904.73,5065,1
+201467,Nova Product 1467,Fashion,Urban,17.28,22.14,5038,1
+201468,Nova Product 1468,Books,Active,344.2,559.01,5001,1
+201469,SmartBuy Product 1469,Beauty,Active,385.41,488.59,5191,1
+201470,SmartBuy Product 1470,Electronics,SmartBuy,114.09,212.45,5168,1
+201471,Nova Product 1471,Fashion,HomeX,342.04,533.72,5140,1
+201472,Urban Product 1472,Books,Urban,51.72,94.87,5075,0
+201473,TechPro Product 1473,Fashion,TechPro,246.43,311.9,5126,1
+201474,Nova Product 1474,Books,Daily,148.47,258.22,5108,1
+201475,TechPro Product 1475,Sports,Nova,106.46,133.84,5001,1
+201476,Daily Product 1476,Fashion,Active,292.99,435.24,5183,1
+201477,HomeX Product 1477,Home & Kitchen,Nova,184.17,305.52,5095,1
+201478,Daily Product 1478,Books,TechPro,78.9,142.57,5093,1
+201479,TechPro Product 1479,Sports,Nova,274.94,447.06,5162,1
+201480,SmartBuy Product 1480,Fashion,Prime,230.53,425.14,5143,1
+201481,Daily Product 1481,Electronics,TechPro,23.8,31.3,5102,1
+201482,HomeX Product 1482,Fashion,Urban,370.24,651.57,5171,1
+201483,SmartBuy Product 1483,Electronics,Nova,444.1,673.47,5148,1
+201484,Prime Product 1484,Books,SmartBuy,157.31,203.95,5116,1
+201485,Daily Product 1485,Home & Kitchen,Prime,444.35,871.25,5137,1
+201486,Daily Product 1486,Fashion,Active,448.14,930.83,5033,1
+201487,HomeX Product 1487,Home & Kitchen,Daily,211.64,291.56,5186,0
+201488,Nova Product 1488,Toys,Prime,414.7,538.97,5177,1
+201489,Urban Product 1489,Books,TechPro,353.12,662.54,5074,1
+201490,Urban Product 1490,Toys,Active,376.35,786.98,5008,0
+201491,Daily Product 1491,Books,Daily,59.52,92.12,5166,1
+201492,Nova Product 1492,Electronics,TechPro,352.24,669.74,5101,1
+201493,Nova Product 1493,Sports,Prime,110.26,142.21,5053,1
+201494,SmartBuy Product 1494,Beauty,Nova,337.63,461.42,5200,1
+201495,Daily Product 1495,Sports,Urban,109.97,141.19,5112,1
+201496,Urban Product 1496,Sports,SmartBuy,353.85,630.85,5041,1
+201497,Nova Product 1497,Sports,Active,402.72,687.9,5124,1
+201498,Daily Product 1498,Sports,Prime,228.27,406.05,5153,1
+201499,SmartBuy Product 1499,Books,Daily,197.79,259.19,5089,1
+201500,Active Product 1500,Toys,Active,69.83,85.69,5138,1
+201501,SmartBuy Product 1501,Beauty,Active,110.01,182.32,5021,1
+201502,Daily Product 1502,Electronics,Nova,446.54,738.27,5056,1
+201503,Active Product 1503,Electronics,Daily,330.21,511.99,5087,1
+201504,Nova Product 1504,Electronics,Nova,347.25,624.64,5023,1
+201505,SmartBuy Product 1505,Toys,Nova,367.23,568.41,5040,1
+201506,Nova Product 1506,Beauty,Active,264.72,519.82,5108,1
+201507,Nova Product 1507,Beauty,Urban,201.3,380.22,5098,1
+201508,TechPro Product 1508,Home & Kitchen,Daily,159.9,234.89,5073,1
+201509,Urban Product 1509,Toys,Daily,17.13,34.25,5005,1
+201510,HomeX Product 1510,Home & Kitchen,HomeX,365.33,590.9,5080,1
+201511,Urban Product 1511,Toys,HomeX,389.87,620.35,5097,1
+201512,SmartBuy Product 1512,Sports,Prime,157.61,289.21,5198,1
+201513,Daily Product 1513,Fashion,,234.18,482.05,5076,1
+201514,Daily Product 1514,Sports,Nova,262.22,309.85,5103,1
+201515,TechPro Product 1515,Toys,Prime,297.57,391.74,5003,1
+201516,HomeX Product 1516,Electronics,TechPro,294.2,563.4,5036,1
+201517,Nova Product 1517,Electronics,SmartBuy,92.54,145.26,5125,1
+201518,Daily Product 1518,Home & Kitchen,Nova,310.57,610.5,5097,1
+201519,Urban Product 1519,Sports,Prime,339.88,504.35,5063,1
+201520,Prime Product 1520,Beauty,TechPro,12.68,26.33,5080,1
+201521,SmartBuy Product 1521,Sports,TechPro,279.96,379.39,5117,1
+201522,Daily Product 1522,Fashion,TechPro,190.44,390.68,5087,1
+201523,Daily Product 1523,Books,Prime,398.88,757.97,5178,1
+201524,Nova Product 1524,Beauty,SmartBuy,424.96,881.96,5044,1
+201525,Daily Product 1525,Beauty,Prime,264.77,345.18,5173,1
+201526,TechPro Product 1526,Beauty,Nova,182.83,271.61,5185,1
+201527,Prime Product 1527,Home & Kitchen,TechPro,422.44,565.11,5101,1
+201528,Prime Product 1528,Toys,Daily,125.06,242.4,5035,1
+201529,Active Product 1529,Electronics,Nova,224.19,314.96,5095,1
+201530,SmartBuy Product 1530,Electronics,Prime,162.14,267.45,5182,1
+201531,TechPro Product 1531,Beauty,Active,73.37,97.85,5107,1
+201532,HomeX Product 1532,Sports,HomeX,402.96,734.21,5126,1
+201533,Active Product 1533,Beauty,Prime,116.47,216.15,5079,1
+201534,TechPro Product 1534,Books,Active,358.93,452.03,5117,1
+201535,SmartBuy Product 1535,Fashion,SmartBuy,340.17,612.85,5060,1
+201536,Urban Product 1536,Home & Kitchen,Active,301.74,394.44,5053,1
+201537,Urban Product 1537,Sports,HomeX,53.5,110.02,5032,1
+201538,TechPro Product 1538,Home & Kitchen,TechPro,183.29,364.0,5140,1
+201539,HomeX Product 1539,Beauty,Urban,417.45,560.0,5184,1
+201540,Urban Product 1540,Sports,Nova,167.83,247.22,5072,1
+201541,Urban Product 1541,Electronics,HomeX,14.04,24.09,5013,1
+201542,Urban Product 1542,Home & Kitchen,SmartBuy,327.88,628.38,5081,1
+201543,TechPro Product 1543,Electronics,TechPro,310.98,636.3,5070,1
+201544,Active Product 1544,Home & Kitchen,,263.17,407.41,5125,1
+201545,Urban Product 1545,Toys,Nova,166.48,268.76,5034,1
+201546,Active Product 1546,Electronics,Nova,148.65,193.06,5157,1
+201547,Urban Product 1547,Books,Urban,107.15,158.79,5013,1
+201548,Prime Product 1548,Home & Kitchen,Urban,268.33,561.44,5077,1
+201549,Urban Product 1549,Beauty,HomeX,448.28,914.75,5035,1
+201550,SmartBuy Product 1550,Electronics,Nova,353.62,545.67,5175,1
+201551,Urban Product 1551,Beauty,Nova,296.4,403.74,5092,1
+201552,Active Product 1552,Toys,,258.43,437.86,5183,1
+201553,HomeX Product 1553,Electronics,Active,318.87,494.92,5112,1
+201554,Active Product 1554,Fashion,SmartBuy,228.35,425.86,5152,1
+201555,HomeX Product 1555,Home & Kitchen,Urban,382.11,668.09,5179,1
+201556,Daily Product 1556,Sports,Active,263.93,469.2,5165,1
+201557,Daily Product 1557,Books,Prime,115.12,173.32,5137,1
+201558,Urban Product 1558,Home & Kitchen,SmartBuy,255.67,443.92,5159,1
+201559,TechPro Product 1559,Electronics,Nova,114.21,206.16,5161,1
+201560,Urban Product 1560,Toys,HomeX,243.37,429.69,5134,1
+201561,Active Product 1561,Electronics,Nova,363.05,657.39,5111,1
+201562,TechPro Product 1562,Toys,SmartBuy,328.76,656.1,5102,1
+201563,Daily Product 1563,Beauty,Prime,125.31,176.03,5041,1
+201564,Active Product 1564,Books,Nova,329.54,427.89,5116,1
+201565,TechPro Product 1565,Books,Urban,60.09,71.08,5170,1
+201566,Urban Product 1566,Sports,Daily,292.18,530.32,5171,1
+201567,SmartBuy Product 1567,Fashion,Prime,145.12,213.13,5095,1
+201568,SmartBuy Product 1568,Fashion,Urban,279.63,455.97,5098,1
+201569,Daily Product 1569,Sports,HomeX,388.75,474.15,5155,0
+201570,HomeX Product 1570,Beauty,SmartBuy,64.53,131.03,5197,1
+201571,SmartBuy Product 1571,Toys,Prime,314.93,538.24,5002,1
+201572,Daily Product 1572,Books,Urban,309.08,392.05,5141,1
+201573,Nova Product 1573,Toys,Daily,341.83,525.06,5090,1
+201574,Prime Product 1574,Fashion,Active,436.34,631.48,5047,1
+201575,Prime Product 1575,Beauty,HomeX,219.92,433.98,5068,1
+201576,Prime Product 1576,Toys,Urban,65.66,130.16,5199,1
+201577,Urban Product 1577,Fashion,SmartBuy,314.7,598.23,5060,1
+201578,Nova Product 1578,Books,Daily,247.66,376.13,5101,1
+201579,Active Product 1579,Sports,TechPro,366.3,749.46,5135,1
+201580,HomeX Product 1580,Fashion,Daily,357.88,505.16,5053,1
+201581,Active Product 1581,Toys,Prime,331.24,589.09,5165,1
+201582,SmartBuy Product 1582,Home & Kitchen,SmartBuy,181.68,299.28,5015,1
+201583,Prime Product 1583,Sports,TechPro,216.68,339.28,5173,1
+201584,Urban Product 1584,Fashion,Prime,412.64,548.42,5140,1
+201585,TechPro Product 1585,Toys,TechPro,199.01,274.22,5161,1
+201586,Urban Product 1586,Beauty, TechPro,266.04,513.64,5019,1
+201587,TechPro Product 1587,Sports,HomeX,309.16,551.94,5163,1
+201588,TechPro Product 1588,Fashion,SmartBuy,56.5,114.96,5057,1
+201589,Active Product 1589,Electronics,Daily,347.39,624.34,5168,1
+201590,Prime Product 1590,Toys,Prime,11.65,14.07,5071,1
+201591,Urban Product 1591,Beauty,Prime,442.02,557.16,5139,0
+201592,Urban Product 1592,Sports,SmartBuy,257.94,473.92,5199,1
+201593,Prime Product 1593,Toys,,79.79,110.78,5152,1
+201594,SmartBuy Product 1594,Fashion,Urban,353.97,490.69,5017,1
+201595,HomeX Product 1595,Electronics,Active,380.81,584.93,5045,1
+201596,SmartBuy Product 1596,Books,HomeX,96.12,178.59,5026,1
+201597,Nova Product 1597,Sports,Nova,23.36,41.04,5192,1
+201598,Active Product 1598,Sports,Prime,238.4,318.16,5065,1
+201599,Active Product 1599,Fashion,SmartBuy,290.05,580.52,5101,1
+201600,SmartBuy Product 1600,Toys,Urban,79.88,165.64,5116,1
+201601,TechPro Product 1601,Fashion,Active,254.91,484.93,5053,0
+201602,Active Product 1602,Electronics,Active,239.24,319.01,5074,1
+201603,HomeX Product 1603,Beauty,SmartBuy,389.3,741.24,5091,1
+201604,SmartBuy Product 1604,Books,HomeX,368.04,605.62,5003,1
+201605,SmartBuy Product 1605,Fashion,Nova,63.72,75.01,5165,1
+201606,SmartBuy Product 1606,Beauty,Prime,319.62,570.25,5182,1
+201607,Prime Product 1607,Toys,Prime,228.78,475.43,5139,1
+201608,Active Product 1608,Sports,Prime,212.48,331.47,5088,1
+201609,Prime Product 1609,Fashion,HomeX,77.24,93.47,5031,1
+201610,TechPro Product 1610,Fashion,TechPro,337.7,462.34,5066,1
+201611,Daily Product 1611,Books,Urban,391.42,657.8,5088,1
+201612,Prime Product 1612,Books,HomeX,96.45,183.4,5040,0
+201613,Active Product 1613,Electronics,SmartBuy,18.09,23.99,5152,1
+201614,Urban Product 1614,Books,Urban,276.07,375.02,5091,1
+201615,Urban Product 1615,Fashion,TechPro,441.67,894.92,5139,1
+201616,Nova Product 1616,Electronics,Daily,307.07,610.34,5104,1
+201617,Active Product 1617,Home & Kitchen,TechPro,117.45,237.24,5038,1
+201618,SmartBuy Product 1618,Toys,Nova,393.37,518.06,5131,1
+201619,TechPro Product 1619,Home & Kitchen,Prime,244.44,497.69,5149,1
+201620,Prime Product 1620,Beauty,Urban,231.84,341.49,5086,1
+201621,HomeX Product 1621,Beauty,,30.49,50.03,5135,1
+201622,Daily Product 1622,Beauty,TechPro,32.0,50.67,5197,1
+201623,SmartBuy Product 1623,Fashion,Urban,262.79,546.33,5049,1
+201624,SmartBuy Product 1624,Electronics,SmartBuy,363.98,509.4,5178,1
+201625,Nova Product 1625,Electronics,TechPro,340.16,700.69,5062,1
+201626,Daily Product 1626,Beauty,TechPro,423.64,873.2,5009,1
+201627,HomeX Product 1627,Toys,Urban,228.73,462.39,5084,1
+201628,Active Product 1628,Books,TechPro,281.22,418.84,5164,1
+201629,Urban Product 1629,Sports,HomeX,284.1,427.93,5135,1
+201630,Daily Product 1630,Home & Kitchen,Daily,174.19,234.09,5067,1
+201631,HomeX Product 1631,Toys,SmartBuy,6.26,10.03,5191,1
+201632,Prime Product 1632,Fashion,Nova,378.31,524.41,5197,1
+201633,Urban Product 1633,Books,Nova,34.86,60.86,5199,1
+201634,Prime Product 1634,Electronics,SmartBuy,431.87,852.64,5111,0
+201635,Daily Product 1635,Beauty,Prime,380.51,780.88,5138,1
+201636,SmartBuy Product 1636,Home & Kitchen,Nova,51.18,80.13,5107,1
+201637,HomeX Product 1637,Beauty,Active,59.3,92.51,5083,1
+201638,SmartBuy Product 1638,Books,Daily,333.02,545.77,5106,1
+201639,SmartBuy Product 1639,Toys,Active,246.93,497.83,5014,1
+201640,Urban Product 1640,Electronics,Prime,293.77,359.8,5033,1
+201641,Urban Product 1641,Fashion,Urban,134.03,193.13,5119,1
+201642,Daily Product 1642,Electronics,Urban,398.24,532.55,5084,1
+201643,Urban Product 1643,Beauty,Urban,246.62,465.23,5097,1
+201644,Nova Product 1644,Toys,Active,256.63,387.35,5184,1
+201645,SmartBuy Product 1645,Fashion,Active,445.81,921.09,5135,1
+201646,Prime Product 1646,Fashion,Urban,348.34,724.63,5015,1
+201647,Prime Product 1647,Home & Kitchen,HomeX,311.52,618.93,5193,1
+201648,Active Product 1648,Books,TechPro,390.66,638.15,5173,1
+201649,Daily Product 1649,Books,TechPro,445.97,907.27,5034,1
+201650,Nova Product 1650,Books,Prime,366.58,552.83,5171,1
+201651,Active Product 1651,Home & Kitchen,Nova,363.84,554.19,5075,1
+201652,Urban Product 1652,Home & Kitchen,Daily,90.15,144.18,5075,1
+201653,Daily Product 1653,Home & Kitchen,Active,393.64,713.39,5116,1
+201654,Daily Product 1654,Home & Kitchen,SmartBuy,397.14,480.66,5182,1
+201655,Nova Product 1655,Books,Urban,270.69,449.09,5071,1
+201656,Nova Product 1656,Beauty,Prime,294.53,608.96,5116,1
+201657,TechPro Product 1657,Books,HomeX,282.58,343.04,5036,1
+201658,Nova Product 1658,Sports,Active,247.5,304.92,5018,1
+201659,Urban Product 1659,Toys,Active,86.61,177.26,5120,1
+201660,Prime Product 1660,Electronics,HomeX,297.68,577.39,5048,1
+201661,Daily Product 1661,Sports,TechPro,173.84,200.02,5008,1
+201662,Active Product 1662,Electronics,HomeX,243.74,384.81,5002,1
+201663,Prime Product 1663,Fashion,Urban,405.99,586.27,5076,1
+201664,HomeX Product 1664,Beauty,Prime,53.58,70.15,5050,1
+201665,Active Product 1665,Beauty,Prime,430.18,516.07,5195,1
+201666,SmartBuy Product 1666,Home & Kitchen,Urban,257.85,357.74,5096,1
+201667,Active Product 1667,Home & Kitchen,Active,427.67,757.02,5096,1
+201668,HomeX Product 1668,Home & Kitchen,SmartBuy,94.29,135.66,5032,1
+201669,SmartBuy Product 1669,Home & Kitchen,Daily,29.16,42.06,5021,1
+201670,Urban Product 1670,Sports,TechPro,281.35,393.72,5060,1
+201671,Daily Product 1671,Toys,Daily,239.45,297.46,5167,1
+201672,Prime Product 1672,Fashion,Daily,332.02,568.87,5125,1
+201673,SmartBuy Product 1673,Books,SmartBuy,272.65,502.98,5036,1
+201674,Daily Product 1674,Books,Nova,233.86,486.67,5008,1
+201675,Urban Product 1675,Home & Kitchen,HomeX,406.63,555.16,5051,1
+201676,Active Product 1676,Home & Kitchen,Urban,148.92,194.31,5055,0
+201677,SmartBuy Product 1677,Fashion,SmartBuy,125.84,229.27,5193,1
+201678,Urban Product 1678,Electronics,Prime,362.78,528.58,5035,1
+201679,HomeX Product 1679,Toys,TechPro,161.48,263.72,5156,1
+201680,SmartBuy Product 1680,Books,Urban,255.57,465.93,5078,1
+201681,Active Product 1681,Fashion,Daily,278.25,430.89,5065,1
+201682,SmartBuy Product 1682,Beauty,HomeX,136.04,204.44,5042,1
+201683,Urban Product 1683,Fashion,TechPro,163.31,256.01,5130,1
+201684,HomeX Product 1684,Electronics,SmartBuy,23.11,36.61,5139,1
+201685,SmartBuy Product 1685,Home & Kitchen,HomeX,129.39,148.89,5098,1
+201686,Prime Product 1686,Electronics,HomeX,150.11,199.52,5190,1
+201687,TechPro Product 1687,Fashion,Prime,12.48,21.58,5179,1
+201688,HomeX Product 1688,Fashion,TechPro,371.31,433.16,5158,1
+201689,SmartBuy Product 1689,Fashion,TechPro,398.98,563.61,5113,1
+201690,SmartBuy Product 1690,Sports,TechPro,83.89,131.57,5105,0
+201691,TechPro Product 1691,Books,Urban,274.42,430.77,5133,1
+201692,Daily Product 1692,Beauty,Daily,201.68,241.09,5117,1
+201693,HomeX Product 1693,Fashion,Urban,61.88,122.62,5030,1
+201694,HomeX Product 1694,Fashion,HomeX,16.11,19.91,5131,1
+201695,Nova Product 1695,Beauty,HomeX,300.28,595.14,5050,1
+201696,Prime Product 1696,Books,Prime,40.46,84.61,5148,1
+201697,Nova Product 1697,Fashion,Daily,401.5,529.86,5006,1
+201698,Nova Product 1698,Sports,Prime,356.4,433.76,5010,1
+201699,Daily Product 1699,Fashion,SmartBuy,327.31,414.06,5118,1
+201700,Urban Product 1700,Beauty,HomeX,380.03,744.82,5158,1
+201701,Active Product 1701,Home & Kitchen,Urban,52.45,108.77,5113,0
+201702,HomeX Product 1702,Electronics,Urban,283.97,486.13,5034,1
+201703,Prime Product 1703,Beauty,Active,96.84,198.51,5062,1
+201704,SmartBuy Product 1704,Sports,TechPro,236.29,444.51,5089,1
+201705,HomeX Product 1705,Beauty,HomeX,164.55,278.13,5047,1
+201706,SmartBuy Product 1706,Books,Urban,59.46,120.02,5193,1
+201707,SmartBuy Product 1707,Electronics,Urban,331.87,529.28,5091,1
+201708,SmartBuy Product 1708,Electronics,Urban,139.33,214.72,5179,1
+201709,HomeX Product 1709,Toys,Daily,59.69,109.47,5021,1
+201710,Prime Product 1710,Beauty,Daily,396.34,737.68,5094,1
+201711,TechPro Product 1711,Fashion,Prime,64.91,96.51,5171,1
+201712,Active Product 1712,Sports,Prime,96.41,154.43,5057,1
+201713,SmartBuy Product 1713,Books,SmartBuy,15.55,21.07,5167,1
+201714,HomeX Product 1714,Toys,Urban,235.77,297.97,5152,1
+201715,Nova Product 1715,Toys,Prime,372.26,552.52,5120,1
+201716,Daily Product 1716,Fashion,Prime,383.8,621.05,5009,1
+201717,Active Product 1717,Electronics,Daily,335.98,436.58,5181,0
+201718,HomeX Product 1718,Fashion,Urban,214.75,280.22,5096,1
+201719,TechPro Product 1719,Electronics,Active,400.81,508.14,5123,1
+201720,TechPro Product 1720,Beauty,TechPro,346.37,686.49,5138,0
+201721,Active Product 1721,Home & Kitchen,TechPro,400.71,725.04,5099,1
+201722,Active Product 1722,Sports,Urban,111.56,143.72,5032,1
+201723,Urban Product 1723,Toys,Nova,272.57,484.69,5120,1
+201724,TechPro Product 1724,Home & Kitchen,Nova,14.6,23.53,5120,0
+201725,Prime Product 1725,Beauty,Prime,237.06,399.98,5018,1
+201726,Urban Product 1726,Toys,Urban,395.21,765.59,5040,0
+201727,Daily Product 1727,Fashion,Prime,333.62,534.53,5044,1
+201728,Urban Product 1728,Books,,350.4,498.86,5073,1
+201729,SmartBuy Product 1729,Electronics,SmartBuy,146.11,276.31,5112,1
+201730,TechPro Product 1730,Sports,Nova,182.18,237.1,5123,1
+201731,Daily Product 1731,Electronics,HomeX,443.88,900.41,5023,1
+201732,HomeX Product 1732,Electronics,HomeX,123.94,253.39,5172,1
+201733,SmartBuy Product 1733,Sports,Prime,43.38,64.1,5162,1
+201734,TechPro Product 1734,Toys,Urban,178.11,335.5,5019,1
+201735,Nova Product 1735,Sports,Urban,346.42,701.81,5035,1
+201736,Urban Product 1736,Fashion,Urban,238.01,481.56,5169,1
+201737,Active Product 1737,Fashion,Urban,24.45,30.77,5084,1
+201738,Prime Product 1738,Beauty,TechPro,300.8,393.86,5089,0
+201739,TechPro Product 1739,Fashion,Active,332.34,537.02,5097,1
+201740,Nova Product 1740,Electronics,,273.24,457.53,5199,1
+201741,Urban Product 1741,Books,Urban,81.25,120.0,5032,1
+201742,Nova Product 1742,Beauty,Urban,90.02,110.08,5189,1
+201743,Prime Product 1743,Toys,SmartBuy,186.26,290.19,5049,1
+201744,TechPro Product 1744,Sports,SmartBuy,164.4,232.97,5180,1
+201745,Prime Product 1745,Fashion,Active,50.34,79.3,5097,1
+201746,Nova Product 1746,Electronics,Active,387.41,546.11,5152,1
+201747,Prime Product 1747,Books,Prime,416.46,651.39,5022,1
+201748,Active Product 1748,Sports,Active,69.0,117.9,5074,1
+201749,Nova Product 1749,Toys,Urban,255.24,380.91,5038,1
+201750,Nova Product 1750,Home & Kitchen,HomeX,196.25,264.96,5115,1
+201751,Active Product 1751,Fashion,HomeX,187.01,285.52,5005,1
+201752,TechPro Product 1752,Home & Kitchen,SmartBuy,263.25,367.88,5077,1
+201753,Daily Product 1753,Home & Kitchen,Daily,207.44,251.21,5102,1
+201754,TechPro Product 1754,Toys,TechPro,205.92,360.8,5096,1
+201755,TechPro Product 1755,Fashion,Nova,68.92,120.76,5165,1
+201756,Nova Product 1756,Electronics,Nova,321.23,466.47,5122,1
+201757,Nova Product 1757,Electronics,Urban,263.07,542.26,5163,1
+201758,SmartBuy Product 1758,Fashion,TechPro,29.92,56.84,5101,1
+201759,Prime Product 1759,Electronics,HomeX,172.07,345.39,5071,1
+201760,Nova Product 1760,Toys,Urban,101.91,162.64,5059,1
+201761,Active Product 1761,Books,Urban,178.53,294.14,5138,1
+201762,Daily Product 1762,Toys,Active,57.89,104.6,5185,1
+201763,Urban Product 1763,Books,Urban,276.69,472.78,5198,1
+201764,TechPro Product 1764,Electronics,Nova,263.78,470.8,5047,1
+201765,Active Product 1765,Sports,TechPro,268.78,419.52,5085,1
+201766,Nova Product 1766,Books,HomeX,167.92,214.3,5125,1
+201767,Prime Product 1767,Books,Prime,326.31,626.99,5183,1
+201768,SmartBuy Product 1768,Beauty,Nova,379.98,576.8,5062,1
+201769,SmartBuy Product 1769,Toys,HomeX,190.27,328.78,5156,1
+201770,Prime Product 1770,Home & Kitchen,Prime,197.71,296.68,5169,1
+201771,Active Product 1771,Sports,Daily,404.81,650.96,5036,1
+201772,Daily Product 1772,Home & Kitchen,Urban,274.3,481.95,5063,1
+201773,Prime Product 1773,Toys,Daily,231.81,393.98,5089,1
+201774,Prime Product 1774,Toys,Nova,333.03,427.57,5170,1
+201775,Daily Product 1775,Toys,TechPro,143.01,196.44,5187,1
+201776,Daily Product 1776,Electronics,TechPro,19.58,25.75,5034,1
+201777,HomeX Product 1777,Home & Kitchen,Urban,317.36,538.59,5034,1
+201778,TechPro Product 1778,Fashion,Urban,292.5,446.02,5077,1
+201779,Prime Product 1779,Toys,TechPro,195.7,270.87,5012,1
+201780,Nova Product 1780,Sports,Nova,25.4,30.27,5104,1
+201781,HomeX Product 1781,Toys,Prime,423.33,795.5,5054,1
+201782,Prime Product 1782,Toys,Urban,330.19,396.67,5078,1
+201783,TechPro Product 1783,Home & Kitchen,HomeX,176.57,266.92,5001,1
+201784,Daily Product 1784,Home & Kitchen,Urban,94.47,149.55,5047,1
+201785,Daily Product 1785,Sports,Prime,252.13,398.47,5026,1
+201786,TechPro Product 1786,Books,Active,14.46,18.53,5045,1
+201787,Urban Product 1787,Home & Kitchen,Urban,208.46,380.23,5086,1
+201788,Daily Product 1788,Sports,Nova,444.83,607.55,5047,1
+201789,Daily Product 1789,Fashion,Prime,333.94,583.6,5153,1
+201790,HomeX Product 1790,Books,HomeX,443.29,668.98,5091,1
+201791,Active Product 1791,Sports,Prime,181.23,298.14,5043,1
+201792,TechPro Product 1792,Sports,Daily,43.77,69.14,5125,1
+201793,Active Product 1793,Electronics,Active,434.47,893.92,5170,1
+201794,HomeX Product 1794,Books,Urban,390.04,576.93,5100,1
+201795,Prime Product 1795,Sports,Daily,255.33,330.74,5198,1
+201796,Nova Product 1796,Home & Kitchen,Active,107.28,160.15,5072,1
+201797,Nova Product 1797,Beauty,Active,333.74,542.02,5093,1
+201798,SmartBuy Product 1798,Home & Kitchen,Nova,13.56,16.45,5085,1
+201799,SmartBuy Product 1799,Electronics,Prime,411.92,833.12,5199,1
+201800,HomeX Product 1800,Beauty,HomeX,315.25,422.05,5145,1
+201801,HomeX Product 1801,Sports,TechPro,83.23,169.3,5116,1
+201802,Daily Product 1802,Books,SmartBuy,78.22,119.99,5074,1
+201803,Daily Product 1803,Toys,Active,30.8,51.67,5013,1
+201804,Active Product 1804,Sports,Nova,347.87,625.77,5181,1
+201805,HomeX Product 1805,Electronics,SmartBuy,61.89,74.99,5023,1
+201806,TechPro Product 1806,Fashion,Daily,236.43,364.87,5146,1
+201807,HomeX Product 1807,Beauty,Active,164.39,233.03,5103,1
+201808,Active Product 1808,Toys,SmartBuy,249.34,326.66,5140,1
+201809,Daily Product 1809,Electronics,Prime,314.19,561.0,5185,1
+201810,Active Product 1810,Toys,Active,98.43,128.68,5040,1
+201811,Active Product 1811,Home & Kitchen,HomeX,94.22,160.53,5020,1
+201812,Nova Product 1812,Sports,Prime,155.23,236.09,5075,1
+201813,Urban Product 1813,Beauty,Prime,421.16,874.93,5115,1
+201814,Urban Product 1814,Toys,HomeX,202.59,407.46,5014,1
+201815,SmartBuy Product 1815,Fashion,Urban,119.35,138.11,5163,1
+201816,Urban Product 1816,Beauty,HomeX,236.2,453.58,5122,1
+201817,Urban Product 1817,Sports,Daily,85.27,111.72,5197,1
+201818,Active Product 1818,Home & Kitchen,Active,345.51,551.77,5058,1
+201819,HomeX Product 1819,Home & Kitchen,Daily,147.08,282.6,5182,1
+201820,TechPro Product 1820,Books,Nova,442.27,629.39,5077,1
+201821,Prime Product 1821,Books,Urban,285.3,526.99,5022,1
+201822,Daily Product 1822,Sports,Daily,277.15,382.16,5168,1
+201823,Daily Product 1823,Home & Kitchen,Active,134.28,265.78,5016,1
+201824,Nova Product 1824,Home & Kitchen,Urban,84.39,132.25,5143,1
+201825,Daily Product 1825,Toys,Urban,39.6,53.04,5042,1
+201826,SmartBuy Product 1826,Toys,Active,385.77,463.2,5135,1
+201827,SmartBuy Product 1827,Fashion,Nova,440.93,761.13,5056,1
+201828,TechPro Product 1828,Beauty,Nova,100.79,181.3,5017,1
+201829,TechPro Product 1829,Electronics,SmartBuy,447.08,803.18,5174,1
+201830,HomeX Product 1830,Sports,SmartBuy,279.08,452.85,5071,1
+201831,Active Product 1831,Electronics,SmartBuy,355.08,544.2,5130,1
+201832,Daily Product 1832,Electronics,TechPro,444.82,773.13,5008,1
+201833,Urban Product 1833,Beauty,Urban,438.99,518.74,5189,1
+201834,Daily Product 1834,Books,TechPro,257.78,355.09,5125,1
+201835,TechPro Product 1835,Toys,SmartBuy,239.55,333.63,5084,1
+201836,Active Product 1836,Beauty,Prime,305.71,577.64,5181,1
+201837,SmartBuy Product 1837,Beauty,Nova,102.8,161.32,5083,1
+201838,Active Product 1838,Beauty,TechPro,178.02,212.47,5066,1
+201839,Nova Product 1839,Beauty,HomeX,373.27,746.65,5056,1
+201840,Daily Product 1840,Books,TechPro,53.86,81.66,5131,1
+201841,Nova Product 1841,Books,Daily,209.28,255.98,5088,1
+201842,HomeX Product 1842,Beauty,HomeX,145.48,225.14,5114,1
+201843,Active Product 1843,Home & Kitchen,SmartBuy,264.21,542.17,5159,1
+201844,Urban Product 1844,Books,Prime,89.28,170.65,5132,1
+201845,SmartBuy Product 1845,Sports,HomeX,417.99,716.36,5140,1
+201846,HomeX Product 1846,Fashion,Urban,357.3,668.56,5122,0
+201847,TechPro Product 1847,Home & Kitchen,Urban,41.16,67.53,5158,1
+201848,Prime Product 1848,Fashion,Nova,150.01,287.09,5145,1
+201849,Active Product 1849,Books,Active,24.22,47.18,5167,1
+201850,Nova Product 1850,Fashion,TechPro,59.82,87.97,5127,1
+201851,Daily Product 1851,Toys,Daily,193.52,304.43,5001,1
+201852,Nova Product 1852,Home & Kitchen,HomeX,151.61,206.97,5182,1
+201853,Nova Product 1853,Home & Kitchen,Prime,236.68,426.21,5048,1
+201854,Prime Product 1854,Electronics,Active,134.45,172.12,5144,1
+201855,SmartBuy Product 1855,Home & Kitchen,Nova,152.82,244.27,5131,1
+201856,SmartBuy Product 1856,Home & Kitchen,Active,431.39,892.21,5133,1
+201857,HomeX Product 1857,Books,TechPro,394.33,628.03,5090,1
+201858,SmartBuy Product 1858,Beauty,Nova,10.95,13.3,5091,1
+201859,TechPro Product 1859,Sports,HomeX,273.01,318.72,5024,1
+201860,Daily Product 1860,Electronics,TechPro,68.26,140.11,5050,1
+201861,Nova Product 1861,Sports,Prime,356.3,649.11,5013,1
+201862,HomeX Product 1862,Sports,Nova,377.0,687.7,5182,1
+201863,TechPro Product 1863,Beauty,HomeX,298.87,448.73,5189,1
+201864,Urban Product 1864,Sports,TechPro,304.56,495.24,5022,1
+201865,SmartBuy Product 1865,Electronics,,383.89,645.12,5170,1
+201866,SmartBuy Product 1866,Beauty,HomeX,50.32,94.54,5137,1
+201867,HomeX Product 1867,Books,Daily,319.91,522.71,5064,1
+201868,SmartBuy Product 1868,Electronics,SmartBuy,58.37,84.13,5032,0
+201869,Prime Product 1869,Home & Kitchen,Urban,23.83,39.46,5128,1
+201870,Nova Product 1870,Books,Urban,289.18,519.7,5006,1
+201871,Prime Product 1871,Beauty,SmartBuy,126.08,151.93,5030,1
+201872,Nova Product 1872,Home & Kitchen,Prime,25.42,40.67,5022,1
+201873,SmartBuy Product 1873,Fashion,,33.09,48.89,5027,1
+201874,HomeX Product 1874,Toys,TechPro,440.96,882.51,5002,1
+201875,TechPro Product 1875,Fashion,,104.28,158.4,5067,1
+201876,TechPro Product 1876,Fashion,Daily,186.49,325.89,5161,1
+201877,Nova Product 1877,Books,Prime,123.61,195.64,5057,1
+201878,Active Product 1878,Home & Kitchen,Prime,421.22,809.84,5050,1
+201879,Daily Product 1879,Beauty,Daily,37.85,76.96,5196,1
+201880,Prime Product 1880,Fashion,Active,246.73,303.34,5097,1
+201881,Urban Product 1881,Beauty,TechPro,217.62,254.33,5005,1
+201882,SmartBuy Product 1882,Home & Kitchen,,312.99,569.45,5118,1
+201883,SmartBuy Product 1883,Toys,HomeX,404.75,708.28,5110,1
+201884,Urban Product 1884,Electronics,SmartBuy,5.18,8.69,5085,1
+201885,Nova Product 1885,Beauty,Nova,12.37,19.29,5171,1
+201886,Active Product 1886,Sports,Prime,172.89,321.97,5137,1
+201887,Urban Product 1887,Books,Urban,183.72,334.09,5006,1
+201888,SmartBuy Product 1888,Electronics,Urban,401.26,620.27,5075,1
+201889,Urban Product 1889,Toys,HomeX,129.1,188.32,5111,1
+201890,Daily Product 1890,Home & Kitchen,Daily,382.51,789.42,5133,1
+201891,SmartBuy Product 1891,Sports,Active,44.72,68.67,5076,1
+201892,Nova Product 1892,Electronics,HomeX,39.44,53.19,5089,1
+201893,Active Product 1893,Home & Kitchen,Daily,336.58,694.07,5044,1
+201894,Active Product 1894,Beauty,SmartBuy,344.38,627.09,5121,1
+201895,Urban Product 1895,Electronics,HomeX,47.05,79.07,5048,1
+201896,Daily Product 1896,Beauty,Nova,446.91,839.9,5098,1
+201897,SmartBuy Product 1897,Beauty,Urban,40.81,55.54,5163,1
+201898,Urban Product 1898,Beauty,Daily,398.46,669.45,5184,1
+201899,SmartBuy Product 1899,Electronics,HomeX,91.3,128.72,5093,1
+201900,Active Product 1900,Books,Daily,14.78,29.11,5042,1
+201901,HomeX Product 1901,Fashion,Nova,385.38,493.24,5010,1
+201902,Daily Product 1902,Books,Prime,87.03,118.07,5169,1
+201903,HomeX Product 1903,Home & Kitchen,Prime,240.59,332.4,5082,1
+201904,Urban Product 1904,Home & Kitchen,Nova,372.93,583.91,5038,1
+201905,HomeX Product 1905,Electronics,Urban,73.85,94.26,5164,1
+201906,TechPro Product 1906,Books,Daily,334.77,558.13,5097,1
+201907,Prime Product 1907,Fashion,Nova,241.54,445.92,5138,1
+201908,HomeX Product 1908,Electronics,Daily,118.86,137.61,5013,1
+201909,SmartBuy Product 1909,Home & Kitchen,Nova,23.49,46.81,5191,1
+201910,Daily Product 1910,Electronics,Nova,122.01,239.09,5063,1
+201911,Active Product 1911,Electronics,Nova,194.02,232.49,5155,1
+201912,TechPro Product 1912,Electronics,SmartBuy,168.73,205.0,5060,1
+201913,SmartBuy Product 1913,Books,Prime,324.02,549.28,5035,1
+201914,Daily Product 1914,Sports,Nova,187.37,271.29,5083,1
+201915,SmartBuy Product 1915,Toys,SmartBuy,174.25,281.57,5014,1
+201916,SmartBuy Product 1916,Toys,Active,366.45,618.97,5102,1
+201917,SmartBuy Product 1917,Sports,Urban,211.45,371.28,5093,0
+201918,TechPro Product 1918,Beauty,SmartBuy,443.54,818.35,5016,1
+201919,SmartBuy Product 1919,Toys,Daily,260.64,511.95,5089,1
+201920,TechPro Product 1920,Toys,HomeX,422.06,728.61,5115,1
+201921,Daily Product 1921,Home & Kitchen,Daily,397.58,496.89,5110,1
+201922,Daily Product 1922,Sports,Urban,189.25,242.13,5015,1
+201923,HomeX Product 1923,Books,SmartBuy,277.64,481.16,5135,1
+201924,Active Product 1924,Toys,Active,67.66,123.37,5067,1
+201925,SmartBuy Product 1925,Fashion,,239.52,447.03,5051,0
+201926,HomeX Product 1926,Sports,Active,193.67,318.15,5171,1
+201927,SmartBuy Product 1927,Beauty,Urban,220.27,378.95,5198,1
+201928,Active Product 1928,Sports,Nova,87.0,180.6,5023,1
+201929,Urban Product 1929,Sports,TechPro,390.47,578.22,5099,1
+201930,Prime Product 1930,Sports,Nova,40.59,54.94,5053,1
+201931,HomeX Product 1931,Books,TechPro,352.63,730.13,5143,1
+201932,Nova Product 1932,Electronics,Daily,425.14,859.98,5122,1
+201933,Active Product 1933,Electronics,Nova,52.32,60.52,5082,1
+201934,Active Product 1934,Books,Active,197.99,303.28,5150,1
+201935,Nova Product 1935,Fashion,Prime,265.3,490.3,5137,1
+201936,Urban Product 1936,Fashion,HomeX,446.14,588.28,5186,1
+201937,HomeX Product 1937,Books,HomeX,390.1,460.44,5197,1
+201938,Active Product 1938,Beauty,SmartBuy,189.33,224.28,5083,1
+201939,Nova Product 1939,Beauty,Active,435.72,734.87,5031,1
+201940,HomeX Product 1940,Toys,Prime,152.41,208.61,5185,1
+201941,Prime Product 1941,Fashion,Urban,156.3,218.04,5088,1
+201942,TechPro Product 1942,Home & Kitchen,HomeX,230.29,268.15,5178,1
+201943,TechPro Product 1943,Electronics,Urban,351.91,647.38,5140,1
+201944,Prime Product 1944,Toys,SmartBuy,90.51,176.63,5105,1
+201945,Urban Product 1945,Electronics,HomeX,335.4,619.43,5172,1
+201946,TechPro Product 1946,Fashion,Active,6.2,7.93,5151,1
+201947,SmartBuy Product 1947,Fashion,Active,121.8,250.83,5128,1
+201948,Urban Product 1948,Toys,Urban,438.64,905.36,5104,1
+201949,Active Product 1949,Beauty,Active,297.13,414.85,5047,1
+201950,Urban Product 1950,Electronics,Active,210.84,439.37,5043,0
+201951,Urban Product 1951,Home & Kitchen,SmartBuy,330.63,519.74,5130,1
+201952,Nova Product 1952,Beauty,Urban,198.69,236.36,5077,1
+201953,Nova Product 1953,Books,,52.48,89.04,5125,1
+201954,Urban Product 1954,Electronics,Daily,226.42,373.68,5144,1
+201955,Urban Product 1955,Books,TechPro,430.15,845.41,5009,1
+201956,SmartBuy Product 1956,Home & Kitchen,SmartBuy,126.31,187.94,5018,1
+201957,HomeX Product 1957,Home & Kitchen,Urban,28.53,53.59,5122,1
+201958,Nova Product 1958,Electronics,Prime,334.9,635.44,5196,1
+201959,SmartBuy Product 1959,Home & Kitchen,Nova,207.21,245.17,5107,1
+201960,TechPro Product 1960,Sports,TechPro,153.94,275.47,5135,1
+201961,HomeX Product 1961,Toys,TechPro,221.95,356.34,5058,1
+201962,Prime Product 1962,Electronics,Urban,418.85,562.23,5044,1
+201963,Nova Product 1963,Toys,SmartBuy,116.36,179.9,5048,1
+201964,Nova Product 1964,Home & Kitchen,SmartBuy,94.23,185.1,5189,1
+201965,TechPro Product 1965,Toys,Active,242.59,437.94,5154,1
+201966,Daily Product 1966,Books,SmartBuy,211.17,368.67,5072,1
+201967,Daily Product 1967,Sports,HomeX,71.66,87.96,5013,1
+201968,SmartBuy Product 1968,Beauty,Active,263.39,469.71,5172,1
+201969,Daily Product 1969,Toys,Prime,260.65,487.57,5057,1
+201970,SmartBuy Product 1970,Beauty,Nova,274.42,563.24,5048,1
+201971,Active Product 1971,Home & Kitchen,HomeX,189.03,360.7,5141,1
+201972,TechPro Product 1972,Fashion,Nova,134.07,164.36,5025,1
+201973,Urban Product 1973,Home & Kitchen,Prime,151.11,309.22,5042,1
+201974,Active Product 1974,Home & Kitchen,HomeX,376.29,715.83,5101,1
+201975,Nova Product 1975,Electronics,Urban,283.17,326.54,5024,1
+201976,Prime Product 1976,Beauty,TechPro,182.12,332.74,5183,1
+201977,TechPro Product 1977,Beauty,HomeX,277.9,399.83,5197,1
+201978,Active Product 1978,Beauty,SmartBuy,160.58,276.97,5167,1
+201979,Urban Product 1979,Home & Kitchen,Nova,388.88,551.68,5114,1
+201980,SmartBuy Product 1980,Home & Kitchen,Urban,328.8,606.16,5110,1
+201981,Active Product 1981,Beauty,Urban,49.92,66.26,5054,1
+201982,Urban Product 1982,Fashion,Prime,30.0,58.28,5030,1
+201983,Nova Product 1983,Electronics,Nova,19.87,24.23,5031,1
+201984,Urban Product 1984,Books,Urban,17.25,20.23,5030,1
+201985,Daily Product 1985,Beauty,Prime,226.12,288.38,5002,1
+201986,Prime Product 1986,Home & Kitchen,Daily,85.47,129.51,5149,1
+201987,Active Product 1987,Toys,Urban,305.17,541.33,5150,1
+201988,Active Product 1988,Home & Kitchen,Urban,219.83,353.17,5146,1
+201989,Daily Product 1989,Books,Active,46.6,74.65,5072,1
+201990,Daily Product 1990,Electronics,HomeX,7.6,14.99,5021,1
+201991,SmartBuy Product 1991,Fashion,Urban,21.34,35.88,5039,1
+201992,Urban Product 1992,Home & Kitchen,Urban,242.33,395.54,5165,0
+201993,TechPro Product 1993,Electronics,Nova,266.04,411.95,5181,1
+201994,TechPro Product 1994,Beauty,Prime,162.09,337.07,5012,1
+201995,Active Product 1995,Home & Kitchen,TechPro,40.11,55.38,5140,1
+201996,Prime Product 1996,Home & Kitchen,TechPro,420.94,546.29,5180,1
+201997,SmartBuy Product 1997,Beauty,Prime,185.54,300.16,5163,1
+201998,Active Product 1998,Toys,SmartBuy,196.04,351.67,5050,1
+201999,Prime Product 1999,Home & Kitchen,SmartBuy,174.75,204.56,5132,1
+202000,Nova Product 2000,Home & Kitchen,TechPro,31.46,61.79,5164,1
