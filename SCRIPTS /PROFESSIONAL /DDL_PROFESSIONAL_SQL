@@ -1,1 +1,181 @@
+IF NOT EXISTS (
+    SELECT 1
+    FROM sys.schemas
+    WHERE name = 'PROFESSIONAL'
+)
+BEGIN
+    EXEC('CREATE SCHEMA PROFESSIONAL');
+END
+GO
 
+IF OBJECT_ID('PROFESSIONAL.DIM_CUSTOMER', 'V') IS NOT NULL
+    DROP VIEW PROFESSIONAL.DIM_CUSTOMER;
+GO
+
+CREATE VIEW PROFESSIONAL.DIM_CUSTOMER AS
+SELECT
+    ROW_NUMBER() OVER (ORDER BY c.customer_id) AS customer_key,
+    c.customer_id,
+    c.customer_name,
+    c.gender,
+    c.country_city,
+    c.signup_date,
+    c.customer_segment,
+    c.email
+FROM intermediate.CRM_CUSTOMER AS c;
+GO
+
+IF OBJECT_ID('PROFESSIONAL_DIM_PRODUCT', 'V') IS NOT NULL
+    DROP VIEW PROFESSIONAL_DIM_PRODUCT;
+GO
+
+CREATE VIEW PROFESSIONAL.DIM_PRODUCT AS
+SELECT
+    ROW_NUMBER() OVER (ORDER BY p.product_id) AS product_key,
+    p.product_id,
+    p.product_name,
+    p.category,
+    p.brand,
+    p.unit_cost,
+    p.unit_price,
+    p.unit_profit,
+    p.supplier_id
+FROM intermediate.ERP_PRODUCT AS p;
+GO
+
+IF OBJECT_ID('PROFESSIONAL.DIM_DATE', 'V') IS NOT NULL
+    DROP VIEW PROFESSIONAL.DIM_DATE ;
+GO
+
+CREATE VIEW PROFESSIONAL.DIM_DATE AS
+SELECT DISTINCT
+    CAST(CONVERT(char(8), order_date, 112) AS int) AS date_key,
+    order_date AS full_date,
+    YEAR(order_date) AS year,
+    MONTH(order_date) AS month,
+    DAY(order_date) AS day,
+    DATENAME(MONTH, order_date) AS month_name,
+    DATENAME(WEEKDAY, order_date) AS day_name,
+    DATEPART(QUARTER, order_date) AS quarter
+FROM intermediate.SAL_ORDER
+WHERE order_date IS NOT NULL;
+GO
+
+IF OBJECT_ID('PROFESSIONAL.FACT_SALES', 'V') IS NOT NULL
+    DROP VIEW PROFESSIONAL.FACT_SALES;
+GO
+
+CREATE VIEW PROFESSIONAL.FACT_SALES AS
+SELECT
+    od.order_detail_id,
+
+    o.order_id,
+
+    dc.customer_key,
+    dp.product_key,
+
+    CAST(CONVERT(char(8), o.order_date, 112) AS int) AS date_key,
+
+    o.order_date,
+    o.order_status,
+    o.sales_channel,
+    o.country,
+
+    od.quantity,
+    od.unit_price,
+    od.discount_pct,
+    od.line_total,
+
+    dp.unit_cost,
+
+    od.quantity * dp.unit_cost AS total_cost,
+
+    od.line_total -
+    (od.quantity * dp.unit_cost) AS total_profit
+
+FROM intermediate.SAL_ORDER_DETAIL AS od
+
+LEFT JOIN intermediate.SAL_ORDER AS o
+    ON od.order_id = o.order_id
+
+LEFT JOIN professional.DIM_CUSTOMER AS dc
+    ON o.customer_id = dc.customer_id
+
+LEFT JOIN professional.DIM_PRODUCT AS dp
+    ON od.product_id = dp.product_id;
+GO
+
+
+IF OBJECT_ID('PROFESSIONAL.FACT_INVENTORY', 'V') IS NOT NULL
+    DROP VIEW PROFESSIONAL.FACT_INVENTORY;
+GO
+
+CREATE VIEW PROFESSIONAL.FACT_INVENTORYAS AS 
+SELECT
+    i.inventory_id,
+
+    dp.product_key,
+
+    i.product_id,
+    i.warehouse,
+    i.stock_on_hands,
+    I.REODER_LEVEL,
+    i.snapshot_date,
+
+    CASE
+        WHEN i.stock_on_hands <= i.REODER_LEVEL
+        THEN 'Reorder Required'
+        ELSE 'Available'
+    END AS stock_status
+
+FROM intermediate.ERP_INVENTORY AS i
+
+LEFT JOIN [professional].[DIM_PRODUCT] AS dp
+    ON i.product_id = dp.product_id;
+GO
+
+IF OBJECT_ID('PROFESSIONAL.FACT_PAYMNET', 'V') IS NOT NULL
+    DROP VIEW PROFESSIONAL.FACT_PAYMNET;
+GO
+
+CREATE VIEW PROFESSIONAL.FACT_PAYMNET AS
+SELECT
+    p.payment_key,
+
+    p.payment_id,
+    p.order_id,
+
+    CAST(CONVERT(char(8), p.payment_date, 112) AS int) AS date_key,
+
+    p.payment_date,
+    p.payment_method,
+    p.payment_status
+
+   
+
+FROM intermediate.SAL_PAYMENT AS p
+
+LEFT JOIN intermediate.SAL_ORDER AS o
+    ON p.ORDER_ID = o.order_id
+
+LEFT JOIN professional.DIM_CUSTOMER AS dc
+    ON o.customer_id = dc.customer_id;
+GO
+
+SELECT TOP (10)*   FROM [professional].[FACT_INVENTORYAS];
+GO
+
+SELECT TOP (10) * FROM [professional].[FACT_PAYMNET];
+GO
+
+SELECT TOP(10) * FROM [professional].[DIM_CUSTOMER];
+GO
+
+SELECT  TOP(10) * FROM [professional].[DIM_DATE];
+GO
+
+SELECT TOP(10) * FROM [professional].[DIM_PRODUCT];
+GO
+
+SELECT  TOP(10) * FROM [professional].[FACT_SALES] ;
+GO
