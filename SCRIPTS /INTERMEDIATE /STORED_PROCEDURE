@@ -1,6 +1,11 @@
+CREATE PROCEDURE ETL_LOAD_INTERMEDIATE 
+AS 
+BEGIN
+
+
+
 truncate table  [intermediate].[CRM_CUSTOMER] 
-GO
-GO
+
 insert into   [intermediate].[CRM_CUSTOMER]  (
 			CUSTOMER_KEY ,
 		   CUSTOMER_ID ,
@@ -41,7 +46,7 @@ insert into   [intermediate].[CRM_CUSTOMER]  (
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
 TRUNCATE TABLE  [intermediate].[ERP_INVENTORY] 
-GO 
+
 INSERT INTO [intermediate].[ERP_INVENTORY] (
             INVENTORY_ID,
             PRODUCT_ID,
@@ -53,7 +58,7 @@ INSERT INTO [intermediate].[ERP_INVENTORY] (
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
 TRUNCATE TABLE [intermediate].[ERP_PRODUCT] 
-GO 
+
 INSERT INTO  [intermediate].[ERP_PRODUCT] (
              PRODUCT_KEY,
              PRODUCT_ID,
@@ -79,7 +84,7 @@ INSERT INTO  [intermediate].[ERP_PRODUCT] (
                                ---------------------------------
   -----------------------------------------------------------------------------------------------------------
   TRUNCATE TABLE [intermediate].[SAL_ORDER] 
-  GO 
+  
   INSERT INTO [intermediate].[SAL_ORDER] (
                 ORDER_KEY,
                 ORDER_ID,
@@ -107,7 +112,7 @@ INSERT INTO  [intermediate].[ERP_PRODUCT] (
   ----------------------------------------------------------------------------------
   -----------------------------------------------------------------
   TRUNCATE TABLE [intermediate].[SAL_ORDER_DETAIL] 
-  GO 
+  
   INSERT INTO [intermediate].[SAL_ORDER_DETAIL] (
                 ORDER_DETAIL_ID,
                 ORDER_ID,
@@ -127,7 +132,7 @@ INSERT INTO  [intermediate].[ERP_PRODUCT] (
   -------------------------------------------------------------------
   -------------------------------------------------------------------
   TRUNCATE TABLE [intermediate].[SAL_PAYMENT] 
-  GO 
+  
   INSERT INTO [intermediate].[SAL_PAYMENT] (
                 PAYMENT_KEY,
                 ORDER_ID,
@@ -142,3 +147,8 @@ INSERT INTO  [intermediate].[ERP_PRODUCT] (
       ,[payment_method]
       ,[payment_status]
   FROM [E_Commerce].[beginner].[SAL_PAYMENTS ]
+
+  END 
+
+
+  EXEC ETL_LOAD_INTERMEDIATE
