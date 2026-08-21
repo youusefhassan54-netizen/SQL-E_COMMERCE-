@@ -1,1 +1,144 @@
-
+truncate table  [intermediate].[CRM_CUSTOMER] 
+GO
+GO
+insert into   [intermediate].[CRM_CUSTOMER]  (
+			CUSTOMER_KEY ,
+		   CUSTOMER_ID ,
+		   CUSTOMER_NAME ,
+		   GENDER ,
+		   COUNTRY_CITY ,
+		   SIGNUP_DATE ,
+		   CUSTOMER_SEGMENT,
+		   EMAIL  ) 
+		   SELECT    
+            ROW_NUMBER () OVER(ORDER BY CUSTOMER_ID ) AS CUSTOMER_KEY ,[customer_id]
+           ,CONCAT(FIRST_NAME,' ',LAST_NAME) AS CUSTOMER_NAME 
+           ,CASE
+                          WHEN UPPER(LTRIM(RTRIM(GENDER))) = 'F' THEN 'Female'
+                          WHEN UPPER(LTRIM(RTRIM(GENDER))) = 'M' THEN 'Male'
+                      ELSE 'n/a'
+            END AS GENDER 
+           ,CONCAT(CASE 
+                          WHEN UPPER (LTRIM(RTRIM(COUNTRY))) = 'EGYPT' THEN 'EGY'
+                          WHEN UPPER (LTRIM(RTRIM(COUNTRY))) = 'JORDAN' THEN 'JRD'
+                          WHEN UPPER (LTRIM(RTRIM(COUNTRY))) = 'KUWAIT' THEN 'KWT'
+                          WHEN UPPER (LTRIM(RTRIM(COUNTRY))) = 'Saudi Arabia' THEN 'SDA'
+                          WHEN UPPER (LTRIM(RTRIM(COUNTRY))) = 'UAE' THEN 'UAE'
+                      ELSE 'N/A'
+             END  
+             ,'-',        
+                   CASE                       
+                          WHEN UPPER(CITY) = NULL THEN 'N/A'
+                          ELSE CITY 
+             END )                                           AS COUNTRY_CITY 
+      ,[signup_date]
+      ,[customer_segment]
+      ,lower(
+             replace(  first_name+'.'+last_name , ' ' , '.'  )
+                                                              +'@gmail.com')
+                                                                               as email 
+  FROM  [beginner].[CRM_CUSTOMERS ]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+TRUNCATE TABLE  [intermediate].[ERP_INVENTORY] 
+GO 
+INSERT INTO [intermediate].[ERP_INVENTORY] (
+            INVENTORY_ID,
+            PRODUCT_ID,
+            WAREHOUSE,
+            STOCK_ON_HANDS,
+            REODER_LEVEL,
+            SNAPSHOT_DATE)
+                            SELECT * FROM beginner.[ERP_INVENTORY ]
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+TRUNCATE TABLE [intermediate].[ERP_PRODUCT] 
+GO 
+INSERT INTO  [intermediate].[ERP_PRODUCT] (
+             PRODUCT_KEY,
+             PRODUCT_ID,
+             PRODUCT_NAME,
+             CATEGORY,
+             BRAND,
+             UNIT_COST,
+             UNIT_PRICE,
+             UNIT_PROFIT,
+             SUPPLIER_ID)
+                            SELECT   ROW_NUMBER () OVER(ORDER By product_id  ) AS product_key  
+      ,[product_id]
+      ,[product_name]
+      ,[category]
+      ,case 
+            when brand IS NULL then 'n/a' else brand end as  brand1 
+     , ROUND (UNIT_COST ,1) AS UNIT_COST_1 
+     , ROUND (unit_price,1) AS UNIT_PRICE_1   
+     , ROUND(unit_price-unit_cost,1) AS  UNIT_PROFIT
+      ,[supplier_id]
+  FROM [E_Commerce].[beginner].[ERP_PRODUCTS ]
+  -----------------------------------------------------------------------------------------------------------
+                               ---------------------------------
+  -----------------------------------------------------------------------------------------------------------
+  TRUNCATE TABLE [intermediate].[SAL_ORDER] 
+  GO 
+  INSERT INTO [intermediate].[SAL_ORDER] (
+                ORDER_KEY,
+                ORDER_ID,
+                CUSTOMER_ID,
+                ORDER_DATE,
+                ORDER_STATUS,
+                SALES_CHANNEL,
+                COUNTRY) 
+                        SELECT ROW_NUMBER() OVER(ORDER BY ORDER_ID) AS ORDER_KEY  
+      ,[order_id]
+      ,[customer_id]
+      ,[order_date]
+      ,[order_status]
+      ,[sales_channel]
+      ,CASE 
+                          WHEN UPPER (LTRIM(RTRIM(shipping_country))) = 'EGYPT'  THEN  'EGY'
+                          WHEN UPPER (LTRIM(RTRIM(shipping_country))) = 'JORDAN' THEN 'JRD'
+                          WHEN UPPER (LTRIM(RTRIM(shipping_country))) = 'KUWAIT' THEN 'KWT'
+                          WHEN UPPER (LTRIM(RTRIM(shipping_country))) = 'Saudi Arabia' THEN 'SDA'
+                          WHEN UPPER (LTRIM(RTRIM(shipping_country))) = 'UAE' THEN 'UAE'
+                      ELSE 'N/A'
+             END AS COUNTRY 
+  FROM [E_Commerce].[beginner].[SAL_ORDERS ]
+  -----------------------------------------------------------------
+  ----------------------------------------------------------------------------------
+  -----------------------------------------------------------------
+  TRUNCATE TABLE [intermediate].[SAL_ORDER_DETAIL] 
+  GO 
+  INSERT INTO [intermediate].[SAL_ORDER_DETAIL] (
+                ORDER_DETAIL_ID,
+                ORDER_ID,
+                PRODUCT_ID,
+                QUANTITY,
+                UNIT_PRICE,
+                DISCOUNT_PCT,
+                LINE_TOTAL)
+                    SELECT [order_detail_id]
+      ,[order_id]
+      ,[product_id]
+      ,[quantity]
+      ,round([unit_price],1) AS UNIT_PRICE 
+      ,round([discount_pct],1) AS DISCOUNT_PCT 
+      ,round([line_total],1) AS LINE_TOTAL 
+  FROM [E_Commerce].[beginner].[SAL_ORDER_DETAILS ]
+  -------------------------------------------------------------------
+  -------------------------------------------------------------------
+  TRUNCATE TABLE [intermediate].[SAL_PAYMENT] 
+  GO 
+  INSERT INTO [intermediate].[SAL_PAYMENT] (
+                PAYMENT_KEY,
+                ORDER_ID,
+                PAYMENT_ID,
+                PAYMENT_DATE,
+                PAYMENT_METHOD,
+                PAYMENT_STATUS) 
+                                  SELECT  ROW_NUMBER() OVER (ORDER BY PAYMENT_ID ) AS PAYMENT_KEY 
+      ,[payment_id]
+      ,[order_id]
+      ,[payment_date]
+      ,[payment_method]
+      ,[payment_status]
+  FROM [E_Commerce].[beginner].[SAL_PAYMENTS ]
